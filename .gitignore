@@ -4,3 +4,7 @@ dist/
 .env.*
 .vercel/
 .DS_Store
+.deploy*.json
+.go-deploy*.json
+.hybrid-deploy*.json
+.vercel-deploy*.json
