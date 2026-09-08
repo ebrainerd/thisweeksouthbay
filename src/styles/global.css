@@ -1,0 +1,407 @@
+:root {
+  --cream: #faf7f0;
+  --ink: #121212;
+  --muted: #464646;
+  --bar: 3px;
+  --page: 1.25rem;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  background: var(--cream);
+  color: var(--ink);
+  overflow-x: clip;
+}
+
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+}
+
+body {
+  font-family: 'Public Sans', ui-sans-serif, system-ui, sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.4;
+  background: var(--cream);
+  color: var(--ink);
+  border-left: var(--bar) solid var(--ink);
+  overflow-x: clip;
+}
+
+a {
+  color: inherit;
+  text-underline-offset: 0.12em;
+}
+
+a:hover {
+  text-decoration-thickness: 2px;
+}
+
+:focus-visible {
+  outline: 1px solid var(--ink);
+  outline-offset: 3px;
+}
+
+.page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding-left: var(--page);
+  padding-left: calc(var(--page) + env(safe-area-inset-left, 0px));
+  padding-right: var(--page);
+  padding-right: calc(var(--page) + env(safe-area-inset-right, 0px));
+}
+
+.chrome {
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+  padding-top: 1.1rem;
+  padding-bottom: 1.1rem;
+}
+
+.wordmark {
+  font-size: 0.68rem;
+  font-weight: 400;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--muted);
+  text-decoration: none;
+  width: fit-content;
+}
+
+.wordmark:hover {
+  text-decoration: none;
+}
+
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.85rem 1.15rem;
+}
+
+.nav a {
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.nav a[aria-current='page'] {
+  text-decoration: underline;
+}
+
+.email {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem 0.7rem;
+}
+
+.email input {
+  appearance: none;
+  width: 10.5rem;
+  max-width: 100%;
+  border: 0;
+  border-bottom: 1px solid var(--ink);
+  border-radius: 0;
+  background: transparent;
+  color: var(--ink);
+  font: inherit;
+  font-size: 0.95rem;
+  padding: 0.15rem 0 0.2rem;
+}
+
+.email input::placeholder {
+  color: var(--muted);
+}
+
+.email a {
+  color: var(--muted);
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.email a:hover {
+  text-decoration: underline;
+}
+
+.signup-jump {
+  color: var(--muted);
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.signup-jump:hover {
+  text-decoration: underline;
+}
+
+.main {
+  flex: 1;
+  padding-bottom: 4rem;
+  max-width: 52rem;
+}
+
+.masthead {
+  padding-top: 2.75rem;
+  padding-bottom: 2.4rem;
+}
+
+.kicker {
+  margin: 0 0 0.7rem;
+  font-size: 0.68rem;
+  font-weight: 400;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+h1.kicker {
+  /* same look as former <p class="kicker">; neutralize browser h1 defaults */
+  margin: 0 0 0.7rem;
+  font-size: 0.68rem;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+.cities {
+  margin: 0;
+  font-size: clamp(1.55rem, 6.2vw, 2.35rem);
+  font-weight: 700;
+  line-height: 1.12;
+  letter-spacing: -0.02em;
+}
+
+.issue {
+  margin: 1.35rem 0 0;
+  color: var(--muted);
+}
+
+.line {
+  margin: 0.35rem 0 0;
+  color: var(--ink);
+}
+
+.day {
+  margin: 0 0 2.4rem;
+}
+
+.day-label {
+  margin: 0 0 0.55rem;
+  font-size: 0.68rem;
+  font-weight: 400;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.15rem 1.25rem;
+  padding: 0.85rem 0;
+  border-top: 1px solid var(--ink);
+}
+
+.row:last-child {
+  border-bottom: 1px solid var(--ink);
+}
+
+.time {
+  color: var(--ink);
+  font-variant-numeric: tabular-nums;
+}
+
+.title {
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.meta {
+  color: var(--ink);
+}
+
+.city {
+  font-size: 0.72rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.cost {
+  color: var(--muted);
+}
+
+.detail {
+  padding-top: 2.75rem;
+  max-width: 28rem;
+}
+
+.detail h1 {
+  margin: 0 0 1.6rem;
+  font-size: clamp(1.7rem, 6vw, 2.4rem);
+  font-weight: 700;
+  line-height: 1.12;
+  letter-spacing: -0.02em;
+}
+
+.detail dl {
+  margin: 0 0 1.6rem;
+}
+
+.detail dt {
+  margin: 1.1rem 0 0.2rem;
+  font-size: 0.68rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.detail dd {
+  margin: 0;
+}
+
+.blurb {
+  margin: 0 0 1.8rem;
+}
+
+.maps,
+.source {
+  display: block;
+  margin: 0 0 0.55rem;
+  overflow-wrap: anywhere;
+  color: var(--muted);
+}
+
+.maps {
+  width: fit-content;
+}
+
+.back-board {
+  margin: 1.8rem 0 0;
+}
+
+.back-board a {
+  color: var(--muted);
+}
+
+.spare {
+  padding-top: 2.75rem;
+  max-width: 26rem;
+}
+
+.spare h1 {
+  margin: 0 0 1.4rem;
+  font-size: clamp(1.7rem, 6vw, 2.4rem);
+  font-weight: 700;
+  line-height: 1.12;
+  letter-spacing: -0.02em;
+}
+
+.spare p {
+  margin: 0 0 1rem;
+  max-width: 22rem;
+}
+
+.spare p:last-child {
+  margin-bottom: 0;
+}
+
+.foot {
+  padding: 2rem 0 2.4rem;
+  max-width: 52rem;
+}
+
+.foot-url {
+  margin: 1.1rem 0 0;
+  color: var(--muted);
+}
+
+.foot-url a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.foot-url a:hover {
+  text-decoration: underline;
+}
+
+@media (min-width: 720px) {
+  :root {
+    --page: 2.5rem;
+  }
+
+  .chrome {
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 1.5rem;
+    padding-top: 1.35rem;
+  }
+
+  .chrome-start {
+    display: flex;
+    align-items: baseline;
+    gap: 2rem;
+  }
+
+  .masthead {
+    padding-top: 4.5rem;
+    padding-bottom: 3.2rem;
+  }
+
+  .row {
+    grid-template-columns: 6.75rem minmax(0, 1.4fr) minmax(0, 1.1fr) 7.5rem 6.25rem;
+    align-items: baseline;
+    padding: 0.72rem 0;
+  }
+
+  .row .time {
+    grid-column: 1;
+  }
+
+  .row .title {
+    grid-column: 2;
+    min-width: 0;
+  }
+
+  .row .meta {
+    grid-column: 3;
+    min-width: 0;
+  }
+
+  .row .city {
+    grid-column: 4;
+  }
+
+  .row .cost {
+    grid-column: 5;
+    text-align: right;
+  }
+
+  .detail,
+  .spare {
+    padding-top: 4.5rem;
+  }
+}
+
+@media (min-width: 1040px) {
+  :root {
+    --page: 4rem;
+  }
+
+  .main {
+    max-width: 58rem;
+  }
+}

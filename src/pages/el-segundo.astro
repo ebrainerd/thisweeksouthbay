@@ -1,0 +1,27 @@
+---
+import Layout from '../layouts/Layout.astro';
+import CityBoard from '../components/CityBoard.astro';
+
+const hub = {
+  slug: 'el-segundo',
+  city: 'El Segundo',
+  label: 'El Segundo',
+  title: 'El Segundo Events This Week | This Week South Bay',
+  h1: 'El Segundo Events This Week',
+  description: 'El Segundo events this week — Main Street market, Old Town Music Hall, brewery trivia, and more. Daily board + Monday 7am email.',
+  intro: [
+    'El Segundo nights out from the South Bay board — Main Street, Old Town Music Hall, brewery nights when listed.',
+    'Nights out, not news. Updated daily.',
+    'Scan times, pick a night, or get the Monday 7am email.',
+  ],
+};
+---
+
+<Layout
+  title={hub.title}
+  description={hub.description}
+  current="city"
+  canonicalPath="/el-segundo"
+>
+  <CityBoard hub={hub} />
+</Layout>

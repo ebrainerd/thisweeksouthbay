@@ -1,0 +1,60 @@
+---
+import Layout from '../layouts/Layout.astro';
+import EventRow from '../components/EventRow.astro';
+import { catalog, groupByWeekday, weekEvents } from '../lib/events';
+
+const days = groupByWeekday(weekEvents());
+const description =
+  'Tonight and this weekend in Hermosa Beach, Manhattan Beach, Redondo, El Segundo, and Torrance. Free weekly board + Monday 7am email — nights out, not news.';
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': 'Organization',
+      '@id': 'https://www.thisweeksouthbay.com/#organization',
+      name: 'This Week South Bay',
+      url: 'https://www.thisweeksouthbay.com/',
+      description,
+    },
+    {
+      '@type': 'WebSite',
+      '@id': 'https://www.thisweeksouthbay.com/#website',
+      name: 'This Week South Bay',
+      url: 'https://www.thisweeksouthbay.com/',
+      description,
+      publisher: { '@id': 'https://www.thisweeksouthbay.com/#organization' },
+      inLanguage: 'en-US',
+    },
+  ],
+};
+---
+
+<Layout
+  title="South Bay LA Events This Week | Hermosa, MB, Redondo"
+  description={description}
+  current="week"
+  canonicalPath="/"
+  jsonLd={jsonLd}
+>
+  <header class="masthead">
+    <h1 class="kicker">South Bay events this week</h1>
+    <p class="cities">
+      Hermosa · Manhattan Beach · Redondo · El Segundo · Torrance — updated daily
+    </p>
+    <p class="issue">{catalog.issue.label}</p>
+  </header>
+
+  {
+    days.map((day) => (
+      <section class="day">
+        <h2 class="day-label">{day.label}</h2>
+        <ol class="list">
+          {day.events.map((event) => (
+            <EventRow event={event} />
+          ))}
+        </ol>
+      </section>
+    ))
+  }
+</Layout>

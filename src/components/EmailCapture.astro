@@ -1,0 +1,28 @@
+---
+interface Props {
+  id: string;
+}
+
+const { id } = Astro.props;
+const fieldId = `${id}-email`;
+---
+
+<form id={id} class="email" action="https://thisweeksouthbay.beehiiv.com" method="get">
+  <label class="visually-hidden" for={fieldId}>Email</label>
+  <input id={fieldId} type="email" name="email" autocomplete="email" placeholder="you@" />
+  <a href="https://thisweeksouthbay.beehiiv.com">Monday email. 7am.</a>
+</form>
+
+<style>
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  }
+</style>

@@ -1,0 +1,27 @@
+---
+import Layout from '../layouts/Layout.astro';
+import CityBoard from '../components/CityBoard.astro';
+
+const hub = {
+  slug: 'manhattan-beach',
+  city: 'Manhattan',
+  label: 'Manhattan Beach',
+  title: 'Manhattan Beach Events This Week | This Week South Bay',
+  h1: 'Manhattan Beach Events This Week',
+  description: 'Manhattan Beach events this week — downtown market, StrandBar nights, Polliwog concerts, and more. Daily board + Monday 7am email.',
+  intro: [
+    'Manhattan Beach nights out from the South Bay board — downtown, Strand, Polliwog when listed.',
+    'Nights out, not news. Updated daily.',
+    'Scan times, pick a night, or get the Monday 7am email.',
+  ],
+};
+---
+
+<Layout
+  title={hub.title}
+  description={hub.description}
+  current="city"
+  canonicalPath="/manhattan-beach"
+>
+  <CityBoard hub={hub} />
+</Layout>

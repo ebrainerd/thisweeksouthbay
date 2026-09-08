@@ -1,0 +1,19 @@
+---
+import type { ListingEvent } from '../lib/events';
+import { formatTimeRange } from '../lib/events';
+
+interface Props {
+  event: ListingEvent;
+}
+
+const { event } = Astro.props;
+const time = formatTimeRange(event);
+---
+
+<li class="row">
+  <time class="time" datetime={event.start}>{time}</time>
+  <a class="title" href={`/event/${event.slug}`}>{event.title}</a>
+  <span class="meta">{event.venue}</span>
+  <span class="city">{event.city}</span>
+  <span class="cost">{event.cost}</span>
+</li>

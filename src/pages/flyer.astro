@@ -1,0 +1,32 @@
+---
+import Layout from '../layouts/Layout.astro';
+import EventRow from '../components/EventRow.astro';
+import { catalog, groupByWeekday, weekEvents } from '../lib/events';
+
+const days = groupByWeekday(weekEvents());
+---
+
+<Layout title="This Week South Bay — Flyer" current="week" canonicalPath="/flyer" noindex={true}>
+  <header class="masthead">
+    <h1 class="kicker">This Week</h1>
+    <p class="cities">
+      Hermosa · MB · Redondo<br />
+      El Segundo · Torrance
+    </p>
+    <p class="issue">{catalog.issue.label}</p>
+    <p class="line">Monday email. 7am. Nights out, not news. Updated daily.</p>
+  </header>
+
+  {
+    days.map((day) => (
+      <section class="day">
+        <h2 class="day-label">{day.label}</h2>
+        <ol class="list">
+          {day.events.map((event) => (
+            <EventRow event={event} />
+          ))}
+        </ol>
+      </section>
+    ))
+  }
+</Layout>

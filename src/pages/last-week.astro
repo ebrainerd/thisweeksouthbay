@@ -1,0 +1,43 @@
+---
+import Layout from '../layouts/Layout.astro';
+import EventRow from '../components/EventRow.astro';
+import { catalog, groupByWeekday, weekEvents } from '../lib/events';
+
+const days = groupByWeekday(weekEvents(catalog.lastIssue));
+const description =
+  'Archive of last week’s Hermosa, Manhattan Beach, Redondo, El Segundo, and Torrance listings. For what’s on now, see This Week.';
+---
+
+<Layout
+  title="Last Week’s South Bay Events | Archive"
+  description={description}
+  current="last"
+  canonicalPath="/last-week"
+>
+  <header class="masthead">
+    <h1 class="kicker">Last week’s South Bay events</h1>
+    <p class="cities">
+      Hermosa · Manhattan Beach · Redondo · El Segundo · Torrance
+    </p>
+    <p class="issue">{catalog.lastIssue.label}</p>
+  </header>
+
+  {
+    days.length === 0 ? (
+      <article class="spare">
+        <p>No listings archived for that week.</p>
+      </article>
+    ) : (
+      days.map((day) => (
+        <section class="day">
+          <h2 class="day-label">{day.label}</h2>
+          <ol class="list">
+            {day.events.map((event) => (
+              <EventRow event={event} />
+            ))}
+          </ol>
+        </section>
+      ))
+    )
+  }
+</Layout>

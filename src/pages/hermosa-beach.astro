@@ -1,0 +1,27 @@
+---
+import Layout from '../layouts/Layout.astro';
+import CityBoard from '../components/CityBoard.astro';
+
+const hub = {
+  slug: 'hermosa-beach',
+  city: 'Hermosa',
+  label: 'Hermosa Beach',
+  title: 'Hermosa Beach Events This Week | This Week South Bay',
+  h1: 'Hermosa Beach Events This Week',
+  description: 'Hermosa Beach events this week — Pier Plaza nights, comedy, markets, and beach shows. Daily board + Monday 7am email from This Week South Bay.',
+  intro: [
+    'Hermosa Beach nights out from the South Bay board — Pier Plaza, comedy, markets, beach shows.',
+    'Nights out, not news. Updated daily.',
+    'Scan times, pick a night, or get the Monday 7am email.',
+  ],
+};
+---
+
+<Layout
+  title={hub.title}
+  description={hub.description}
+  current="city"
+  canonicalPath="/hermosa-beach"
+>
+  <CityBoard hub={hub} />
+</Layout>

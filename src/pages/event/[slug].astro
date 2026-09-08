@@ -1,0 +1,106 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { allSlugs, eventMetaDescription, formatWhen, getEvent, mapsUrl } from '../../lib/events';
+
+export function getStaticPaths() {
+  return allSlugs().map((slug) => ({ params: { slug } }));
+}
+
+const { slug } = Astro.params;
+const event = getEvent(slug);
+
+if (!event) {
+  throw new Error(`Unknown event: ${slug}`);
+}
+
+const when = formatWhen(event);
+const maps = mapsUrl(event.address);
+const SITE = 'https://www.thisweeksouthbay.com';
+const canonicalPath = `/event/${event.slug}`;
+const canonicalUrl = `${SITE}${canonicalPath}`;
+
+const shortDate = new Intl.DateTimeFormat('en-US', {
+  timeZone: 'America/Los_Angeles',
+  month: 'short',
+  day: 'numeric',
+}).format(new Date(event.start));
+
+const title = `${event.title} | ${shortDate} | South Bay`;
+const description = eventMetaDescription(event);
+
+const jsonLd: Record<string, unknown> = {
+  '@context': 'https://schema.org',
+  '@type': 'Event',
+  name: event.title,
+  description: event.blurb,
+  startDate: event.start,
+  eventStatus: 'https://schema.org/EventScheduled',
+  eventAttendanceMode: 'https://schema.org/OfflineEventAttendanceMode',
+  location: {
+    '@type': 'Place',
+    name: event.venue,
+    address: {
+      '@type': 'PostalAddress',
+      streetAddress: event.address,
+      addressLocality: event.city,
+      addressRegion: 'CA',
+      addressCountry: 'US',
+    },
+  },
+  organizer: {
+    '@type': 'Organization',
+    name: 'This Week South Bay',
+    url: 'https://www.thisweeksouthbay.com/',
+  },
+  url: canonicalUrl,
+};
+
+if (event.end) {
+  jsonLd.endDate = event.end;
+}
+---
+
+<Layout
+  title={title}
+  description={description}
+  current="event"
+  canonicalPath={canonicalPath}
+  ogType="article"
+  jsonLd={jsonLd}
+>
+  <article class="detail">
+    <h1>{event.title}</h1>
+    <dl>
+      <dt>When</dt>
+      <dd>
+        <time datetime={event.start}>{when}</time>
+      </dd>
+      <dt>Where</dt>
+      <dd>
+        {event.city}<br />
+        {event.venue}<br />
+        {event.address}
+      </dd>
+      {
+        event.cost ? (
+          <>
+            <dt>Cost</dt>
+            <dd>{event.cost}</dd>
+          </>
+        ) : null
+      }
+    </dl>
+    <p class="blurb">{event.blurb}</p>
+    {
+      event.url ? (
+        <a class="source" href={event.url}>
+          {event.url}
+        </a>
+      ) : null
+    }
+    <a class="maps" href={maps}>Map</a>
+    <p class="back-board">
+      <a href="/">This week’s board</a>
+    </p>
+  </article>
+</Layout>

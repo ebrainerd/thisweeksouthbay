@@ -1,0 +1,43 @@
+---
+import Layout from '../layouts/Layout.astro';
+import EventRow from '../components/EventRow.astro';
+import { catalog, groupByWeekday, weekEvents } from '../lib/events';
+
+const days = groupByWeekday(weekEvents(catalog.nextIssue));
+const description =
+  'Plan ahead: upcoming nights out next week across Hermosa Beach, Manhattan Beach, Redondo, El Segundo, and Torrance. Board fills daily — Monday email at 7am.';
+---
+
+<Layout
+  title="South Bay Events Next Week | Early Look"
+  description={description}
+  current="next"
+  canonicalPath="/next-week"
+>
+  <header class="masthead">
+    <h1 class="kicker">South Bay events next week</h1>
+    <p class="cities">
+      Hermosa · Manhattan Beach · Redondo · El Segundo · Torrance — updated daily
+    </p>
+    <p class="issue">{catalog.nextIssue.label}</p>
+  </header>
+
+  {
+    days.length === 0 ? (
+      <article class="spare">
+        <p>Board is filling.</p>
+      </article>
+    ) : (
+      days.map((day) => (
+        <section class="day">
+          <h2 class="day-label">{day.label}</h2>
+          <ol class="list">
+            {day.events.map((event) => (
+              <EventRow event={event} />
+            ))}
+          </ol>
+        </section>
+      ))
+    )
+  }
+</Layout>

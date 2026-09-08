@@ -1,0 +1,11 @@
+node_modules
+dist
+.astro
+.vercel
+.env
+*.deploy*.json
+.go-deploy-args.json
+.hybrid-deploy-args.json
+.vercel-deploy-args.json
+.deploy-mcp-args.json
+.deploy-now.json

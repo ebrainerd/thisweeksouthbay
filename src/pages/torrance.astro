@@ -1,0 +1,27 @@
+---
+import Layout from '../layouts/Layout.astro';
+import CityBoard from '../components/CityBoard.astro';
+
+const hub = {
+  slug: 'torrance',
+  city: 'Torrance',
+  label: 'Torrance',
+  title: 'Torrance Events This Week | This Week South Bay',
+  h1: 'Torrance Events This Week',
+  description: 'Torrance events this week — Summer Nights, comedy, trivia, and South Bay nights worth the drive. Daily board + Monday 7am email.',
+  intro: [
+    'Torrance nights out from the South Bay board when it is worth the drive.',
+    'Nights out, not news. Updated daily.',
+    'Scan times, pick a night, or get the Monday 7am email.',
+  ],
+};
+---
+
+<Layout
+  title={hub.title}
+  description={hub.description}
+  current="city"
+  canonicalPath="/torrance"
+>
+  <CityBoard hub={hub} />
+</Layout>

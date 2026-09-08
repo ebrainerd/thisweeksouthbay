@@ -1,0 +1,27 @@
+---
+import Layout from '../layouts/Layout.astro';
+import CityBoard from '../components/CityBoard.astro';
+
+const hub = {
+  slug: 'redondo-beach',
+  city: 'Redondo',
+  label: 'Redondo Beach',
+  title: 'Redondo Beach Events This Week | This Week South Bay',
+  h1: 'Redondo Beach Events This Week',
+  description: 'Redondo Beach events this week — Riviera Village, pier nightlife, Deep End shows, and markets. Daily board + Monday 7am email.',
+  intro: [
+    'Redondo Beach nights out from the South Bay board — Riviera Village, pier, Deep End when listed.',
+    'Nights out, not news. Updated daily.',
+    'Scan times, pick a night, or get the Monday 7am email.',
+  ],
+};
+---
+
+<Layout
+  title={hub.title}
+  description={hub.description}
+  current="city"
+  canonicalPath="/redondo-beach"
+>
+  <CityBoard hub={hub} />
+</Layout>

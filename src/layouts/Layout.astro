@@ -1,0 +1,96 @@
+---
+import '@fontsource/public-sans/400.css';
+import '@fontsource/public-sans/700.css';
+import '../styles/global.css';
+import EmailCapture from '../components/EmailCapture.astro';
+import Analytics from '@vercel/analytics/astro';
+
+interface Props {
+  title: string;
+  description?: string;
+  current: 'week' | 'next' | 'last' | 'about' | 'event' | 'city';
+  canonicalPath?: string;
+  ogType?: string;
+  jsonLd?: object | object[] | null;
+  noindex?: boolean;
+}
+
+const SITE = 'https://www.thisweeksouthbay.com';
+
+function normalizePath(path: string): string {
+  if (!path || path === '/') return '/';
+  const withLeading = path.startsWith('/') ? path : `/${path}`;
+  const stripped = withLeading.replace(/\/+$/, '');
+  return stripped || '/';
+}
+
+const {
+  title,
+  description = 'Monday email. 7am. Nights out, not news. Updated daily. Hermosa, Manhattan, Redondo, El Segundo, Torrance.',
+  current,
+  canonicalPath,
+  ogType = 'website',
+  jsonLd = null,
+  noindex = false,
+} = Astro.props;
+
+const path = normalizePath(canonicalPath ?? Astro.url.pathname);
+const canonicalUrl = path === '/' ? `${SITE}/` : `${SITE}${path}`;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="google-site-verification" content="sFUgLPOn7SERvrTTy97EW-RBKFOsiMqq5W4ovtlomfE" />
+    <meta name="description" content={description} />
+    {noindex ? <meta name="robots" content="noindex" /> : null}
+    <link rel="canonical" href={canonicalUrl} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonicalUrl} />
+    <meta property="og:type" content={ogType} />
+    <meta property="og:site_name" content="This Week South Bay" />
+    <meta property="og:locale" content="en_US" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="generator" content={Astro.generator} />
+    <title>{title}</title>
+    {
+      jsonLd ? (
+        <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+      ) : null
+    }
+    <Analytics />
+  </head>
+  <body>
+    <div class="page">
+      <header class="chrome">
+        <div class="chrome-start">
+          <a class="wordmark" href="/">This Week</a>
+          <nav class="nav" aria-label="Site">
+            <a href="/" aria-current={current === 'week' ? 'page' : undefined}>This Week</a>
+            <a href="/next-week" aria-current={current === 'next' ? 'page' : undefined}>Next Week</a>
+            <a href="/last-week" aria-current={current === 'last' ? 'page' : undefined}>Last Week</a>
+            <a href="/about" aria-current={current === 'about' ? 'page' : undefined}>About</a>
+          </nav>
+        </div>
+        <a class="signup-jump" href="#signup">Monday email. 7am.</a>
+      </header>
+
+      <main class="main">
+        <slot />
+      </main>
+
+      <footer class="foot">
+        <EmailCapture id="signup" />
+        <p class="foot-url">
+          <a href="https://thisweeksouthbay.beehiiv.com">thisweeksouthbay.beehiiv.com</a>
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>

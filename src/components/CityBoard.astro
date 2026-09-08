@@ -1,0 +1,145 @@
+---
+import EventRow from './EventRow.astro';
+import EmailCapture from './EmailCapture.astro';
+import { catalog, cityWeekEvents, groupByWeekday, weekEvents } from '../lib/events';
+
+export type CityHub = {
+  slug: string;
+  city: string;
+  label: string;
+  title: string;
+  h1: string;
+  description: string;
+  intro: string[];
+};
+
+interface Props {
+  hub: CityHub;
+}
+
+const { hub } = Astro.props;
+const days = groupByWeekday(cityWeekEvents(hub.city));
+const neighbors: CityHub[] = [
+  {
+    slug: 'hermosa-beach',
+    city: 'Hermosa',
+    label: 'Hermosa Beach',
+    title: '',
+    h1: '',
+    description: '',
+    intro: [],
+  },
+  {
+    slug: 'manhattan-beach',
+    city: 'Manhattan',
+    label: 'Manhattan Beach',
+    title: '',
+    h1: '',
+    description: '',
+    intro: [],
+  },
+  {
+    slug: 'redondo-beach',
+    city: 'Redondo',
+    label: 'Redondo Beach',
+    title: '',
+    h1: '',
+    description: '',
+    intro: [],
+  },
+  {
+    slug: 'el-segundo',
+    city: 'El Segundo',
+    label: 'El Segundo',
+    title: '',
+    h1: '',
+    description: '',
+    intro: [],
+  },
+  {
+    slug: 'torrance',
+    city: 'Torrance',
+    label: 'Torrance',
+    title: '',
+    h1: '',
+    description: '',
+    intro: [],
+  },
+].filter((n) => n.slug !== hub.slug);
+
+const nextCity = weekEvents(catalog.nextIssue).filter((e) => e.city === hub.city);
+---
+
+<header class="masthead">
+  <h1 class="kicker">{hub.h1}</h1>
+  <p class="issue">{catalog.issue.label}</p>
+</header>
+
+<section class="spare city-intro">
+  {hub.intro.map((line) => <p>{line}</p>)}
+</section>
+
+<section class="city-week">
+  <h2 class="day-label">This week in {hub.label}</h2>
+  {
+    days.length === 0 ? (
+      <article class="spare">
+        <p>
+          Nothing listed yet — see <a href="/">full South Bay board</a>
+        </p>
+      </article>
+    ) : (
+      days.map((day) => (
+        <section class="day">
+          <h2 class="day-label">{day.label}</h2>
+          <ol class="list">
+            {day.events.map((event) => (
+              <EventRow event={event} />
+            ))}
+          </ol>
+        </section>
+      ))
+    )
+  }
+</section>
+
+<section class="spare">
+  <h2 class="day-label">Looking ahead</h2>
+  <p>
+    Early looks as the board fills — <a href="/next-week">Next week</a>.
+    {
+      nextCity.length > 0 ? (
+        <span> {nextCity.length} {hub.label} listing{nextCity.length === 1 ? '' : 's'} already posted.</span>
+      ) : null
+    }
+  </p>
+</section>
+
+<section class="spare">
+  <h2 class="day-label">South Bay neighbors</h2>
+  <p class="neighbors">
+    {neighbors.map((n) => (
+      <a href={`/${n.slug}`}>{n.label}</a>
+    ))}
+  </p>
+  <p><a href="/">Full South Bay board</a></p>
+</section>
+
+<section class="spare">
+  <h2 class="day-label">Monday email</h2>
+  <p>7am. Nights out, not news. Updated daily.</p>
+  <EmailCapture id={`signup-${hub.slug}`} />
+</section>
+
+<section class="spare">
+  <p>
+    About This Week South Bay — <a href="/about">who we are</a>.
+  </p>
+</section>
+
+<style>
+  .neighbors a + a::before {
+    content: ' · ';
+    color: inherit;
+  }
+</style>
