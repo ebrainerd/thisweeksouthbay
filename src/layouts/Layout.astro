@@ -8,7 +8,7 @@ import Analytics from '@vercel/analytics/astro';
 interface Props {
   title: string;
   description?: string;
-  current: 'week' | 'next' | 'last' | 'about' | 'event' | 'city';
+  current: 'week' | 'next' | 'last' | 'about' | 'contact' | 'event' | 'city';
   canonicalPath?: string;
   ogType?: string;
   jsonLd?: object | object[] | null;
@@ -76,6 +76,7 @@ const canonicalUrl = path === '/' ? `${SITE}/` : `${SITE}${path}`;
             <a href="/next-week" aria-current={current === 'next' ? 'page' : undefined}>Next Week</a>
             <a href="/last-week" aria-current={current === 'last' ? 'page' : undefined}>Last Week</a>
             <a href="/about" aria-current={current === 'about' ? 'page' : undefined}>About</a>
+            <a href="/contact" aria-current={current === 'contact' ? 'page' : undefined}>Contact</a>
           </nav>
         </div>
         <a class="signup-jump" href="#signup">Monday email. 7am.</a>

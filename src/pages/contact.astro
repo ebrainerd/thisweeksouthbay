@@ -1,0 +1,72 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+const description =
+  'Contact This Week South Bay. Questions, tips, or nights out for Hermosa, Manhattan Beach, Redondo, El Segundo, and Torrance.';
+
+const SITE = 'https://www.thisweeksouthbay.com';
+const defaultEndpoint = 'https://formsubmit.co/info@thisweeksouthbay.com';
+const formAction =
+  (typeof import.meta.env.PUBLIC_CONTACT_FORM_ENDPOINT === 'string' &&
+    import.meta.env.PUBLIC_CONTACT_FORM_ENDPOINT.trim()) ||
+  defaultEndpoint;
+const nextUrl = `${SITE}/contact?sent=1`;
+---
+
+<Layout
+  title="Contact This Week South Bay"
+  description={description}
+  current="contact"
+  canonicalPath="/contact"
+>
+  <article class="spare contact">
+    <div id="contact-thanks" class="contact-thanks" hidden>
+      <h1>Thanks</h1>
+      <p>We'll get back to you.</p>
+    </div>
+
+    <div id="contact-form-wrap">
+      <h1>Contact</h1>
+      <p>Questions, tips, or something we should know about.</p>
+
+      <form class="contact-form" action={formAction} method="POST">
+        <input type="hidden" name="_next" value={nextUrl} />
+        <input type="hidden" name="_subject" value="This Week South Bay contact" />
+        <input type="hidden" name="_template" value="table" />
+        <input type="text" name="_gotcha" class="contact-honey" tabindex="-1" autocomplete="off" />
+
+        <label for="contact-name">Name</label>
+        <input
+          id="contact-name"
+          type="text"
+          name="name"
+          autocomplete="name"
+          required
+        />
+
+        <label for="contact-email">Email</label>
+        <input
+          id="contact-email"
+          type="email"
+          name="email"
+          autocomplete="email"
+          required
+        />
+
+        <label for="contact-message">Message</label>
+        <textarea id="contact-message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Send</button>
+      </form>
+    </div>
+  </article>
+</Layout>
+
+<script>
+  if (new URLSearchParams(window.location.search).get('sent') === '1') {
+    const formWrap = document.getElementById('contact-form-wrap');
+    const thanks = document.getElementById('contact-thanks');
+    if (formWrap) formWrap.hidden = true;
+    if (thanks) thanks.hidden = false;
+  }
+</script>
