@@ -509,7 +509,7 @@
       "venue": "Deep End Live",
       "address": "100 Fisherman's Wharf, Redondo Beach, CA 90277",
       "category": "Music",
-      "cost": "$37.95\u2013$72.15",
+      "cost": "$37.95\u2013$75.75",
       "audience": "Adults",
       "url": "https://deependlive.com/",
       "blurb": "Doors 7, show 8pm. 21+."
@@ -655,20 +655,6 @@
       "blurb": "Saturday 7pm. Mighty Wurlitzer. About $12."
     },
     {
-      "slug": "the-skatalites-deep-end-2026-09-12",
-      "title": "The Skatalites w/ The Elysians",
-      "start": "2026-09-12T20:00:00-07:00",
-      "end": null,
-      "city": "Redondo",
-      "venue": "Deep End Live",
-      "address": "100 Fisherman's Wharf, Redondo Beach, CA 90277",
-      "category": "Music",
-      "cost": "$30.39\u2013$57.75",
-      "audience": "Adults",
-      "url": "https://deependlive.com/",
-      "blurb": "Doors 7, show 8pm. 21+."
-    },
-    {
       "slug": "lofl-reunion-lighthouse-2026-09-12",
       "title": "LoFL Reunion feat. Olivia Pucci",
       "start": "2026-09-12T20:00:00-07:00",
@@ -683,6 +669,20 @@
       "blurb": "Saturday 8pm after Charis and The Groove. Cover not listed. 21+."
     },
     {
+      "slug": "the-skatalites-deep-end-2026-09-12",
+      "title": "The Skatalites w/ The Elysians",
+      "start": "2026-09-12T20:00:00-07:00",
+      "end": null,
+      "city": "Redondo",
+      "venue": "Deep End Live",
+      "address": "100 Fisherman's Wharf, Redondo Beach, CA 90277",
+      "category": "Music",
+      "cost": "$30.39\u2013$57.75",
+      "audience": "Adults",
+      "url": "https://deependlive.com/",
+      "blurb": "Doors 7, show 8pm. 21+."
+    },
+    {
       "slug": "dj-shibuya-strandbar-2026-09-12",
       "title": "DJ Shibuya",
       "start": "2026-09-12T21:30:00-07:00",
@@ -695,6 +695,20 @@
       "audience": "Adults",
       "url": "https://thestrandhousemb.com/the-strand-bar/",
       "blurb": "Saturday 9:30pm\u2013close."
+    },
+    {
+      "slug": "redondo-beach-swim-the-avenues-2026-09-13",
+      "title": "Redondo Beach Swim the Avenues",
+      "start": "2026-09-13T08:00:00-07:00",
+      "end": null,
+      "city": "Redondo",
+      "venue": "Miramar Park",
+      "address": "201 Paseo De La Playa, Redondo Beach, CA 90277",
+      "category": "Other",
+      "cost": "Free to watch",
+      "audience": "Anyone",
+      "url": "https://runsignup.com/Race/CA/RedondoBeach/RedondoBeachSwimTheAvenues",
+      "blurb": "Half-mile 8am; 1.2mi about 8:25. Entry about $59\u201370. Free to watch from Miramar Park."
     },
     {
       "slug": "riviera-village-farmers-market-2026-09-13",
@@ -893,6 +907,20 @@
       "blurb": "Thursday 3\u20137pm, 300 block Main."
     },
     {
+      "slug": "sunset-comedy-redondo-library-2026-09-17",
+      "title": "Sunset Comedy at the Redondo Beach Historic Library",
+      "start": "2026-09-17T19:30:00-07:00",
+      "end": "2026-09-17T21:00:00-07:00",
+      "city": "Redondo",
+      "venue": "Redondo Beach Historic Library",
+      "address": "309 Esplanade, Redondo Beach, CA 90277",
+      "category": "Comedy",
+      "cost": "~$34\u201345",
+      "audience": "Adults",
+      "url": "https://www.eventbrite.com/e/sunset-comedy-at-the-redondo-beach-historic-library-tickets-1997857598859",
+      "blurb": "Doors/happy hour 5:30; show 7:30\u20139. About $34\u201345."
+    },
+    {
       "slug": "chad-daniels-cmc-2026-09-17",
       "title": "Chad Daniels",
       "start": "2026-09-17T20:00:00-07:00",
@@ -919,6 +947,20 @@
       "audience": "Anyone",
       "url": "https://hermosabeachfarmersmarket.org",
       "blurb": "Friday noon\u20134."
+    },
+    {
+      "slug": "cantina-comedy-club-king-harbor-2026-09-18",
+      "title": "The Cantina Comedy Club at King Harbor",
+      "start": "2026-09-18T20:00:00-07:00",
+      "end": "2026-09-18T21:30:00-07:00",
+      "city": "Redondo",
+      "venue": "Riviera Mexican Cantina",
+      "address": "207 N Harbor Dr, Redondo Beach, CA 90277",
+      "category": "Comedy",
+      "cost": "~$29\u201336",
+      "audience": "Adults",
+      "url": "https://www.eventbrite.com/e/the-cantina-comedy-club-at-king-harbor-tickets-1983637280504",
+      "blurb": "Doors 6:30; show 8\u20139:30. About $29\u201336."
     },
     {
       "slug": "tom-rhodes-cmc-2026-09-18",
@@ -991,6 +1033,20 @@
       "blurb": "Saturday 9am\u201312pm volunteer cleanup. Heal the Bay / Coastal Commission."
     },
     {
+      "slug": "coastal-cleanup-manhattan-2026-09-19",
+      "title": "Coastal Cleanup Day Manhattan Beach",
+      "start": "2026-09-19T09:00:00-07:00",
+      "end": "2026-09-19T12:00:00-07:00",
+      "city": "Manhattan",
+      "venue": "MB Pier / Roundhouse",
+      "address": "1400 The Strand, Manhattan Beach, CA 90266",
+      "category": "Other",
+      "cost": "Free",
+      "audience": "Anyone",
+      "url": "https://roundhouseaquarium.org/ccd/",
+      "blurb": "Saturday 9am\u201312pm volunteer cleanup at the pier and Roundhouse. Free."
+    },
+    {
       "slug": "mr-hulots-holiday-otmh-2026-09-19",
       "title": "Mr. Hulot's Holiday",
       "start": "2026-09-19T14:30:00-07:00",
@@ -1033,6 +1089,20 @@
       "blurb": "Event 6pm; movie ~7:45pm. Free on the sand."
     },
     {
+      "slug": "sunset-cinema-pretty-in-pink-2026-09-19",
+      "title": "El Segundo Sunset Cinema: Pretty in Pink",
+      "start": "2026-09-19T18:30:00-07:00",
+      "end": null,
+      "city": "El Segundo",
+      "venue": "Library Park",
+      "address": "600 Main St, El Segundo, CA 90245",
+      "category": "Other",
+      "cost": "Free",
+      "audience": "Anyone",
+      "url": "",
+      "blurb": "Activities 6:30; movie at sunset. 600 block Main. Free."
+    },
+    {
       "slug": "earthquake-otmh-2026-09-19",
       "title": "Earthquake",
       "start": "2026-09-19T19:00:00-07:00",
@@ -1061,8 +1131,8 @@
       "blurb": "Doors 7, show 8pm. Latchkey Kid opens. 21+."
     },
     {
-      "slug": "hurley-band-lighthouse-2026-09-19",
-      "title": "Hurley Band",
+      "slug": "lighthouse-tbd-2026-09-19",
+      "title": "TBD",
       "start": "2026-09-19T20:00:00-07:00",
       "end": null,
       "city": "Hermosa",
@@ -1072,7 +1142,7 @@
       "cost": "",
       "audience": "Adults",
       "url": "https://www.thelighthousecafe.net/",
-      "blurb": "Saturday 8pm country set after Spazmatics. Cover not listed. 21+."
+      "blurb": "Saturday 8pm at the Lighthouse. Band TBA. Cover not listed. 21+."
     },
     {
       "slug": "dj-shibuya-strandbar-2026-09-19",
