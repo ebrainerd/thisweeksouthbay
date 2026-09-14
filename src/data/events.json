@@ -22,7 +22,7 @@
       "cost": "Free",
       "audience": "Anyone",
       "url": "https://downtownmanhattanbeach.com/manhattan-beach-farmers-market",
-      "blurb": "Tuesday 11am\u20133pm. Weekly; specific 9/1 row not on a dated city calendar."
+      "blurb": "Tuesday 11am–3pm. Weekly; specific 9/1 row not on a dated city calendar."
     },
     {
       "slug": "tuesday-trivia-hermosa-brewing-torrance-2026-09-01",
@@ -64,7 +64,7 @@
       "cost": "Free",
       "audience": "Anyone",
       "url": "https://nrbfarmersmarket.org",
-      "blurb": "Wednesday 2\u20137pm next to North Branch Library. Green Lane closed Artesia to Vanderbilt. Not the Thursday pier market."
+      "blurb": "Wednesday 2–7pm next to North Branch Library. Green Lane closed Artesia to Vanderbilt. Not the Thursday pier market."
     },
     {
       "slug": "jeff-dye-cmc-2026-09-02",
@@ -92,7 +92,7 @@
       "cost": "",
       "audience": "Adults",
       "url": "https://thestrandhousemb.com/the-strand-bar/",
-      "blurb": "Thursday 5\u20138pm at StrandBar."
+      "blurb": "Thursday 5–8pm at StrandBar."
     },
     {
       "slug": "hermosa-beach-farmers-market-2026-09-04",
@@ -106,7 +106,7 @@
       "cost": "Free",
       "audience": "Anyone",
       "url": "https://hermosabeachfarmersmarket.org",
-      "blurb": "Friday noon\u20134. Day before Fiesta, same neighborhood footprint."
+      "blurb": "Friday noon–4. Day before Fiesta, same neighborhood footprint."
     },
     {
       "slug": "10-comics-show-cmc-2026-09-04",
@@ -148,7 +148,7 @@
       "cost": "Free",
       "audience": "Anyone",
       "url": "https://fiestahermosa.net/schedule/",
-      "blurb": "Labor Day weekend street fair on Pier Ave and the Hermosa strand. Sat\u2013Sun Mercado 11\u20137; Mon Mercado 11\u20136. Food, vendors, rides."
+      "blurb": "Labor Day weekend street fair on Pier Ave and the Hermosa strand. Sat–Sun Mercado 11–7; Mon Mercado 11–6. Food, vendors, rides."
     },
     {
       "slug": "fiesta-garden-2026-09-05",
@@ -162,7 +162,7 @@
       "cost": "$10/day",
       "audience": "Adults",
       "url": "https://fiestahermosa.net/garden/",
-      "blurb": "21+. Sat\u2013Sun noon\u20137, Mon noon\u20136. General $10/day; reserved $60/person/day (shaded high-tops, private restroom, admission included). Set times at fiestahermosa.net/garden/."
+      "blurb": "21+. Sat–Sun noon–7, Mon noon–6. General $10/day; reserved $60/person/day (shaded high-tops, private restroom, admission included). Set times at fiestahermosa.net/garden/."
     },
     {
       "slug": "rockefeller-concerts-garden-2026-09-05",
@@ -176,7 +176,7 @@
       "cost": "Free",
       "audience": "Anyone",
       "url": "https://www.eatrockefeller.com/event-details/free-summer-concerts-in-the-garden-rockefeller-redondo-beach-2026-09-05-15-00",
-      "blurb": "Saturday 3\u20136pm. Charis Rey & Friends, Feed the Kitty, Retrofit. First come, first served. Redondo alternative while Fiesta is on."
+      "blurb": "Saturday 3–6pm. Charis Rey & Friends, Feed the Kitty, Retrofit. First come, first served. Redondo alternative while Fiesta is on."
     },
     {
       "slug": "torrance-summer-nights-petty-theft-2026-09-05",
@@ -190,7 +190,7 @@
       "cost": "Free",
       "audience": "Anyone",
       "url": "https://www.torranceca.gov/Our-Community/Events/Petty-Theft",
-      "blurb": "Saturday 5\u20136:30pm. Last Wilson Park date; series moves to Columbia Park Sep 12."
+      "blurb": "Saturday 5–6:30pm. Last Wilson Park date; series moves to Columbia Park Sep 12."
     },
     {
       "slug": "american-graffiti-otmh-2026-09-05",
@@ -201,10 +201,10 @@
       "venue": "Old Town Music Hall",
       "address": "140 Richmond St, El Segundo, CA 90254",
       "category": "Other",
-      "cost": "~$10\u201312",
+      "cost": "~$10–12",
       "audience": "Anyone",
       "url": "https://www.oldtownmusichall.org/",
-      "blurb": "Saturday 7pm. Mighty Wurlitzer. About $10\u201312."
+      "blurb": "Saturday 7pm. Mighty Wurlitzer. About $10–12."
     },
     {
       "slug": "which-ones-pink-deep-end-2026-09-05",
@@ -215,7 +215,7 @@
       "venue": "Deep End Live",
       "address": "100 Fisherman's Wharf, Redondo Beach, CA 90277",
       "category": "Music",
-      "cost": "$27.15\u2013$54.15",
+      "cost": "$27.15–$54.15",
       "audience": "Adults",
       "url": "https://deependlive.com/event/which-ones-pink-a-tribute-to-pink-floyd/deep-end-live/redondo-beach-california/",
       "blurb": "Saturday 8pm (doors 7). Pink Floyd tribute. 21+."
@@ -232,7 +232,7 @@
       "cost": "",
       "audience": "Adults",
       "url": "https://thestrandhousemb.com/the-strand-bar/",
-      "blurb": "Saturday 9:30pm\u2013close. After-dark in MB while Fiesta is on in Hermosa."
+      "blurb": "Saturday 9:30pm–close. After-dark in MB while Fiesta is on in Hermosa."
     },
     {
       "slug": "riviera-village-farmers-market-2026-09-06",
@@ -260,7 +260,7 @@
       "cost": "",
       "audience": "Adults",
       "url": "https://thestrandhousemb.com/the-strand-bar/",
-      "blurb": "Sunday 2:30\u20136pm at StrandBar. Cover unpublished."
+      "blurb": "Sunday 2:30–6pm at StrandBar. Cover unpublished."
     },
     {
       "slug": "san-francisco-otmh-2026-09-06",
@@ -288,7 +288,7 @@
       "cost": "Free",
       "audience": "Anyone",
       "url": "",
-      "blurb": "Sunday 5\u20137pm. Last Polliwog of the series."
+      "blurb": "Sunday 5–7pm. Last Polliwog of the series."
     },
     {
       "slug": "special-labor-day-weekend-show-cmc-2026-09-06",
@@ -302,7 +302,7 @@
       "cost": "$27",
       "audience": "Adults",
       "url": "https://thecomedyandmagicclub.com/special-labor-day-weekend-show/",
-      "blurb": "Sunday 7pm (doors 5). Hughes / Johannsen / Wuhl / Clark. Not Leno \u2014 official Leno is Sep 13."
+      "blurb": "Sunday 7pm (doors 5). Hughes / Johannsen / Wuhl / Clark. Not Leno — official Leno is Sep 13."
     },
     {
       "slug": "taft-buckley-sad-cowboy-deep-end-2026-09-06",
@@ -313,7 +313,7 @@
       "venue": "Deep End Live",
       "address": "100 Fisherman's Wharf, Redondo Beach, CA 90277",
       "category": "Music",
-      "cost": "$16.35\u2013$30.15",
+      "cost": "$16.35–$30.15",
       "audience": "Adults",
       "url": "https://deependlive.com/event/taft-buckley-and-sad-cowboy/deep-end-live/redondo-beach-california/",
       "blurb": "Sunday 8pm (doors 7). 21+."
@@ -330,7 +330,7 @@
       "cost": "Free; Garden $10",
       "audience": "Anyone",
       "url": "https://fiestahermosa.net/schedule/",
-      "blurb": "Last day. Mercado/street 11\u20137. Garden 21+ noon\u20136, $10/day (tickets end 5, last pour 5:30). Love Local: Ruby & the Thorns 11:30 / TK & Cash 12:30 / Hayden Sandefur 2 / Slurkeys 3. Garden: K-Tel 12:30\u20132:30 + Spazmatics 3:45\u20135:45."
+      "blurb": "Last day. Mercado/street 11–7. Garden 21+ noon–6, $10/day (tickets end 5, last pour 5:30). Love Local: Ruby & the Thorns 11:30 / TK & Cash 12:30 / Hayden Sandefur 2 / Slurkeys 3. Garden: K-Tel 12:30–2:30 + Spazmatics 3:45–5:45."
     },
     {
       "slug": "dj-british-strandbar-2026-09-07",
@@ -344,7 +344,7 @@
       "cost": "",
       "audience": "Adults",
       "url": "https://thestrandhousemb.com/the-strand-bar/",
-      "blurb": "Labor Day afternoon 1\u20134:30pm at StrandBar."
+      "blurb": "Labor Day afternoon 1–4:30pm at StrandBar."
     },
     {
       "slug": "lucky-guess-trivia-sugar-monkey-2026-09-07",
@@ -358,7 +358,7 @@
       "cost": "Free",
       "audience": "Adults",
       "url": "https://luckyguesstrivia.com/about-us/",
-      "blurb": "Monday 6:30\u20138:30pm. Weekly slot. Free, 21+."
+      "blurb": "Monday 6:30–8:30pm. Weekly slot. Free, 21+."
     },
     {
       "slug": "jazz-jam-session-lighthouse-2026-09-07",
@@ -386,7 +386,7 @@
       "cost": "Free",
       "audience": "Anyone",
       "url": "https://downtownmanhattanbeach.com/manhattan-beach-farmers-market",
-      "blurb": "Tuesday 11am\u20133pm."
+      "blurb": "Tuesday 11am–3pm."
     },
     {
       "slug": "tuesday-trivia-hermosa-brewing-torrance-2026-09-08",
@@ -414,7 +414,7 @@
       "cost": "Free",
       "audience": "Anyone",
       "url": "https://brewporttaphouse.com/calendar/",
-      "blurb": "Tuesday 7\u20138pm. Weekly. Free."
+      "blurb": "Tuesday 7–8pm. Weekly. Free."
     },
     {
       "slug": "north-redondo-farmers-market-2026-09-09",
@@ -428,7 +428,7 @@
       "cost": "Free",
       "audience": "Anyone",
       "url": "https://nrbfarmersmarket.org",
-      "blurb": "Wednesday 2\u20137pm by North Branch Library."
+      "blurb": "Wednesday 2–7pm by North Branch Library."
     },
     {
       "slug": "the-wailers-deep-end-2026-09-09",
@@ -439,7 +439,7 @@
       "venue": "Deep End Live",
       "address": "100 Fisherman's Wharf, Redondo Beach, CA 90277",
       "category": "Music",
-      "cost": "$48.75\u2013$84.15",
+      "cost": "$48.75–$84.15",
       "audience": "Adults",
       "url": "https://deependlive.com/",
       "blurb": "Doors 7, show 8pm. 21+."
@@ -456,7 +456,7 @@
       "cost": "Free",
       "audience": "Anyone",
       "url": "https://hermosa-open.com/",
-      "blurb": "Pro beach volleyball. Qualifier Thu; main Fri\u2013Sun. Spectator free."
+      "blurb": "Pro beach volleyball. Qualifier Thu; main Fri–Sun. Spectator free."
     },
     {
       "slug": "el-segundo-farmers-market-2026-09-10",
@@ -470,7 +470,7 @@
       "cost": "Free",
       "audience": "Anyone",
       "url": "",
-      "blurb": "Thursday 3\u20137pm, 300 block Main."
+      "blurb": "Thursday 3–7pm, 300 block Main."
     },
     {
       "slug": "michael-rayner-cmc-2026-09-10",
@@ -498,18 +498,18 @@
       "cost": "Free",
       "audience": "Anyone",
       "url": "https://hermosabeachfarmersmarket.org",
-      "blurb": "Friday noon\u20134."
+      "blurb": "Friday noon–4."
     },
     {
       "slug": "the-knack-deep-end-2026-09-11",
-      "title": "Prescott Nile\u2019s The Knack with Gene Loves Jezebel",
+      "title": "Prescott Nile’s The Knack with Gene Loves Jezebel",
       "start": "2026-09-11T20:00:00-07:00",
       "end": null,
       "city": "Redondo",
       "venue": "Deep End Live",
       "address": "100 Fisherman's Wharf, Redondo Beach, CA 90277",
       "category": "Music",
-      "cost": "$37.95\u2013$75.75",
+      "cost": "$37.95–$75.75",
       "audience": "Adults",
       "url": "https://deependlive.com/",
       "blurb": "Doors 7, show 8pm. 21+."
@@ -526,7 +526,7 @@
       "cost": "$10/$15",
       "audience": "Adults",
       "url": "https://www.standupcomedyunderground.com/event-details-registration/torrance-comedy-underground-2026-09-11-20-00",
-      "blurb": "Friday 8\u201310pm (doors 7:30). $10 presale / $15 door. 21+."
+      "blurb": "Friday 8–10pm (doors 7:30). $10 presale / $15 door. 21+."
     },
     {
       "slug": "y2ky2k-lighthouse-2026-09-11",
@@ -540,7 +540,7 @@
       "cost": "",
       "audience": "Anyone",
       "url": "https://www.thelighthousecafe.net/",
-      "blurb": "Friday 8pm at the Lighthouse. Cover/ticket not confirmed on the venue page \u2014 check before you go."
+      "blurb": "Friday 8pm at the Lighthouse. Cover/ticket not confirmed on the venue page — check before you go."
     },
     {
       "slug": "landen-tusi-mom-said-yes-2026-09-11",
@@ -554,7 +554,7 @@
       "cost": "$7.18",
       "audience": "Anyone",
       "url": "https://momsaidyes.live/event/landen-tusi-at-mom-said-yes-pizza-live-music-torrance-sep-11/",
-      "blurb": "Friday 8:30\u201311:30pm live music. About $7.18 ($5 + fees). Same night as Knack and Torrance Comedy Underground."
+      "blurb": "Friday 8:30–11:30pm live music. About $7.18 ($5 + fees). Same night as Knack and Torrance Comedy Underground."
     },
     {
       "slug": "dj-miko-strandbar-2026-09-11",
@@ -568,7 +568,7 @@
       "cost": "",
       "audience": "Adults",
       "url": "https://thestrandhousemb.com/the-strand-bar/",
-      "blurb": "Friday 9:30pm\u2013close."
+      "blurb": "Friday 9:30pm–close."
     },
     {
       "slug": "south-bay-mediterranean-food-festival-2026-09-12",
@@ -582,7 +582,7 @@
       "cost": "Free admission",
       "audience": "Anyone",
       "url": "https://www.eventbrite.com/e/south-bay-mediterranean-food-festival-tickets-1994624756340",
-      "blurb": "Saturday 11am\u20137pm. Free admission; food and drinks for purchase."
+      "blurb": "Saturday 11am–7pm. Free admission; food and drinks for purchase."
     },
     {
       "slug": "lassie-come-home-otmh-2026-09-12",
@@ -610,7 +610,7 @@
       "cost": "Ticketed",
       "audience": "Anyone",
       "url": "https://charisandgroovesatshow.eventbrite.com",
-      "blurb": "Saturday 4\u20137pm. Disco/funk daytime. 21+. Tickets on Eventbrite."
+      "blurb": "Saturday 4–7pm. Disco/funk daytime. 21+. Tickets on Eventbrite."
     },
     {
       "slug": "selena-experience-columbia-park-2026-09-12",
@@ -624,7 +624,7 @@
       "cost": "Free",
       "audience": "Anyone",
       "url": "",
-      "blurb": "Hispanic Heritage Festival. Saturday 5\u20136:30pm."
+      "blurb": "Hispanic Heritage Festival. Saturday 5–6:30pm."
     },
     {
       "slug": "movies-at-the-beach-pirates-2026-09-12",
@@ -677,7 +677,7 @@
       "venue": "Deep End Live",
       "address": "100 Fisherman's Wharf, Redondo Beach, CA 90277",
       "category": "Music",
-      "cost": "$30.39\u2013$57.75",
+      "cost": "$30.39–$57.75",
       "audience": "Adults",
       "url": "https://deependlive.com/",
       "blurb": "Doors 7, show 8pm. 21+."
@@ -694,7 +694,7 @@
       "cost": "",
       "audience": "Adults",
       "url": "https://thestrandhousemb.com/the-strand-bar/",
-      "blurb": "Saturday 9:30pm\u2013close."
+      "blurb": "Saturday 9:30pm–close."
     },
     {
       "slug": "redondo-beach-swim-the-avenues-2026-09-13",
@@ -708,7 +708,7 @@
       "cost": "Free to watch",
       "audience": "Anyone",
       "url": "https://runsignup.com/Race/CA/RedondoBeach/RedondoBeachSwimTheAvenues",
-      "blurb": "Half-mile 8am; 1.2mi about 8:25. Entry about $59\u201370. Free to watch from Miramar Park."
+      "blurb": "Half-mile 8am; 1.2mi about 8:25. Entry about $59–70. Free to watch from Miramar Park."
     },
     {
       "slug": "riviera-village-farmers-market-2026-09-13",
@@ -722,7 +722,7 @@
       "cost": "Free",
       "audience": "Anyone",
       "url": "https://rivieravillage.net/eventer/farmers-market-2/",
-      "blurb": "Sunday market in Riviera Village. Produce and stalls steps from the beach. 8:30am\u20131pm."
+      "blurb": "Sunday market in Riviera Village. Produce and stalls steps from the beach. 8:30am–1pm."
     },
     {
       "slug": "twisted-gypsy-lighthouse-2026-09-13",
@@ -736,7 +736,7 @@
       "cost": "Ticketed",
       "audience": "Anyone",
       "url": "https://twistedgypsysundayshow.eventbrite.com",
-      "blurb": "Sunday 2\u20135pm. Fleetwood Mac reimagined. 21+. Tickets on Eventbrite."
+      "blurb": "Sunday 2–5pm. Fleetwood Mac reimagined. 21+. Tickets on Eventbrite."
     },
     {
       "slug": "dj-british-strandbar-2026-09-13",
@@ -750,7 +750,7 @@
       "cost": "",
       "audience": "Adults",
       "url": "https://thestrandhousemb.com/the-strand-bar/",
-      "blurb": "Sunday 2:30\u20136pm at StrandBar."
+      "blurb": "Sunday 2:30–6pm at StrandBar."
     },
     {
       "slug": "more-the-merrier-otmh-2026-09-13",
@@ -806,7 +806,7 @@
       "cost": "Free",
       "audience": "Anyone",
       "url": "https://downtownmanhattanbeach.com/manhattan-beach-farmers-market",
-      "blurb": "Tuesday 11am\u20133pm."
+      "blurb": "Tuesday 11am–3pm."
     },
     {
       "slug": "tuesday-trivia-hermosa-brewing-torrance-2026-09-15",
@@ -834,7 +834,7 @@
       "cost": "Free",
       "audience": "Anyone",
       "url": "https://brewporttaphouse.com/calendar/",
-      "blurb": "Tuesday 7\u20138pm. Weekly. Free."
+      "blurb": "Tuesday 7–8pm. Weekly. Free."
     },
     {
       "slug": "north-redondo-farmers-market-2026-09-16",
@@ -848,7 +848,7 @@
       "cost": "Free",
       "audience": "Anyone",
       "url": "https://nrbfarmersmarket.org",
-      "blurb": "Wednesday 2\u20137pm by North Branch Library."
+      "blurb": "Wednesday 2–7pm by North Branch Library."
     },
     {
       "slug": "boots-cobra-cowboy-deep-end-2026-09-16",
@@ -859,7 +859,7 @@
       "venue": "Deep End Live",
       "address": "100 Fisherman's Wharf, Redondo Beach, CA 90277",
       "category": "Music",
-      "cost": "$10.95\u2013$12.15",
+      "cost": "$10.95–$12.15",
       "audience": "Adults",
       "url": "https://deependlive.com/",
       "blurb": "Wednesday country night. Doors 6:30, show 7:30pm. 21+."
@@ -890,7 +890,7 @@
       "cost": "Free",
       "audience": "Anyone",
       "url": "https://www.redondo.gov/departments/community_services/classes_and_activities/farmers_market.php",
-      "blurb": "Thursday 8am\u20131pm at Veterans Park by the pier. Recurring; Sep 17 on next week."
+      "blurb": "Thursday 8am–1pm at Veterans Park by the pier. Recurring; Sep 17 on next week."
     },
     {
       "slug": "manhattan-village-farmers-market-2026-09-17",
@@ -904,7 +904,7 @@
       "cost": "Free",
       "audience": "Anyone",
       "url": "",
-      "blurb": "Thursday 2\u20137pm next to Anthropologie. Time as listed until the mall confirms."
+      "blurb": "Thursday 2–7pm next to Anthropologie. Time as listed until the mall confirms."
     },
     {
       "slug": "el-segundo-farmers-market-2026-09-17",
@@ -918,7 +918,7 @@
       "cost": "Free",
       "audience": "Anyone",
       "url": "",
-      "blurb": "Thursday 3\u20137pm, 300 block Main."
+      "blurb": "Thursday 3–7pm, 300 block Main."
     },
     {
       "slug": "sunset-comedy-redondo-library-2026-09-17",
@@ -929,10 +929,10 @@
       "venue": "Redondo Beach Historic Library",
       "address": "309 Esplanade, Redondo Beach, CA 90277",
       "category": "Comedy",
-      "cost": "~$34\u201345",
+      "cost": "~$34–45",
       "audience": "Adults",
       "url": "https://www.eventbrite.com/e/sunset-comedy-at-the-redondo-beach-historic-library-tickets-1997857598859",
-      "blurb": "Doors/happy hour 5:30; show 7:30\u20139. About $34\u201345."
+      "blurb": "Doors/happy hour 5:30; show 7:30–9. About $34–45."
     },
     {
       "slug": "chad-daniels-cmc-2026-09-17",
@@ -960,7 +960,21 @@
       "cost": "Free",
       "audience": "Anyone",
       "url": "https://hermosabeachfarmersmarket.org",
-      "blurb": "Friday noon\u20134."
+      "blurb": "Friday noon–4."
+    },
+    {
+      "slug": "ukulele-festival-feng-e-2026-09-18",
+      "title": "LA International Ukulele Festival: Feng E",
+      "start": "2026-09-18T19:00:00-07:00",
+      "end": null,
+      "city": "Torrance",
+      "venue": "Torrance Cultural Arts Center",
+      "address": "3330 Civic Center Dr, Torrance, CA 90503",
+      "category": "Music",
+      "cost": "$40",
+      "audience": "Anyone",
+      "url": "https://Ukulele.LA",
+      "blurb": "Friday 7pm Feng E solo. $40. Opening night of the LA International Ukulele Festival."
     },
     {
       "slug": "cantina-comedy-club-king-harbor-2026-09-18",
@@ -971,10 +985,10 @@
       "venue": "Riviera Mexican Cantina",
       "address": "207 N Harbor Dr, Redondo Beach, CA 90277",
       "category": "Comedy",
-      "cost": "~$29\u201336",
+      "cost": "~$29–36",
       "audience": "Adults",
       "url": "https://www.eventbrite.com/e/the-cantina-comedy-club-at-king-harbor-tickets-1983637280504",
-      "blurb": "Doors 6:30; show 8\u20139:30. About $29\u201336."
+      "blurb": "Doors 6:30; show 8–9:30. About $29–36."
     },
     {
       "slug": "tom-rhodes-cmc-2026-09-18",
@@ -1002,7 +1016,21 @@
       "cost": "Limited free tickets",
       "audience": "Adults",
       "url": "https://fridayyachtrock.eventbrite.com",
-      "blurb": "Friday 8\u201311pm yacht rock. Limited free tickets; arrive by 7:30 for free-ticket entry. 21+."
+      "blurb": "Friday 8–11pm yacht rock. Limited free tickets; arrive by 7:30 for free-ticket entry. 21+."
+    },
+    {
+      "slug": "the-reactors-mom-said-yes-2026-09-18",
+      "title": "The Reactors",
+      "start": "2026-09-18T20:30:00-07:00",
+      "end": "2026-09-18T23:30:00-07:00",
+      "city": "Torrance",
+      "venue": "Mom Said Yes Pizza",
+      "address": "4525 Calle Mayor, Torrance, CA 90505",
+      "category": "Music",
+      "cost": "$7.18",
+      "audience": "Anyone",
+      "url": "https://momsaidyes.live/event/the-reactors-at-mom-said-yes-pizza-live-music-torrance-sep-18/",
+      "blurb": "Friday 8:30–11:30pm live music. About $7.18 ($5 + fees)."
     },
     {
       "slug": "beach-goth-deep-end-2026-09-18",
@@ -1013,7 +1041,7 @@
       "venue": "Deep End Live",
       "address": "100 Fisherman's Wharf, Redondo Beach, CA 90277",
       "category": "Music",
-      "cost": "$10.95\u2013$24.15",
+      "cost": "$10.95–$24.15",
       "audience": "Adults",
       "url": "https://deependlive.com/",
       "blurb": "Doors 8, show 9pm. 21+."
@@ -1030,7 +1058,7 @@
       "cost": "",
       "audience": "Adults",
       "url": "https://thestrandhousemb.com/the-strand-bar/",
-      "blurb": "Friday 9:30pm\u2013close. Cover unpublished."
+      "blurb": "Friday 9:30pm–close. Cover unpublished."
     },
     {
       "slug": "coastal-cleanup-hermosa-2026-09-19",
@@ -1044,7 +1072,21 @@
       "cost": "Free",
       "audience": "Anyone",
       "url": "",
-      "blurb": "Saturday 9am\u201312pm volunteer cleanup. Heal the Bay / Coastal Commission."
+      "blurb": "Saturday 9am–12pm volunteer cleanup. Heal the Bay / Coastal Commission."
+    },
+    {
+      "slug": "cbva-marine-ave-2026-09-19",
+      "title": "CBVA Marine Ave",
+      "start": "2026-09-19T09:00:00-07:00",
+      "end": null,
+      "city": "Manhattan",
+      "venue": "Marine Ave courts",
+      "address": "Marine Ave, Manhattan Beach, CA 90266",
+      "category": "Other",
+      "cost": "Free to watch",
+      "audience": "Anyone",
+      "url": "https://cbva.com/tournaments",
+      "blurb": "Saturday ~9am Men’s B and Women’s A. Free to watch."
     },
     {
       "slug": "coastal-cleanup-manhattan-2026-09-19",
@@ -1058,7 +1100,21 @@
       "cost": "Free",
       "audience": "Anyone",
       "url": "https://roundhouseaquarium.org/ccd/",
-      "blurb": "Saturday 9am\u201312pm volunteer cleanup at the pier and Roundhouse. Free."
+      "blurb": "Saturday 9am–12pm volunteer cleanup at the pier and Roundhouse. Free."
+    },
+    {
+      "slug": "ukulele-festival-main-day-2026-09-19",
+      "title": "LA International Ukulele Festival",
+      "start": "2026-09-19T10:00:00-07:00",
+      "end": "2026-09-19T17:00:00-07:00",
+      "city": "Torrance",
+      "venue": "Torrance Cultural Arts Center",
+      "address": "3330 Civic Center Dr, Torrance, CA 90503",
+      "category": "Music",
+      "cost": "Free–$59",
+      "audience": "Anyone",
+      "url": "https://Ukulele.LA",
+      "blurb": "Saturday 10am–5pm main day. Marketplace is free; performances $29; all-access $59."
     },
     {
       "slug": "mr-hulots-holiday-otmh-2026-09-19",
@@ -1086,7 +1142,7 @@
       "cost": "Ticketed",
       "audience": "Adults",
       "url": "https://spazmaticshermosabeach.eventbrite.com",
-      "blurb": "Saturday 4\u20137pm. 80s set. 21+."
+      "blurb": "Saturday 4–7pm. 80s set. 21+."
     },
     {
       "slug": "movies-at-the-beach-10-things-2026-09-19",
@@ -1139,14 +1195,14 @@
       "venue": "Deep End Live",
       "address": "100 Fisherman's Wharf, Redondo Beach, CA 90277",
       "category": "Music",
-      "cost": "$23.91\u2013$50.55",
+      "cost": "$23.91–$50.55",
       "audience": "Adults",
       "url": "https://deependlive.com/event/big-mountain/deep-end-live/redondo-beach-california/",
       "blurb": "Doors 7, show 8pm. Latchkey Kid opens. 21+."
     },
     {
-      "slug": "lighthouse-tbd-2026-09-19",
-      "title": "TBD",
+      "slug": "genxstatic-lighthouse-2026-09-19",
+      "title": "GenXstatic",
       "start": "2026-09-19T20:00:00-07:00",
       "end": null,
       "city": "Hermosa",
@@ -1156,7 +1212,7 @@
       "cost": "",
       "audience": "Adults",
       "url": "https://www.thelighthousecafe.net/",
-      "blurb": "Saturday 8pm at the Lighthouse. Band TBA. Cover not listed. 21+."
+      "blurb": "Saturday 8pm at the Lighthouse. Cover not listed. 21+."
     },
     {
       "slug": "dj-shibuya-strandbar-2026-09-19",
@@ -1170,7 +1226,7 @@
       "cost": "",
       "audience": "Adults",
       "url": "https://thestrandhousemb.com/the-strand-bar/",
-      "blurb": "Saturday 9:30pm\u2013close. Cover unpublished."
+      "blurb": "Saturday 9:30pm–close. Cover unpublished."
     },
     {
       "slug": "riviera-village-farmers-market-2026-09-20",
@@ -1184,7 +1240,21 @@
       "cost": "Free",
       "audience": "Anyone",
       "url": "https://rivieravillage.net/eventer/farmers-market-2/",
-      "blurb": "Sunday market in Riviera Village. About 8:30am\u20131pm."
+      "blurb": "Sunday market in Riviera Village. About 8:30am–1pm."
+    },
+    {
+      "slug": "cbva-marine-ave-2026-09-20",
+      "title": "CBVA Marine Ave",
+      "start": "2026-09-20T09:00:00-07:00",
+      "end": null,
+      "city": "Manhattan",
+      "venue": "Marine Ave courts",
+      "address": "Marine Ave, Manhattan Beach, CA 90266",
+      "category": "Other",
+      "cost": "Free to watch",
+      "audience": "Anyone",
+      "url": "https://cbva.com/tournaments",
+      "blurb": "Sunday ~9am Men’s AA and Women’s AA. Free to watch."
     },
     {
       "slug": "south-bay-swim-mental-health-2026-09-20",
@@ -1212,7 +1282,7 @@
       "cost": "",
       "audience": "Adults",
       "url": "https://thestrandhousemb.com/the-strand-bar/",
-      "blurb": "Sunday 2:30\u20136pm at StrandBar. Cover unpublished."
+      "blurb": "Sunday 2:30–6pm at StrandBar. Cover unpublished."
     },
     {
       "slug": "abba-la-lighthouse-2026-09-20",
