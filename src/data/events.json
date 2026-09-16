@@ -873,10 +873,10 @@
       "venue": "Comedy & Magic Club",
       "address": "1018 Hermosa Ave, Hermosa Beach, CA 90254",
       "category": "Comedy",
-      "cost": "Sold Out",
+      "cost": "$32",
       "audience": "Adults",
       "url": "https://thecomedyandmagicclub.com/event/alfred-robles-3/the-comedy-magic-club/hermosa-beach-california/",
-      "blurb": "Doors 6:30, show 8pm. 18+. Sold out."
+      "blurb": "Doors 6:30, show 8pm. 18+."
     },
     {
       "slug": "redondo-beach-farmers-market-2026-09-17",
@@ -922,7 +922,7 @@
     },
     {
       "slug": "sunset-comedy-redondo-library-2026-09-17",
-      "title": "Sunset Comedy at the Redondo Beach Historic Library",
+      "title": "Sunset Comedy: Craig Shoemaker",
       "start": "2026-09-17T19:30:00-07:00",
       "end": "2026-09-17T21:00:00-07:00",
       "city": "Redondo",
@@ -932,7 +932,7 @@
       "cost": "~$34–45",
       "audience": "Adults",
       "url": "https://www.eventbrite.com/e/sunset-comedy-at-the-redondo-beach-historic-library-tickets-1997857598859",
-      "blurb": "Doors/happy hour 5:30; show 7:30–9. About $34–45."
+      "blurb": "Cocktail hour 5:30; show 7:30–9. Headliner Craig Shoemaker, with Rob Smallwood, Liz Blanc, and Scott Ibarra; host Sean Leary. About $34–45. 18+."
     },
     {
       "slug": "chad-daniels-cmc-2026-09-17",
@@ -1073,20 +1073,6 @@
       "audience": "Adults",
       "url": "https://thestrandhousemb.com/the-strand-bar/",
       "blurb": "Friday 9:30pm–close. Cover unpublished."
-    },
-    {
-      "slug": "cbva-marine-ave-2026-09-19",
-      "title": "CBVA Marine Ave",
-      "start": "2026-09-19T09:00:00-07:00",
-      "end": null,
-      "city": "Manhattan",
-      "venue": "Marine Ave courts",
-      "address": "Marine Ave, Manhattan Beach, CA 90266",
-      "category": "Other",
-      "cost": "Free to watch",
-      "audience": "Anyone",
-      "url": "https://cbva.com/tournaments",
-      "blurb": "Saturday ~9am Men’s B and Women’s A. Free to watch."
     },
     {
       "slug": "coastal-cleanup-hermosa-2026-09-19",
@@ -1271,18 +1257,32 @@
       "blurb": "Sunday open-water swim/paddle for youth mental health. Check-in ~7:30am, start 8:30am. 1-mile / 5K / 10K. Not a timed race."
     },
     {
-      "slug": "cbva-marine-ave-2026-09-20",
-      "title": "CBVA Marine Ave",
-      "start": "2026-09-20T09:00:00-07:00",
-      "end": null,
-      "city": "Manhattan",
-      "venue": "Marine Ave courts",
-      "address": "Marine Ave, Manhattan Beach, CA 90266",
-      "category": "Other",
-      "cost": "Free to watch",
+      "slug": "ukulele-festival-brunch-2026-09-20",
+      "title": "LA International Ukulele Festival: Sunday Brunch",
+      "start": "2026-09-20T10:00:00-07:00",
+      "end": "2026-09-20T13:00:00-07:00",
+      "city": "Torrance",
+      "venue": "Torrance Cultural Arts Center",
+      "address": "3330 Civic Center Dr, Torrance, CA 90503",
+      "category": "Music",
+      "cost": "$69",
       "audience": "Anyone",
-      "url": "https://cbva.com/tournaments",
-      "blurb": "Sunday ~9am Men’s AA and Women’s AA. Free to watch."
+      "url": "https://Ukulele.LA",
+      "blurb": "Sunday 10am–1pm brunch. $69. Closes the festival weekend with afternoon Langley Ensemble also on the board."
+    },
+    {
+      "slug": "langley-ukulele-ensemble-2026-09-20",
+      "title": "Langley Ukulele Ensemble",
+      "start": "2026-09-20T14:00:00-07:00",
+      "end": null,
+      "city": "Torrance",
+      "venue": "Torrance Cultural Arts Center",
+      "address": "3330 Civic Center Dr, Torrance, CA 90503",
+      "category": "Music",
+      "cost": "$25–35",
+      "audience": "Anyone",
+      "url": "https://Ukulele.LA",
+      "blurb": "Sunday 2pm. $25–35. Closes the LA International Ukulele Festival weekend."
     },
     {
       "slug": "dj-british-strandbar-2026-09-20",
@@ -1381,6 +1381,20 @@
       "audience": "Anyone",
       "url": "https://nrbfarmersmarket.org",
       "blurb": "Wednesday 2–7pm by North Branch Library."
+    },
+    {
+      "slug": "boots-cobra-cowboy-deep-end-2026-09-23",
+      "title": "Boots on the Pier ft. Cobra Cowboy",
+      "start": "2026-09-23T20:00:00-07:00",
+      "end": null,
+      "city": "Redondo",
+      "venue": "Deep End Live",
+      "address": "100 Fisherman's Wharf, Redondo Beach, CA 90277",
+      "category": "Music",
+      "cost": "$10.95–$12.15",
+      "audience": "Adults",
+      "url": "https://deependlive.com/",
+      "blurb": "Wednesday country night. Doors 7, show 8pm. 21+."
     },
     {
       "slug": "paul-reiser-cmc-2026-09-23",
@@ -1647,6 +1661,20 @@
       "audience": "Adults",
       "url": "https://thestrandhousemb.com/the-strand-bar/",
       "blurb": "Saturday 9:30pm–close. Cover unpublished."
+    },
+    {
+      "slug": "torrance-antique-street-faire-2026-09-27",
+      "title": "Downtown Torrance Antique Street Faire",
+      "start": "2026-09-27T08:00:00-07:00",
+      "end": "2026-09-27T15:00:00-07:00",
+      "city": "Torrance",
+      "venue": "Downtown Torrance",
+      "address": "1317 Sartori Ave, Torrance, CA 90501",
+      "category": "Other",
+      "cost": "Free",
+      "audience": "Anyone",
+      "url": "https://www.torranceca.gov/",
+      "blurb": "Sunday 8am–3pm downtown Torrance. Free."
     },
     {
       "slug": "riviera-village-farmers-market-2026-09-27",
