@@ -1103,6 +1103,20 @@
       "blurb": "Saturday 9am–12pm volunteer cleanup at the pier and Roundhouse. Free."
     },
     {
+      "slug": "redondo-beach-market-catalina-2026-09-19",
+      "title": "Redondo Beach Market",
+      "start": "2026-09-19T09:00:00-07:00",
+      "end": "2026-09-19T15:00:00-07:00",
+      "city": "Redondo",
+      "venue": "503 S Catalina Ave",
+      "address": "503 S Catalina Ave, Redondo Beach, CA 90277",
+      "category": "Market",
+      "cost": "Free",
+      "audience": "Anyone",
+      "url": "https://livesouthbaylocal.com/blog/redondo-beach-market-on-catalina-avenue",
+      "blurb": "Saturday 9am–3pm on Catalina Avenue. Makers, vintage, art, jewelry, and live music. Free. Not the pier farmers market."
+    },
+    {
       "slug": "ukulele-festival-main-day-2026-09-19",
       "title": "LA International Ukulele Festival",
       "start": "2026-09-19T10:00:00-07:00",
