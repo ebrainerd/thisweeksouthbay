@@ -1016,7 +1016,7 @@
       "cost": "$27",
       "audience": "Adults",
       "url": "https://thecomedyandmagicclub.com",
-      "blurb": "Doors 6:30, show 8pm. 18+. Billed as Tom Rhodes and more."
+      "blurb": "Doors 6:30, show 8pm. 18+. Lineup: Tom Rhodes, Dauood Naimyar, Kaycee Conlee, Eddie Ifft, Jay Phillips."
     },
     {
       "slug": "yachtzee-lighthouse-2026-09-18",
@@ -1131,6 +1131,20 @@
       "blurb": "Saturday 2:30pm. Mighty Wurlitzer. About $12."
     },
     {
+      "slug": "made-in-south-bay-destination-art-2026-09-19",
+      "title": "Made in the South Bay: Reception & Artists’ Talk",
+      "start": "2026-09-19T15:00:00-07:00",
+      "end": "2026-09-19T17:00:00-07:00",
+      "city": "Torrance",
+      "venue": "Destination: Art",
+      "address": "1815 W 213th St #135, Torrance, CA 90501",
+      "category": "Other",
+      "cost": "Free",
+      "audience": "Anyone",
+      "url": "https://www.destination-art.net/made-in-the-south-bay-2026",
+      "blurb": "Saturday 3–5pm reception and artists’ talk. Free."
+    },
+    {
       "slug": "spazmatics-lighthouse-2026-09-19",
       "title": "Spazmatics",
       "start": "2026-09-19T16:00:00-07:00",
@@ -1213,6 +1227,20 @@
       "audience": "Adults",
       "url": "https://www.thelighthousecafe.net/",
       "blurb": "Saturday 8pm at the Lighthouse. Cover not listed. 21+."
+    },
+    {
+      "slug": "midlife-cowboy-mom-said-yes-2026-09-19",
+      "title": "MidLife Cowboy",
+      "start": "2026-09-19T20:30:00-07:00",
+      "end": "2026-09-19T23:30:00-07:00",
+      "city": "Torrance",
+      "venue": "Mom Said Yes Pizza",
+      "address": "4525 Calle Mayor, Torrance, CA 90505",
+      "category": "Music",
+      "cost": "$7.18",
+      "audience": "Anyone",
+      "url": "https://momsaidyes.live/event/midlife-cowboy-at-mom-said-yes-pizza-live-music-torrance-sep-19/",
+      "blurb": "Saturday 8:30–11:30pm live music. About $7.18 ($5 + fees)."
     },
     {
       "slug": "dj-shibuya-strandbar-2026-09-19",
@@ -1323,8 +1351,8 @@
       "category": "Music",
       "cost": "Free",
       "audience": "Anyone",
-      "url": "",
-      "blurb": "Sunday 3pm. Lineup TBA."
+      "url": "https://www.hermosabeach.gov/our-government/city-departments/parks-recreation/hermosa-beach-concert-series",
+      "blurb": "Sunday 3pm on the sand south of the pier. Free. Opener The Lucky Effect (South Bay Music Connection); headliner Cubensis."
     },
     {
       "slug": "jay-leno-cmc-2026-09-20",
@@ -1383,9 +1411,9 @@
       "blurb": "Wednesday 2–7pm by North Branch Library."
     },
     {
-      "slug": "boots-cobra-cowboy-deep-end-2026-09-23",
-      "title": "Boots on the Pier ft. Cobra Cowboy",
-      "start": "2026-09-23T20:00:00-07:00",
+      "slug": "boots-ghost-town-dancing-deep-end-2026-09-23",
+      "title": "Boots on the Pier ft. Ghost Town Dancing",
+      "start": "2026-09-23T19:30:00-07:00",
       "end": null,
       "city": "Redondo",
       "venue": "Deep End Live",
@@ -1394,7 +1422,7 @@
       "cost": "$10.95–$12.15",
       "audience": "Adults",
       "url": "https://deependlive.com/",
-      "blurb": "Wednesday country night. Doors 7, show 8pm. 21+."
+      "blurb": "Wednesday country night. Doors 6:30, show 7:30pm. 21+."
     },
     {
       "slug": "paul-reiser-cmc-2026-09-23",
