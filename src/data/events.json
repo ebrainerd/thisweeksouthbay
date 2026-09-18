@@ -971,10 +971,10 @@
       "venue": "South Coast Botanic Garden",
       "address": "26300 Crenshaw Blvd, Palos Verdes Peninsula, CA 90274",
       "category": "Other",
-      "cost": "From ~$25.99",
+      "cost": "Adults ~$29.99 / kids ~$24.99",
       "audience": "Anyone",
       "url": "https://magicofthejackolanterns.com/la/",
-      "blurb": "Select nights Fri–Sun Sep 18–20 at South Coast Botanic Garden. Evening timed entry — check their calendar for each night. Tickets from about $25.99 incl. fees (prices vary by night). Palos Verdes; worth the drive."
+      "blurb": "Select nights Fri–Sun Sep 18–20 at South Coast Botanic Garden. Evening timed entry — check their calendar for each night. Adults about $29.99 / kids about $24.99 on select nights. Palos Verdes; worth the drive."
     },
     {
       "slug": "ukulele-festival-feng-e-2026-09-18",
@@ -1075,24 +1075,38 @@
       "blurb": "Friday 9:30pm–close. Cover unpublished."
     },
     {
+      "slug": "cbva-marine-ave-2026-09-19",
+      "title": "CBVA Marine Ave",
+      "start": "2026-09-19T09:00:00-07:00",
+      "end": null,
+      "city": "Manhattan",
+      "venue": "Marine Ave courts",
+      "address": "Marine Ave, Manhattan Beach, CA 90266",
+      "category": "Other",
+      "cost": "Free to watch",
+      "audience": "Anyone",
+      "url": "https://cbva.com/tournaments/4736",
+      "blurb": "Saturday ~9am Men’s B / Women’s A (check-in 8:30). Spectator free; registration full/closed."
+    },
+    {
       "slug": "coastal-cleanup-hermosa-2026-09-19",
       "title": "Coastal Cleanup Day",
       "start": "2026-09-19T09:00:00-07:00",
-      "end": "2026-09-19T12:00:00-07:00",
+      "end": "2026-09-19T13:00:00-07:00",
       "city": "Hermosa",
       "venue": "Hermosa Pier",
       "address": "1 Pier Ave, Hermosa Beach, CA 90254",
       "category": "Other",
       "cost": "Free",
       "audience": "Anyone",
-      "url": "",
-      "blurb": "Saturday 9am–12pm volunteer cleanup. Heal the Bay / Coastal Commission."
+      "url": "https://healthebay.org/event/coastal-clean-up-day-2026/",
+      "blurb": "Saturday 9am–1pm volunteer cleanup. Heal the Bay / Coastal Commission."
     },
     {
       "slug": "coastal-cleanup-manhattan-2026-09-19",
       "title": "Coastal Cleanup Day Manhattan Beach",
       "start": "2026-09-19T09:00:00-07:00",
-      "end": "2026-09-19T12:00:00-07:00",
+      "end": "2026-09-19T13:00:00-07:00",
       "city": "Manhattan",
       "venue": "MB Pier / Roundhouse",
       "address": "1400 The Strand, Manhattan Beach, CA 90266",
@@ -1100,7 +1114,7 @@
       "cost": "Free",
       "audience": "Anyone",
       "url": "https://roundhouseaquarium.org/ccd/",
-      "blurb": "Saturday 9am–12pm volunteer cleanup at the pier and Roundhouse. Free."
+      "blurb": "Saturday 9am–1pm volunteer cleanup at the pier and Roundhouse. Free."
     },
     {
       "slug": "redondo-beach-market-catalina-2026-09-19",
@@ -1215,6 +1229,20 @@
       "blurb": "Saturday 7pm. Mighty Wurlitzer. About $12."
     },
     {
+      "slug": "10-comics-show-cmc-2026-09-19",
+      "title": "10 Comics Show",
+      "start": "2026-09-19T20:00:00-07:00",
+      "end": null,
+      "city": "Hermosa",
+      "venue": "Comedy & Magic Club",
+      "address": "1018 Hermosa Ave, Hermosa Beach, CA 90254",
+      "category": "Comedy",
+      "cost": "$27",
+      "audience": "Adults",
+      "url": "https://thecomedyandmagicclub.com",
+      "blurb": "Saturday doors 6:30, show 8pm. $27. 18+."
+    },
+    {
       "slug": "big-mountain-deep-end-2026-09-19",
       "title": "Big Mountain w/ Latchkey Kid",
       "start": "2026-09-19T20:00:00-07:00",
@@ -1251,10 +1279,10 @@
       "venue": "Mom Said Yes Pizza",
       "address": "4525 Calle Mayor, Torrance, CA 90505",
       "category": "Music",
-      "cost": "$7.18",
+      "cost": "~$5+fees",
       "audience": "Anyone",
       "url": "https://momsaidyes.live/event/midlife-cowboy-at-mom-said-yes-pizza-live-music-torrance-sep-19/",
-      "blurb": "Saturday 8:30–11:30pm live music. About $7.18 ($5 + fees)."
+      "blurb": "Saturday 8:30–11:30pm. About $5 + fees."
     },
     {
       "slug": "dj-shibuya-strandbar-2026-09-19",
@@ -1297,6 +1325,20 @@
       "audience": "Anyone",
       "url": "https://www.mindbodyocean.com/",
       "blurb": "Sunday open-water swim/paddle for youth mental health. Check-in ~7:30am, start 8:30am. 1-mile / 5K / 10K. Not a timed race."
+    },
+    {
+      "slug": "cbva-marine-ave-2026-09-20",
+      "title": "CBVA Marine Ave",
+      "start": "2026-09-20T09:00:00-07:00",
+      "end": null,
+      "city": "Manhattan",
+      "venue": "Marine Ave courts",
+      "address": "Marine Ave, Manhattan Beach, CA 90266",
+      "category": "Other",
+      "cost": "Free to watch",
+      "audience": "Anyone",
+      "url": "https://cbva.com/tournaments/4739",
+      "blurb": "Sunday ~9am Men’s AA / Women’s AA. Spectator free; registration full/closed."
     },
     {
       "slug": "ukulele-festival-brunch-2026-09-20",
@@ -1531,10 +1573,10 @@
       "venue": "South Coast Botanic Garden",
       "address": "26300 Crenshaw Blvd, Palos Verdes Peninsula, CA 90274",
       "category": "Other",
-      "cost": "From ~$25.99",
+      "cost": "Adults ~$29.99 / kids ~$24.99",
       "audience": "Anyone",
       "url": "https://magicofthejackolanterns.com/la/",
-      "blurb": "Select nights Fri–Sun Sep 25–27. Sunday Sep 27 is Low Sensory Night (reduced strobe/fog). Evening timed entry — check calendar. Tickets from about $25.99 incl. fees. Palos Verdes; worth the drive."
+      "blurb": "Select nights Fri–Sun Sep 25–27. Sunday Sep 27 is Low Sensory Night (reduced strobe/fog). Evening timed entry — check calendar. Adults about $29.99 / kids about $24.99 on select nights. Palos Verdes; worth the drive."
     },
     {
       "slug": "mb-food-wine-opening-2026-09-25",
@@ -1549,6 +1591,20 @@
       "audience": "Adults",
       "url": "https://www.manhattanbeachfoodandwine.com/events",
       "blurb": "Friday 7–10pm (VIP 6pm) at westdrift. 21+. Ticketed."
+    },
+    {
+      "slug": "10-comics-show-cmc-2026-09-25",
+      "title": "10 Comics Show",
+      "start": "2026-09-25T20:00:00-07:00",
+      "end": null,
+      "city": "Hermosa",
+      "venue": "Comedy & Magic Club",
+      "address": "1018 Hermosa Ave, Hermosa Beach, CA 90254",
+      "category": "Comedy",
+      "cost": "$27",
+      "audience": "Adults",
+      "url": "https://thecomedyandmagicclub.com",
+      "blurb": "Friday doors 6:30, show 8pm. $27. 18+."
     },
     {
       "slug": "becoming-a-hero-lighthouse-2026-09-25",
@@ -1621,6 +1677,20 @@
       "blurb": "Saturday 2:30pm. 3-D. Mighty Wurlitzer. About $12."
     },
     {
+      "slug": "creative-babe-enclave-popup-2026-09-26",
+      "title": "Creative Babe Taylor Swift Pop-Up Market",
+      "start": "2026-09-26T16:00:00-07:00",
+      "end": "2026-09-26T20:00:00-07:00",
+      "city": "Torrance",
+      "venue": "The Enclave",
+      "address": "970 W 190th St, Torrance, CA 90502",
+      "category": "Market",
+      "cost": "Free",
+      "audience": "Anyone",
+      "url": "https://allevents.in/torrance/creative-babe-taylor-swift-pop-up-market-the-enclave/200030666730704",
+      "blurb": "Saturday 4–8pm at The Enclave. Free. 50+ vendors. Address listed as ~970/980 W 190th St — confirm on arrival."
+    },
+    {
       "slug": "flux-capacitors-lighthouse-2026-09-26",
       "title": "Flux Capacitors",
       "start": "2026-09-26T16:00:00-07:00",
@@ -1663,6 +1733,20 @@
       "blurb": "Saturday 7pm. 3-D. Mighty Wurlitzer. About $12."
     },
     {
+      "slug": "10-comics-show-cmc-2026-09-26",
+      "title": "10 Comics Show",
+      "start": "2026-09-26T20:00:00-07:00",
+      "end": null,
+      "city": "Hermosa",
+      "venue": "Comedy & Magic Club",
+      "address": "1018 Hermosa Ave, Hermosa Beach, CA 90254",
+      "category": "Comedy",
+      "cost": "$27",
+      "audience": "Adults",
+      "url": "https://thecomedyandmagicclub.com",
+      "blurb": "Saturday doors 6:30, show 8pm. $27. 18+."
+    },
+    {
       "slug": "deadringer-lighthouse-2026-09-26",
       "title": "DeadRinger",
       "start": "2026-09-26T20:00:00-07:00",
@@ -1675,6 +1759,20 @@
       "audience": "Adults",
       "url": "https://www.thelighthousecafe.net/",
       "blurb": "Saturday 8pm at the Lighthouse. Cover unpublished. 21+."
+    },
+    {
+      "slug": "kyowa-wadaiko-armstrong-2026-09-26",
+      "title": "KYŌWA Nikyokan Wadaiko × UnitOne",
+      "start": "2026-09-26T20:00:00-07:00",
+      "end": null,
+      "city": "Torrance",
+      "venue": "Armstrong Theatre / Torrance Cultural Arts Center",
+      "address": "3330 Civic Center Dr, Torrance, CA 90503",
+      "category": "Music",
+      "cost": "$35–45",
+      "audience": "Anyone",
+      "url": "https://www.torrancearts.org/shows/kyowa",
+      "blurb": "Saturday 8pm. $35–45."
     },
     {
       "slug": "walker-roaders-deep-end-2026-09-26",
@@ -1745,6 +1843,34 @@
       "audience": "Anyone",
       "url": "https://www.mbpdk9.com/carshow",
       "blurb": "Sunday 9am–1pm. MBPD K-9 fundraiser. Free for spectators; vehicle registration about $40–60."
+    },
+    {
+      "slug": "redondo-pier-car-show-2026-09-27",
+      "title": "Redondo Pier Rods, Rides & Relics Classic Car Show",
+      "start": "2026-09-27T10:00:00-07:00",
+      "end": "2026-09-27T15:00:00-07:00",
+      "city": "Redondo",
+      "venue": "Redondo Pier / Fisherman’s Wharf",
+      "address": "100–500 Fisherman’s Wharf, Redondo Beach, CA 90277",
+      "category": "Other",
+      "cost": "Free to watch",
+      "audience": "Anyone",
+      "url": "https://redondopier.com/car-show/",
+      "blurb": "Sunday 10am–3pm on the pier. Spectator free; cars are invite-only. Separate from the MB downtown car show the same day."
+    },
+    {
+      "slug": "kyowa-wadaiko-armstrong-2026-09-27",
+      "title": "KYŌWA Nikyokan Wadaiko × UnitOne",
+      "start": "2026-09-27T13:00:00-07:00",
+      "end": null,
+      "city": "Torrance",
+      "venue": "Armstrong Theatre / Torrance Cultural Arts Center",
+      "address": "3330 Civic Center Dr, Torrance, CA 90503",
+      "category": "Music",
+      "cost": "$35–45",
+      "audience": "Anyone",
+      "url": "https://www.torrancearts.org/shows/kyowa",
+      "blurb": "Sunday 1pm. $35–45."
     },
     {
       "slug": "dj-miko-strandbar-2026-09-27",
