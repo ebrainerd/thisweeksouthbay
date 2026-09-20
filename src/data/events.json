@@ -1089,6 +1089,34 @@
       "blurb": "Saturday ~9am Men’s B / Women’s A (check-in 8:30). Spectator free; registration full/closed."
     },
     {
+      "slug": "coastal-cleanup-el-porto-2026-09-19",
+      "title": "Coastal Cleanup Day El Porto",
+      "start": "2026-09-19T09:00:00-07:00",
+      "end": "2026-09-19T12:00:00-07:00",
+      "city": "Manhattan",
+      "venue": "El Porto",
+      "address": "4500 The Strand, Manhattan Beach, CA 90266",
+      "category": "Other",
+      "cost": "Free",
+      "audience": "Anyone",
+      "url": "https://support.healthebay.org/event/coastal-cleanup-day-2026/e827864",
+      "blurb": "Saturday 9am–12pm. Free; register/waiver via Heal the Bay."
+    },
+    {
+      "slug": "coastal-cleanup-el-segundo-dockweiler-2026-09-19",
+      "title": "Coastal Cleanup Day El Segundo Beach",
+      "start": "2026-09-19T09:00:00-07:00",
+      "end": "2026-09-19T12:00:00-07:00",
+      "city": "El Segundo",
+      "venue": "Dockweiler State Beach – El Segundo Beach",
+      "address": "Vista Del Mar & W Grand Ave, El Segundo, CA 90245",
+      "category": "Other",
+      "cost": "Free",
+      "audience": "Anyone",
+      "url": "https://support.healthebay.org/event/coastal-cleanup-day-2026/e827864",
+      "blurb": "Saturday 9am–12pm (Dockweiler / El Segundo Beach). Free; register/waiver via Heal the Bay."
+    },
+    {
       "slug": "coastal-cleanup-hermosa-2026-09-19",
       "title": "Coastal Cleanup Day",
       "start": "2026-09-19T09:00:00-07:00",
@@ -1115,34 +1143,6 @@
       "audience": "Anyone",
       "url": "https://roundhouseaquarium.org/ccd/",
       "blurb": "Saturday 9am–12pm at the pier and Roundhouse. Free; register/waiver (Roundhouse / Heal the Bay)."
-    },
-    {
-      "slug": "coastal-cleanup-redondo-pier-2026-09-19",
-      "title": "Coastal Cleanup Day Redondo Pier",
-      "start": "2026-09-19T09:00:00-07:00",
-      "end": "2026-09-19T12:00:00-07:00",
-      "city": "Redondo",
-      "venue": "Redondo Pier (Southside)",
-      "address": "Fisherman's Wharf, Redondo Beach, CA 90277",
-      "category": "Other",
-      "cost": "Free",
-      "audience": "Anyone",
-      "url": "https://support.healthebay.org/event/coastal-cleanup-day-2026/e827864",
-      "blurb": "Saturday 9am–12pm south side of the pier. Free; register/waiver via Heal the Bay."
-    },
-    {
-      "slug": "coastal-cleanup-torrance-beach-2026-09-19",
-      "title": "Coastal Cleanup Day Torrance Beach",
-      "start": "2026-09-19T09:00:00-07:00",
-      "end": "2026-09-19T12:00:00-07:00",
-      "city": "Torrance",
-      "venue": "Torrance Beach",
-      "address": "201 Paseo De La Playa, Torrance, CA 90277",
-      "category": "Other",
-      "cost": "Free",
-      "audience": "Anyone",
-      "url": "https://support.healthebay.org/event/coastal-cleanup-day-2026/e827864",
-      "blurb": "Saturday 9am–12pm. Free; register/waiver via Heal the Bay."
     },
     {
       "slug": "coastal-cleanup-redondo-ave-c-2026-09-19",
@@ -1173,6 +1173,20 @@
       "blurb": "Saturday 9am–12pm. Free; register/waiver via Heal the Bay."
     },
     {
+      "slug": "coastal-cleanup-redondo-pier-2026-09-19",
+      "title": "Coastal Cleanup Day Redondo Pier",
+      "start": "2026-09-19T09:00:00-07:00",
+      "end": "2026-09-19T12:00:00-07:00",
+      "city": "Redondo",
+      "venue": "Redondo Pier (Southside)",
+      "address": "Fisherman's Wharf, Redondo Beach, CA 90277",
+      "category": "Other",
+      "cost": "Free",
+      "audience": "Anyone",
+      "url": "https://support.healthebay.org/event/coastal-cleanup-day-2026/e827864",
+      "blurb": "Saturday 9am–12pm south side of the pier. Free; register/waiver via Heal the Bay."
+    },
+    {
       "slug": "coastal-cleanup-redondo-topaz-2026-09-19",
       "title": "Coastal Cleanup Day Redondo Topaz",
       "start": "2026-09-19T09:00:00-07:00",
@@ -1187,27 +1201,13 @@
       "blurb": "Saturday 9am–12pm. Free; register/waiver via Heal the Bay."
     },
     {
-      "slug": "coastal-cleanup-el-segundo-dockweiler-2026-09-19",
-      "title": "Coastal Cleanup Day El Segundo Beach",
+      "slug": "coastal-cleanup-torrance-beach-2026-09-19",
+      "title": "Coastal Cleanup Day Torrance Beach",
       "start": "2026-09-19T09:00:00-07:00",
       "end": "2026-09-19T12:00:00-07:00",
-      "city": "El Segundo",
-      "venue": "Dockweiler State Beach – El Segundo Beach",
-      "address": "Vista Del Mar & W Grand Ave, El Segundo, CA 90245",
-      "category": "Other",
-      "cost": "Free",
-      "audience": "Anyone",
-      "url": "https://support.healthebay.org/event/coastal-cleanup-day-2026/e827864",
-      "blurb": "Saturday 9am–12pm (Dockweiler / El Segundo Beach). Free; register/waiver via Heal the Bay."
-    },
-    {
-      "slug": "coastal-cleanup-el-porto-2026-09-19",
-      "title": "Coastal Cleanup Day El Porto",
-      "start": "2026-09-19T09:00:00-07:00",
-      "end": "2026-09-19T12:00:00-07:00",
-      "city": "Manhattan",
-      "venue": "El Porto",
-      "address": "4500 The Strand, Manhattan Beach, CA 90266",
+      "city": "Torrance",
+      "venue": "Torrance Beach",
+      "address": "201 Paseo De La Playa, Torrance, CA 90277",
       "category": "Other",
       "cost": "Free",
       "audience": "Anyone",
@@ -1241,6 +1241,20 @@
       "audience": "Anyone",
       "url": "https://Ukulele.LA",
       "blurb": "Saturday 10am–5pm main day. Marketplace is free; performances $29; all-access $59."
+    },
+    {
+      "slug": "smogtoberfest-smog-city-2026-09-20",
+      "title": "Smogtoberfest",
+      "start": "2026-09-19T12:00:00-07:00",
+      "end": "2026-09-20T23:00:00-07:00",
+      "city": "Torrance",
+      "venue": "Smog City Brewing",
+      "address": "1901 Del Amo Blvd, Torrance, CA 90501",
+      "category": "Other",
+      "cost": "Free",
+      "audience": "Anyone",
+      "url": "https://www.smogcitybrewing.com/smogtoberfest-2026",
+      "blurb": "Free entry at Smog City Brewing through Sunday Sep 20. Check brewery for hours and bands each day."
     },
     {
       "slug": "mr-hulots-holiday-otmh-2026-09-19",
@@ -1349,9 +1363,9 @@
       "venue": "Deep End Live",
       "address": "100 Fisherman's Wharf, Redondo Beach, CA 90277",
       "category": "Music",
-      "cost": "$23.91–$50.55",
+      "cost": "$32.55–$56.55",
       "audience": "Adults",
-      "url": "https://deependlive.com/event/big-mountain/deep-end-live/redondo-beach-california/",
+      "url": "https://deependlive.com/",
       "blurb": "Doors 7, show 8pm. Latchkey Kid opens. 21+."
     },
     {
@@ -1467,6 +1481,20 @@
       "blurb": "Sunday 2pm. $25–35. Closes the LA International Ukulele Festival weekend."
     },
     {
+      "slug": "oktoberfest-project-barley-2026-09-20",
+      "title": "Oktoberfest w/ El Segundo Brass Band",
+      "start": "2026-09-20T14:00:00-07:00",
+      "end": null,
+      "city": "Redondo",
+      "venue": "Project Barley",
+      "address": "136 International Boardwalk, Redondo Beach, CA 90277",
+      "category": "Music",
+      "cost": "",
+      "audience": "Anyone",
+      "url": "https://projectbarley.com/events/",
+      "blurb": "Sunday 2pm. El Segundo Brass Band. Cost unlisted — check Project Barley."
+    },
+    {
       "slug": "dj-british-strandbar-2026-09-20",
       "title": "DJ British",
       "start": "2026-09-20T14:30:00-07:00",
@@ -1521,6 +1549,20 @@
       "audience": "Adults",
       "url": "https://thecomedyandmagicclub.com",
       "blurb": "Doors 5, show 7pm. 18+."
+    },
+    {
+      "slug": "silk-n-soul-heidi-tann-view-2026-09-20",
+      "title": "Silk n’ Soul: Heidi Tann Album Release",
+      "start": "2026-09-20T19:30:00-07:00",
+      "end": null,
+      "city": "Torrance",
+      "venue": "View Music Bar",
+      "address": "1431 W Knox St, Torrance, CA 90501",
+      "category": "Music",
+      "cost": "Ticketed",
+      "audience": "Anyone",
+      "url": "https://www.heiditannmusic.com/post/silk-n-soul-takes-the-stage-heidi-tann-s-album-release-party-hits-torrance",
+      "blurb": "Sunday doors 6pm, show 7:30pm. Heidi Tann album release. Ticketed — see site."
     },
     {
       "slug": "downtown-mb-farmers-market-2026-09-22",
@@ -1663,6 +1705,20 @@
       "blurb": "Friday noon–4."
     },
     {
+      "slug": "smogtoberfest-smog-city-2026-09-25",
+      "title": "Smogtoberfest",
+      "start": "2026-09-25T12:00:00-07:00",
+      "end": "2026-09-27T23:00:00-07:00",
+      "city": "Torrance",
+      "venue": "Smog City Brewing",
+      "address": "1901 Del Amo Blvd, Torrance, CA 90501",
+      "category": "Other",
+      "cost": "Free",
+      "audience": "Anyone",
+      "url": "https://www.smogcitybrewing.com/smogtoberfest-2026",
+      "blurb": "Fri–Sun Sep 25–27. Free entry at Smog City Brewing. Check brewery for hours and bands each day."
+    },
+    {
       "slug": "magic-jack-olanterns-2026-09-25",
       "title": "Magic of the Jack O'Lanterns",
       "start": "2026-09-25T19:00:00-07:00",
@@ -1719,6 +1775,20 @@
       "blurb": "Friday 8pm at the Lighthouse. Cover unpublished. 21+."
     },
     {
+      "slug": "luckiest-woman-alive-second-story-2026-09-25",
+      "title": "The Luckiest Woman Alive",
+      "start": "2026-09-25T20:00:00-07:00",
+      "end": "2026-09-27T16:00:00-07:00",
+      "city": "Hermosa",
+      "venue": "Second Story Theatre / HB Community Center",
+      "address": "710 Pier Ave, Hermosa Beach, CA 90254",
+      "category": "Other",
+      "cost": "~$25–$40 / PWYC",
+      "audience": "Anyone",
+      "url": "https://www.rimovisiongroup.org/luckiest-woman-alive",
+      "blurb": "Fri Sep 25 8pm; Sat Sep 26 2pm + 6pm; Sun Sep 27 2pm at Second Story Theatre (HB Community Center). About $25–$40 / PWYC. Also Oct 2–4 — see site."
+    },
+    {
       "slug": "guy-mantzur-deep-end-2026-09-25",
       "title": "Guy Mantzur",
       "start": "2026-09-25T21:00:00-07:00",
@@ -1759,6 +1829,34 @@
       "audience": "Anyone",
       "url": "https://elsegundokiwanis.org/main-street-fair-1",
       "blurb": "Saturday 9am–5pm downtown Main Street. Free."
+    },
+    {
+      "slug": "oktoberfest-mom-said-yes-2026-09-26",
+      "title": "Oktoberfest Torrance",
+      "start": "2026-09-26T11:00:00-07:00",
+      "end": "2026-09-26T23:00:00-07:00",
+      "city": "Torrance",
+      "venue": "Mom Said Yes Pizza",
+      "address": "4525 Calle Mayor, Torrance, CA 90505",
+      "category": "Other",
+      "cost": "Free",
+      "audience": "Anyone",
+      "url": "https://www.eventbrite.com/e/oktoberfest-torrance-2026-tickets-1999705420744",
+      "blurb": "Saturday 11am–11pm. Free entry at Mom Said Yes."
+    },
+    {
+      "slug": "king-harbor-oktoberfest-2026-09-26",
+      "title": "King Harbor Oktoberfest",
+      "start": "2026-09-26T12:00:00-07:00",
+      "end": "2026-09-27T19:00:00-07:00",
+      "city": "Redondo",
+      "venue": "King Harbor",
+      "address": "207–239 N Harbor Dr, Redondo Beach, CA 90277",
+      "category": "Other",
+      "cost": "Free",
+      "audience": "Anyone",
+      "url": "https://www.visitkingharbor.com/event-details/kha-oktoberfest-092626",
+      "blurb": "Saturday–Sunday 12–7pm. Free admission."
     },
     {
       "slug": "the-maze-otmh-2026-09-26",
@@ -1885,6 +1983,20 @@
       "audience": "Adults",
       "url": "https://deependlive.com/",
       "blurb": "Doors 7, show 8pm. 21+."
+    },
+    {
+      "slug": "groovetown-mom-said-yes-2026-09-26",
+      "title": "GrooveTown",
+      "start": "2026-09-26T20:30:00-07:00",
+      "end": "2026-09-26T23:30:00-07:00",
+      "city": "Torrance",
+      "venue": "Mom Said Yes Pizza",
+      "address": "4525 Calle Mayor, Torrance, CA 90505",
+      "category": "Music",
+      "cost": "Paid GA",
+      "audience": "Anyone",
+      "url": "https://momsaidyes.live/event/groovetown-at-mom-said-yes-pizza-live-music-torrance-sep-26/",
+      "blurb": "Saturday 8:30–11:30pm live music. Paid GA."
     },
     {
       "slug": "dj-madrabbit-strandbar-2026-09-26",
