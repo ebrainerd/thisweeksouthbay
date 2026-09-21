@@ -8,11 +8,13 @@ import Analytics from '@vercel/analytics/astro';
 interface Props {
   title: string;
   description?: string;
-  current: 'week' | 'next' | 'last' | 'about' | 'contact' | 'event' | 'city';
+  current: 'week' | 'next' | 'last' | 'about' | 'contact' | 'event' | 'city' | 'waitlist';
   canonicalPath?: string;
   ogType?: string;
   jsonLd?: object | object[] | null;
   noindex?: boolean;
+  slim?: boolean;
+  siteName?: string;
 }
 
 const SITE = 'https://www.thisweeksouthbay.com';
@@ -32,6 +34,8 @@ const {
   ogType = 'website',
   jsonLd = null,
   noindex = false,
+  slim = false,
+  siteName = 'This Week South Bay',
 } = Astro.props;
 
 const path = normalizePath(canonicalPath ?? Astro.url.pathname);
@@ -52,7 +56,7 @@ const canonicalUrl = path === '/' ? `${SITE}/` : `${SITE}${path}`;
     <meta property="og:description" content={description} />
     <meta property="og:url" content={canonicalUrl} />
     <meta property="og:type" content={ogType} />
-    <meta property="og:site_name" content="This Week South Bay" />
+    <meta property="og:site_name" content={siteName} />
     <meta property="og:locale" content="en_US" />
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:title" content={title} />
@@ -68,30 +72,38 @@ const canonicalUrl = path === '/' ? `${SITE}/` : `${SITE}${path}`;
   </head>
   <body>
     <div class="page">
-      <header class="chrome">
+      <header class:list={['chrome', { 'chrome-slim': slim }]}>
         <div class="chrome-start">
-          <a class="wordmark" href="/">This Week</a>
-          <nav class="nav" aria-label="Site">
-            <a href="/" aria-current={current === 'week' ? 'page' : undefined}>This Week</a>
-            <a href="/next-week" aria-current={current === 'next' ? 'page' : undefined}>Next Week</a>
-            <a href="/last-week" aria-current={current === 'last' ? 'page' : undefined}>Last Week</a>
-            <a href="/about" aria-current={current === 'about' ? 'page' : undefined}>About</a>
-            <a href="/contact" aria-current={current === 'contact' ? 'page' : undefined}>Contact</a>
-          </nav>
+          <a class="wordmark" href={slim ? '/waitlist' : '/'}>This Week</a>
+          {
+            slim ? null : (
+              <nav class="nav" aria-label="Site">
+                <a href="/" aria-current={current === 'week' ? 'page' : undefined}>This Week</a>
+                <a href="/next-week" aria-current={current === 'next' ? 'page' : undefined}>Next Week</a>
+                <a href="/last-week" aria-current={current === 'last' ? 'page' : undefined}>Last Week</a>
+                <a href="/about" aria-current={current === 'about' ? 'page' : undefined}>About</a>
+                <a href="/contact" aria-current={current === 'contact' ? 'page' : undefined}>Contact</a>
+              </nav>
+            )
+          }
         </div>
-        <a class="signup-jump" href="#signup">Monday email. 7am.</a>
+        {slim ? null : <a class="signup-jump" href="#signup">Monday email. 7am.</a>}
       </header>
 
       <main class="main">
         <slot />
       </main>
 
-      <footer class="foot">
-        <EmailCapture id="signup" />
-        <p class="foot-url">
-          <a href="https://thisweeksouthbay.beehiiv.com">thisweeksouthbay.beehiiv.com</a>
-        </p>
-      </footer>
+      {
+        slim ? null : (
+          <footer class="foot">
+            <EmailCapture id="signup" />
+            <p class="foot-url">
+              <a href="https://thisweeksouthbay.beehiiv.com">thisweeksouthbay.beehiiv.com</a>
+            </p>
+          </footer>
+        )
+      }
     </div>
   </body>
 </html>

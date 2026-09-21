@@ -1,0 +1,75 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+// Nationwide waitlist. Signups POST to FormSubmit and land in the info@ inbox
+// (same pattern as /contact). Exportable from the FormSubmit dashboard.
+// Override the endpoint with PUBLIC_WAITLIST_FORM_ENDPOINT if needed.
+const description =
+  'Join the This Week waitlist. Get notified when we launch a cluster near you.';
+
+const SITE = 'https://www.thisweeksouthbay.com';
+const defaultEndpoint = 'https://formsubmit.co/info@thisweeksouthbay.com';
+const formAction =
+  (typeof import.meta.env.PUBLIC_WAITLIST_FORM_ENDPOINT === 'string' &&
+    import.meta.env.PUBLIC_WAITLIST_FORM_ENDPOINT.trim()) ||
+  defaultEndpoint;
+const nextUrl = `${SITE}/waitlist?joined=1`;
+---
+
+<Layout
+  title="This Week waitlist — get notified when we launch near you"
+  description={description}
+  current="waitlist"
+  canonicalPath="/waitlist"
+  slim={true}
+  siteName="This Week"
+>
+  <article class="spare waitlist">
+    <div id="waitlist-thanks" class="waitlist-thanks" hidden>
+      <h1>This Week</h1>
+      <p>You're on the list — we'll ping you when we launch near you.</p>
+    </div>
+
+    <div id="waitlist-form-wrap">
+      <h1>This Week</h1>
+      <p>Get notified when we launch near you.</p>
+
+      <form class="contact-form" action={formAction} method="POST">
+        <input type="hidden" name="_next" value={nextUrl} />
+        <input type="hidden" name="_subject" value="This Week waitlist" />
+        <input type="hidden" name="_template" value="table" />
+        <input type="hidden" name="source" value="waitlist" />
+        <input type="text" name="_gotcha" class="contact-honey" tabindex="-1" autocomplete="off" />
+
+        <label for="waitlist-email">Email</label>
+        <input
+          id="waitlist-email"
+          type="email"
+          name="email"
+          autocomplete="email"
+          required
+        />
+
+        <label for="waitlist-city">City or ZIP</label>
+        <input
+          id="waitlist-city"
+          type="text"
+          name="city_or_zip"
+          autocomplete="off"
+          required
+        />
+
+        <button type="submit">Join</button>
+      </form>
+    </div>
+  </article>
+</Layout>
+
+<script>
+  if (new URLSearchParams(window.location.search).get('joined') === '1') {
+    const formWrap = document.getElementById('waitlist-form-wrap');
+    const thanks = document.getElementById('waitlist-thanks');
+    if (formWrap) formWrap.hidden = true;
+    if (thanks) thanks.hidden = false;
+  }
+</script>

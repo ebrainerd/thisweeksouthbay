@@ -1,1 +1,3 @@
 Static Astro site for This Week South Bay — a Monday list of nights out in Hermosa, Manhattan, Redondo, El Segundo, and Torrance. Events live in `src/data/events.json` as a snapshot until Airtable is wired. `npm install && npm run dev` (port 43177). `npm run build` writes the static site.
+
+Nationwide waitlist is `/waitlist`. The form POSTs to FormSubmit (`PUBLIC_WAITLIST_FORM_ENDPOINT`, fallback `https://formsubmit.co/info@thisweeksouthbay.com`). Signups email info@ and are exportable from the FormSubmit dashboard. First use of a new FormSubmit address needs the activation email in that inbox.

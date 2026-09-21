@@ -318,6 +318,19 @@ h1.kicker {
   margin-bottom: 0;
 }
 
+.chrome-slim {
+  padding-bottom: 0;
+}
+
+.spare.waitlist {
+  padding-top: 5.5rem;
+  max-width: 22rem;
+}
+
+.spare.waitlist p {
+  color: var(--muted);
+}
+
 .contact-form {
   display: flex;
   flex-direction: column;
@@ -465,6 +478,10 @@ h1.kicker {
   .detail,
   .spare {
     padding-top: 4.5rem;
+  }
+
+  .spare.waitlist {
+    padding-top: 8.5rem;
   }
 }
 
