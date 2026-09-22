@@ -1,13 +1,13 @@
 {
   "issue": {
-    "weekStart": "2026-09-14",
-    "weekEnd": "2026-09-20",
-    "label": "Week of September 14, 2026"
-  },
-  "nextIssue": {
     "weekStart": "2026-09-21",
     "weekEnd": "2026-09-27",
     "label": "Week of September 21, 2026"
+  },
+  "nextIssue": {
+    "weekStart": "2026-09-28",
+    "weekEnd": "2026-10-04",
+    "label": "Week of September 28, 2026"
   },
   "events": [
     {
@@ -1565,6 +1565,20 @@
       "blurb": "Sunday doors 6pm, show 7:30pm. Heidi Tann album release. Ticketed — see site."
     },
     {
+      "slug": "soar-tropical-butterflies-2026-09-21",
+      "title": "SOAR – Tropical Butterflies",
+      "start": "2026-09-21T08:00:00-07:00",
+      "end": "2026-10-04T17:00:00-07:00",
+      "city": "Palos Verdes",
+      "venue": "South Coast Botanic Garden",
+      "address": "26300 Crenshaw Blvd, Palos Verdes Peninsula, CA 90274",
+      "category": "Other",
+      "cost": "Members $7 / non-members up to $27 (+ GA)",
+      "audience": "Anyone",
+      "url": "https://southcoastbotanicgarden.org/soar/",
+      "blurb": "Exhibit extended through Oct 4. Timed tickets required (members $7; non-members up to $27 includes garden admission). Open daily 8am–5pm; last entrance 4:30pm per garden."
+    },
+    {
       "slug": "downtown-mb-farmers-market-2026-09-22",
       "title": "Downtown MB Farmers Market",
       "start": "2026-09-22T11:00:00-07:00",
@@ -1591,6 +1605,20 @@
       "audience": "Adults",
       "url": "https://triviatycoon.com",
       "blurb": "Tuesday 6pm. 21+."
+    },
+    {
+      "slug": "trivia-budds-brewport-2026-09-22",
+      "title": "Trivia with BUDDS",
+      "start": "2026-09-22T19:00:00-07:00",
+      "end": "2026-09-22T20:00:00-07:00",
+      "city": "El Segundo",
+      "venue": "Brewport Taphouse",
+      "address": "204 Main Street, El Segundo, CA 90245",
+      "category": "Other",
+      "cost": "Free to play",
+      "audience": "Adults",
+      "url": "https://brewporttaphouse.com/calendar/",
+      "blurb": "Tuesday 7–8pm trivia at Brewport. Free to play."
     },
     {
       "slug": "north-redondo-farmers-market-2026-09-23",
@@ -1663,6 +1691,20 @@
       "blurb": "Thursday 2–7pm next to Anthropologie."
     },
     {
+      "slug": "movies-at-the-library-hamnet-2026-09-24",
+      "title": "Movies at the Library: Hamnet",
+      "start": "2026-09-24T14:30:00-07:00",
+      "end": "2026-09-24T16:30:00-07:00",
+      "city": "Palos Verdes",
+      "venue": "Peninsula Center Library",
+      "address": "701 Silver Spur Road, Rolling Hills Estates, CA 90274",
+      "category": "Other",
+      "cost": "Free",
+      "audience": "Anyone",
+      "url": "https://pvld.libnet.info/event/16563170",
+      "blurb": "Thursday 2:30–4:30pm free film at Peninsula Center Library (RHE)."
+    },
+    {
       "slug": "el-segundo-farmers-market-2026-09-24",
       "title": "El Segundo Certified Farmers Market",
       "start": "2026-09-24T15:00:00-07:00",
@@ -1689,6 +1731,20 @@
       "audience": "Adults",
       "url": "https://thecomedyandmagicclub.com",
       "blurb": "Doors 6:30, show 8pm. 18+."
+    },
+    {
+      "slug": "dick-the-citizen-lighthouse-2026-09-24",
+      "title": "Dick The Citizen",
+      "start": "2026-09-24T20:30:00-07:00",
+      "end": null,
+      "city": "Hermosa",
+      "venue": "Lighthouse Cafe",
+      "address": "30 Pier Ave, Hermosa Beach, CA 90254",
+      "category": "Music",
+      "cost": "",
+      "audience": "Adults",
+      "url": "https://www.thelighthousecafe.net/",
+      "blurb": "Thursday 8:30pm at the Lighthouse. Cover unpublished. 21+."
     },
     {
       "slug": "hermosa-beach-farmers-market-2026-09-25",
@@ -1730,7 +1786,7 @@
       "cost": "Adults ~$29.99 / kids ~$24.99",
       "audience": "Anyone",
       "url": "https://magicofthejackolanterns.com/la/",
-      "blurb": "Select nights Fri–Sun Sep 25–27 at South Coast Botanic Garden (PV). Sunday Sep 27 is Low Sensory Night (reduced strobe/fog). Adults about $29.99 / kids about $24.99 select nights; season runs into early November — check calendar. Evening timed entry."
+      "blurb": "Select nights Fri–Sun Sep 25–27 at South Coast Botanic Garden (PV). Sunday Sep 27 is Low Sensory Night (reduced strobe/fog). Adults about $29.99 / kids about $24.99 select nights; season runs through Nov 1 — check calendar for October weekend nights. Evening timed entry."
     },
     {
       "slug": "mb-food-wine-opening-2026-09-25",
@@ -1745,6 +1801,20 @@
       "audience": "Adults",
       "url": "https://www.manhattanbeachfoodandwine.com/events",
       "blurb": "Friday 7–10pm (VIP 6pm) at westdrift. 21+. Ticketed."
+    },
+    {
+      "slug": "soup-salad-sukkah-jcc-2026-09-25",
+      "title": "Soup & Salad in the Sukkah",
+      "start": "2026-09-25T19:15:00-07:00",
+      "end": null,
+      "city": "Redondo",
+      "venue": "JCC South Bay",
+      "address": "2108 Vail Ave, Redondo Beach, CA 90278",
+      "category": "Other",
+      "cost": "Free RSVP",
+      "audience": "Anyone",
+      "url": "https://www.eventbrite.com/e/soup-salad-in-the-sukkah-tickets-2000058017370",
+      "blurb": "Friday 7:15pm Sukkot gathering at JCC South Bay. Free; RSVP on Eventbrite."
     },
     {
       "slug": "10-comics-show-cmc-2026-09-25",
@@ -1786,7 +1856,7 @@
       "cost": "~$25–$40 / PWYC",
       "audience": "Anyone",
       "url": "https://www.rimovisiongroup.org/luckiest-woman-alive",
-      "blurb": "Fri Sep 25 8pm; Sat Sep 26 2pm + 6pm; Sun Sep 27 2pm at Second Story Theatre (HB Community Center). About $25–$40 / PWYC. Also Oct 2–4 — see site."
+      "blurb": "Fri Sep 25 8pm; Sat Sep 26 2pm & 6pm; Sun Sep 27 2pm at Second Story Theatre (HB Community Center). About $25–$40 / PWYC. Continues Oct 2–4 — see next-week listing."
     },
     {
       "slug": "guy-mantzur-deep-end-2026-09-25",
@@ -1856,7 +1926,21 @@
       "cost": "Free",
       "audience": "Anyone",
       "url": "https://www.visitkingharbor.com/event-details/kha-oktoberfest-092626",
-      "blurb": "Saturday–Sunday 12–7pm. Free admission."
+      "blurb": "Saturday–Sunday 12–7pm at King Harbor (207 N Harbor Dr area). Free admission."
+    },
+    {
+      "slug": "artist-talk-stephen-mirich-pvac-2026-09-26",
+      "title": "ARTIST TALK: Stephen Mirich",
+      "start": "2026-09-26T13:00:00-07:00",
+      "end": "2026-09-26T15:00:00-07:00",
+      "city": "Palos Verdes",
+      "venue": "PV Art Center",
+      "address": "5504 Crestridge Road, Rancho Palos Verdes, CA 90275",
+      "category": "Other",
+      "cost": "Free",
+      "audience": "Anyone",
+      "url": "https://www.pvartcenter.org/",
+      "blurb": "Saturday 1–3pm free artist talk at PV Art Center."
     },
     {
       "slug": "the-maze-otmh-2026-09-26",
@@ -2069,6 +2153,20 @@
       "blurb": "Sunday 10am–3pm on the pier. Spectator free; cars are invite-only. Separate from the MB downtown car show the same day."
     },
     {
+      "slug": "bbq-sukkah-jcc-2026-09-27",
+      "title": "BBQ in the Sukkah",
+      "start": "2026-09-27T12:00:00-07:00",
+      "end": "2026-09-27T14:00:00-07:00",
+      "city": "Redondo",
+      "venue": "JCC South Bay",
+      "address": "2108 Vail Ave, Redondo Beach, CA 90278",
+      "category": "Other",
+      "cost": "Free RSVP",
+      "audience": "Anyone",
+      "url": "https://www.eventbrite.com/e/bbq-in-the-sukkah-tickets-2000062854839",
+      "blurb": "Sunday 12–2pm Sukkot BBQ at JCC South Bay. Free; RSVP on Eventbrite."
+    },
+    {
       "slug": "kyowa-wadaiko-armstrong-2026-09-27",
       "title": "KYŌWA Nikyokan Wadaiko × UnitOne",
       "start": "2026-09-27T13:00:00-07:00",
@@ -2125,20 +2223,6 @@
       "blurb": "Sunday 3pm. Prince tribute. 21+. Tickets on Eventbrite."
     },
     {
-      "slug": "jay-leno-cmc-2026-09-27",
-      "title": "Jay Leno",
-      "start": "2026-09-27T19:00:00-07:00",
-      "end": null,
-      "city": "Hermosa",
-      "venue": "Comedy & Magic Club",
-      "address": "1018 Hermosa Ave, Hermosa Beach, CA 90254",
-      "category": "Comedy",
-      "cost": "$37",
-      "audience": "Adults",
-      "url": "https://thecomedyandmagicclub.com",
-      "blurb": "Doors 5, show 7pm. 18+."
-    },
-    {
       "slug": "the-man-who-laughs-otmh-2026-09-27",
       "title": "The Man Who Laughs (1928)",
       "start": "2026-09-27T19:00:00-07:00",
@@ -2151,11 +2235,235 @@
       "audience": "Anyone",
       "url": "https://www.oldtownmusichall.org/",
       "blurb": "Sunday 7pm silent. Mighty Wurlitzer. About $12."
+    },
+    {
+      "slug": "soar-tropical-butterflies-2026-09-28",
+      "title": "SOAR – Tropical Butterflies",
+      "start": "2026-09-28T08:00:00-07:00",
+      "end": "2026-10-04T17:00:00-07:00",
+      "city": "Palos Verdes",
+      "venue": "South Coast Botanic Garden",
+      "address": "26300 Crenshaw Blvd, Palos Verdes Peninsula, CA 90274",
+      "category": "Other",
+      "cost": "Members $7 / non-members up to $27 (+ GA)",
+      "audience": "Anyone",
+      "url": "https://southcoastbotanicgarden.org/soar/",
+      "blurb": "Exhibit extended through Oct 4. Timed tickets required. Open daily through Sunday Oct 4; last entrance 4:30pm per garden."
+    },
+    {
+      "slug": "boots-cobra-cowboy-deep-end-2026-09-30",
+      "title": "Boots on the Pier ft. Cobra Cowboy",
+      "start": "2026-09-30T19:30:00-07:00",
+      "end": null,
+      "city": "Redondo",
+      "venue": "Deep End Live",
+      "address": "100 Fisherman's Wharf, Redondo Beach, CA 90277",
+      "category": "Music",
+      "cost": "$10.95–$12.15",
+      "audience": "Adults",
+      "url": "https://deependlive.com/event/boots-on-the-pier-wednesday-country-night-ft-cobra-cowboy-8/deep-end-live/redondo-beach-california/",
+      "blurb": "Wednesday country night. Show 7:30pm. 21+."
+    },
+    {
+      "slug": "10-comics-show-cmc-2026-10-02",
+      "title": "10 Comics Show",
+      "start": "2026-10-02T20:00:00-07:00",
+      "end": null,
+      "city": "Hermosa",
+      "venue": "Comedy & Magic Club",
+      "address": "1018 Hermosa Ave, Hermosa Beach, CA 90254",
+      "category": "Comedy",
+      "cost": "$27",
+      "audience": "Adults",
+      "url": "https://thecomedyandmagicclub.com",
+      "blurb": "Friday 8pm. Doors typically 6:30. 18+."
+    },
+    {
+      "slug": "90s-rock-show-lighthouse-2026-10-02",
+      "title": "90s Rock Show",
+      "start": "2026-10-02T20:00:00-07:00",
+      "end": null,
+      "city": "Hermosa",
+      "venue": "Lighthouse Cafe",
+      "address": "30 Pier Ave, Hermosa Beach, CA 90254",
+      "category": "Music",
+      "cost": "Limited free tix",
+      "audience": "Adults",
+      "url": "https://90srockshowhermosa.eventbrite.com",
+      "blurb": "Friday 8pm at the Lighthouse. Limited free tickets via Eventbrite. 21+."
+    },
+    {
+      "slug": "luckiest-woman-alive-second-story-2026-10-02",
+      "title": "The Luckiest Woman Alive",
+      "start": "2026-10-02T20:00:00-07:00",
+      "end": "2026-10-04T14:00:00-07:00",
+      "city": "Hermosa",
+      "venue": "Second Story Theatre / HB Community Center",
+      "address": "710 Pier Ave, Hermosa Beach, CA 90254",
+      "category": "Other",
+      "cost": "~$25–$40 / PWYC",
+      "audience": "Anyone",
+      "url": "https://www.rimovisiongroup.org/luckiest-woman-alive",
+      "blurb": "Fri Oct 2 8pm; Sat Oct 3 2pm & 6pm; Sun Oct 4 2pm at Second Story Theatre (HB Community Center). About $25–$40 / PWYC."
+    },
+    {
+      "slug": "young-dubliners-deep-end-2026-10-02",
+      "title": "The Young Dubliners w/ Ockhams Razor",
+      "start": "2026-10-02T20:00:00-07:00",
+      "end": null,
+      "city": "Redondo",
+      "venue": "Deep End Live",
+      "address": "100 Fisherman's Wharf, Redondo Beach, CA 90277",
+      "category": "Music",
+      "cost": "$21.75–$48.15",
+      "audience": "Adults",
+      "url": "https://deependlive.com/event/the-young-dubliners-w-ockhams-razor/deep-end-live/redondo-beach-california/",
+      "blurb": "Friday 8pm. 21+."
+    },
+    {
+      "slug": "mb-10k-2026-10-03",
+      "title": "49th Annual MB 10K",
+      "start": "2026-10-03T07:30:00-07:00",
+      "end": null,
+      "city": "Manhattan",
+      "venue": "Downtown Manhattan Beach",
+      "address": "Downtown Manhattan Beach → pier finish, Manhattan Beach, CA 90266",
+      "category": "Other",
+      "cost": "Ticketed run; free to watch",
+      "audience": "Anyone",
+      "url": "https://www.mb10k.com/event-details",
+      "blurb": "Saturday ~7:30am. Scenic 10K; free for spectators. Live music and post-race expo at the finish."
+    },
+    {
+      "slug": "mb-hometown-fair-2026-10-03",
+      "title": "Manhattan Beach Hometown Fair",
+      "start": "2026-10-03T10:00:00-07:00",
+      "end": "2026-10-04T18:00:00-07:00",
+      "city": "Manhattan",
+      "venue": "Live Oak Park / Dorsey Field / Joslyn Center",
+      "address": "Live Oak Park, Manhattan Beach, CA 90266",
+      "category": "Other",
+      "cost": "Free",
+      "audience": "Anyone",
+      "url": "https://www.mbfair.org/",
+      "blurb": "Saturday–Sunday Oct 3–4, 10am–6pm at Live Oak / Dorsey / Joslyn. Free admission."
+    },
+    {
+      "slug": "pvac-95th-open-house-2026-10-03",
+      "title": "PVAC 95th Anniversary Open House",
+      "start": "2026-10-03T10:00:00-07:00",
+      "end": "2026-10-04T16:00:00-07:00",
+      "city": "Palos Verdes",
+      "venue": "PV Art Center",
+      "address": "5504 Crestridge Road, Rancho Palos Verdes, CA 90275",
+      "category": "Other",
+      "cost": "Free",
+      "audience": "Anyone",
+      "url": "https://www.pvartcenter.org/",
+      "blurb": "Saturday–Sunday Oct 3–4, 10am–4pm. Free open house at PV Art Center."
+    },
+    {
+      "slug": "pvplc-george-f-nature-walk-2026-10-03",
+      "title": "PVPLC 1st Saturday Guided Nature Walk",
+      "start": "2026-10-03T10:30:00-07:00",
+      "end": null,
+      "city": "Palos Verdes",
+      "venue": "George F Canyon Nature Preserve",
+      "address": "27305 Palos Verdes Dr E, Rancho Palos Verdes, CA 90275",
+      "category": "Other",
+      "cost": "Free RSVP",
+      "audience": "Anyone",
+      "url": "https://pvplc.org/events/1st-saturday-guided-nature-walk/",
+      "blurb": "Saturday 10:30am guided walk. Free; RSVP. Meet at Stein Hale trailhead."
+    },
+    {
+      "slug": "we-are-the-80s-lighthouse-2026-10-03",
+      "title": "We Are The 80's",
+      "start": "2026-10-03T16:00:00-07:00",
+      "end": null,
+      "city": "Hermosa",
+      "venue": "Lighthouse Cafe",
+      "address": "30 Pier Ave, Hermosa Beach, CA 90254",
+      "category": "Music",
+      "cost": "Ticketed",
+      "audience": "Adults",
+      "url": "https://wearethe80s.eventbrite.com",
+      "blurb": "Saturday 4pm daytime tribute at the Lighthouse. Ticketed. 21+."
+    },
+    {
+      "slug": "10-comics-show-cmc-2026-10-03",
+      "title": "10 Comics Show",
+      "start": "2026-10-03T20:00:00-07:00",
+      "end": null,
+      "city": "Hermosa",
+      "venue": "Comedy & Magic Club",
+      "address": "1018 Hermosa Ave, Hermosa Beach, CA 90254",
+      "category": "Comedy",
+      "cost": "$27",
+      "audience": "Adults",
+      "url": "https://thecomedyandmagicclub.com",
+      "blurb": "Saturday 8pm. Doors typically 6:30. 18+."
+    },
+    {
+      "slug": "cubensis-american-beauty-deep-end-2026-10-03",
+      "title": "Cubensis performs American Beauty",
+      "start": "2026-10-03T20:00:00-07:00",
+      "end": null,
+      "city": "Redondo",
+      "venue": "Deep End Live",
+      "address": "100 Fisherman's Wharf, Redondo Beach, CA 90277",
+      "category": "Music",
+      "cost": "$21.75–$48.15",
+      "audience": "Adults",
+      "url": "https://deependlive.com/event/cubensis-performs-american-beauty/deep-end-live/redondo-beach-california/",
+      "blurb": "Saturday 8pm. 21+."
+    },
+    {
+      "slug": "petty-or-not-mom-said-yes-2026-10-03",
+      "title": "Petty or Not",
+      "start": "2026-10-03T20:30:00-07:00",
+      "end": "2026-10-03T23:30:00-07:00",
+      "city": "Torrance",
+      "venue": "Mom Said Yes Pizza",
+      "address": "4525 Calle Mayor, Torrance, CA 90505",
+      "category": "Music",
+      "cost": "Paid GA",
+      "audience": "Anyone",
+      "url": "https://momsaidyes.live/event_listing_category/live-music-torrance/",
+      "blurb": "Saturday 8:30–11:30pm Tom Petty tribute. Paid GA."
+    },
+    {
+      "slug": "motley-inc-lighthouse-2026-10-04",
+      "title": "Motley Inc",
+      "start": "2026-10-04T15:00:00-07:00",
+      "end": null,
+      "city": "Hermosa",
+      "venue": "Lighthouse Cafe",
+      "address": "30 Pier Ave, Hermosa Beach, CA 90254",
+      "category": "Music",
+      "cost": "Ticketed",
+      "audience": "Adults",
+      "url": "https://motleyinchermosabeach.eventbrite.com",
+      "blurb": "Sunday 3pm at the Lighthouse. Ticketed. 21+."
+    },
+    {
+      "slug": "jay-leno-cmc-2026-10-04",
+      "title": "Jay Leno",
+      "start": "2026-10-04T19:00:00-07:00",
+      "end": null,
+      "city": "Hermosa",
+      "venue": "Comedy & Magic Club",
+      "address": "1018 Hermosa Ave, Hermosa Beach, CA 90254",
+      "category": "Comedy",
+      "cost": "$37",
+      "audience": "Adults",
+      "url": "https://thecomedyandmagicclub.com/event/jay-leno-193/the-comedy-magic-club/hermosa-beach-california/",
+      "blurb": "Doors 5, show 7pm. $37. 18+."
     }
   ],
   "lastIssue": {
-    "weekStart": "2026-09-07",
-    "weekEnd": "2026-09-13",
-    "label": "Week of September 7, 2026"
+    "weekStart": "2026-09-14",
+    "weekEnd": "2026-09-20",
+    "label": "Week of September 14, 2026"
   }
 }
