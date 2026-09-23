@@ -1786,7 +1786,7 @@
       "cost": "Adults ~$29.99 / kids ~$24.99",
       "audience": "Anyone",
       "url": "https://magicofthejackolanterns.com/la/",
-      "blurb": "Select nights Fri–Sun Sep 25–27 at South Coast Botanic Garden (PV). Sunday Sep 27 is Low Sensory Night (reduced strobe/fog). Adults about $29.99 / kids about $24.99 select nights; season runs through Nov 1 — check calendar for October weekend nights. Evening timed entry."
+      "blurb": "Select nights Fri–Sun Sep 25–27 at South Coast Botanic Garden (PV). Sunday Sep 27 is Low Sensory Night (reduced strobe/fog). Timed evenings — check ticket calendar for each night’s entry window. Adults about $29.99 / kids about $24.99 select nights. Season select nights through Nov 1."
     },
     {
       "slug": "mb-food-wine-opening-2026-09-25",
@@ -1859,6 +1859,20 @@
       "blurb": "Fri Sep 25 8pm; Sat Sep 26 2pm & 6pm; Sun Sep 27 2pm at Second Story Theatre (HB Community Center). About $25–$40 / PWYC. Continues Oct 2–4 — see next-week listing."
     },
     {
+      "slug": "live-band-karaoke-mom-said-yes-2026-09-25",
+      "title": "Live Band Karaoke",
+      "start": "2026-09-25T20:30:00-07:00",
+      "end": "2026-09-25T23:30:00-07:00",
+      "city": "Torrance",
+      "venue": "Mom Said Yes Pizza",
+      "address": "4525 Calle Mayor, Torrance, CA 90505",
+      "category": "Music",
+      "cost": "",
+      "audience": "Anyone",
+      "url": "https://momsaidyes.live/torrance-events/",
+      "blurb": "Friday 8:30–11:30pm live band karaoke at Mom Said Yes."
+    },
+    {
       "slug": "guy-mantzur-deep-end-2026-09-25",
       "title": "Guy Mantzur",
       "start": "2026-09-25T21:00:00-07:00",
@@ -1867,7 +1881,7 @@
       "venue": "Deep End Live",
       "address": "100 Fisherman's Wharf, Redondo Beach, CA 90277",
       "category": "Music",
-      "cost": "$32.55–$72.15",
+      "cost": "$30.15–$72.15",
       "audience": "Adults",
       "url": "https://deependlive.com/",
       "blurb": "Doors 8, show 9pm. 21+."
@@ -1921,12 +1935,12 @@
       "end": "2026-09-27T19:00:00-07:00",
       "city": "Redondo",
       "venue": "King Harbor",
-      "address": "207–239 N Harbor Dr, Redondo Beach, CA 90277",
+      "address": "207 N Harbor Dr, Redondo Beach, CA 90277",
       "category": "Other",
       "cost": "Free",
       "audience": "Anyone",
       "url": "https://www.visitkingharbor.com/event-details/kha-oktoberfest-092626",
-      "blurb": "Saturday–Sunday 12–7pm at King Harbor (207 N Harbor Dr area). Free admission."
+      "blurb": "Saturday–Sunday 12–7pm. Free. Parking lot between Riviera Mexican Cantina & California Surf Club (207 N Harbor Dr)."
     },
     {
       "slug": "artist-talk-stephen-mirich-pvac-2026-09-26",
@@ -2097,6 +2111,20 @@
       "blurb": "Saturday 9:30pm–close. Cover unpublished."
     },
     {
+      "slug": "palos-verdes-farmers-market-2026-09-27",
+      "title": "Palos Verdes Farmers Market",
+      "start": "2026-09-27T08:00:00-07:00",
+      "end": "2026-09-27T13:00:00-07:00",
+      "city": "Palos Verdes",
+      "venue": "Peninsula High / Silver Spur",
+      "address": "27118 Silver Spur Rd, Rolling Hills Estates, CA 90274",
+      "category": "Market",
+      "cost": "Free",
+      "audience": "Anyone",
+      "url": "",
+      "blurb": "Sunday 8am–1pm standing farmers market at 27118 Silver Spur."
+    },
+    {
       "slug": "torrance-antique-street-faire-2026-09-27",
       "title": "Downtown Torrance Antique Street Faire",
       "start": "2026-09-27T08:00:00-07:00",
@@ -2139,6 +2167,20 @@
       "blurb": "Sunday 9am–1pm. MBPD K-9 fundraiser. Free for spectators; vehicle registration about $40–60."
     },
     {
+      "slug": "pvic-native-plant-garden-volunteer-2026-09-27",
+      "title": "Native Plant Garden Volunteer @ PVIC",
+      "start": "2026-09-27T10:00:00-07:00",
+      "end": "2026-09-27T12:00:00-07:00",
+      "city": "Palos Verdes",
+      "venue": "Point Vicente Interpretive Center",
+      "address": "31501 Palos Verdes Dr W, Rancho Palos Verdes, CA 90275",
+      "category": "Other",
+      "cost": "Free (register)",
+      "audience": "Anyone",
+      "url": "https://rpvca.gov/CivicSend/ViewMessage/message/298498",
+      "blurb": "Sunday 10am–12pm native plant garden volunteer at Point Vicente IC. Free; register via city notice / Eventbrite. Gloves and tools provided."
+    },
+    {
       "slug": "redondo-pier-car-show-2026-09-27",
       "title": "Redondo Pier Rods, Rides & Relics Classic Car Show",
       "start": "2026-09-27T10:00:00-07:00",
@@ -2165,6 +2207,20 @@
       "audience": "Anyone",
       "url": "https://www.eventbrite.com/e/bbq-in-the-sukkah-tickets-2000062854839",
       "blurb": "Sunday 12–2pm Sukkot BBQ at JCC South Bay. Free; RSVP on Eventbrite."
+    },
+    {
+      "slug": "kotoeda-recital-peninsula-center-2026-09-27",
+      "title": "Kotoeda Free Public Recital",
+      "start": "2026-09-27T13:00:00-07:00",
+      "end": "2026-09-27T17:00:00-07:00",
+      "city": "Palos Verdes",
+      "venue": "Peninsula Center Library — Community Room",
+      "address": "701 Silver Spur Road, Rolling Hills Estates, CA 90274",
+      "category": "Music",
+      "cost": "Free",
+      "audience": "Anyone",
+      "url": "https://pvld.libnet.info/event/16703112",
+      "blurb": "Sunday 1–5pm free open-to-the-public recital at Peninsula Center Library Community Room."
     },
     {
       "slug": "kyowa-wadaiko-armstrong-2026-09-27",
@@ -2251,6 +2307,48 @@
       "blurb": "Exhibit extended through Oct 4. Timed tickets required. Open daily through Sunday Oct 4; last entrance 4:30pm per garden."
     },
     {
+      "slug": "downtown-mb-farmers-market-2026-09-29",
+      "title": "Downtown MB Farmers Market",
+      "start": "2026-09-29T11:00:00-07:00",
+      "end": "2026-09-29T15:00:00-07:00",
+      "city": "Manhattan",
+      "venue": "Civic Center plaza",
+      "address": "320 15th St, Manhattan Beach, CA 90266",
+      "category": "Market",
+      "cost": "Free",
+      "audience": "Anyone",
+      "url": "https://downtownmanhattanbeach.com/manhattan-beach-farmers-market",
+      "blurb": "Tuesday 11am–3pm."
+    },
+    {
+      "slug": "trivia-budds-brewport-2026-09-29",
+      "title": "Trivia with BUDDS",
+      "start": "2026-09-29T19:00:00-07:00",
+      "end": "2026-09-29T20:00:00-07:00",
+      "city": "El Segundo",
+      "venue": "Brewport Taphouse",
+      "address": "204 Main Street, El Segundo, CA 90245",
+      "category": "Other",
+      "cost": "Free to play",
+      "audience": "Adults",
+      "url": "https://brewporttaphouse.com/calendar/",
+      "blurb": "Tuesday 7–8pm trivia at Brewport. Free to play."
+    },
+    {
+      "slug": "north-redondo-farmers-market-2026-09-30",
+      "title": "North Redondo Farmers Market",
+      "start": "2026-09-30T14:00:00-07:00",
+      "end": "2026-09-30T19:00:00-07:00",
+      "city": "Redondo",
+      "venue": "Green Lane",
+      "address": "2000 Artesia Blvd, Redondo Beach, CA 90278",
+      "category": "Market",
+      "cost": "Free",
+      "audience": "Anyone",
+      "url": "https://nrbfarmersmarket.org",
+      "blurb": "Wednesday 2–7pm by North Branch Library."
+    },
+    {
       "slug": "boots-cobra-cowboy-deep-end-2026-09-30",
       "title": "Boots on the Pier ft. Cobra Cowboy",
       "start": "2026-09-30T19:30:00-07:00",
@@ -2263,6 +2361,104 @@
       "audience": "Adults",
       "url": "https://deependlive.com/event/boots-on-the-pier-wednesday-country-night-ft-cobra-cowboy-8/deep-end-live/redondo-beach-california/",
       "blurb": "Wednesday country night. Show 7:30pm. 21+."
+    },
+    {
+      "slug": "redondo-beach-farmers-market-2026-10-01",
+      "title": "Redondo Beach Certified Farmers Market",
+      "start": "2026-10-01T08:00:00-07:00",
+      "end": "2026-10-01T13:00:00-07:00",
+      "city": "Redondo",
+      "venue": "Veterans Park / Pier",
+      "address": "309 Esplanade, Redondo Beach, CA 90277",
+      "category": "Market",
+      "cost": "Free",
+      "audience": "Anyone",
+      "url": "https://www.redondo.gov/departments/community_services/classes_and_activities/farmers_market.php",
+      "blurb": "Thursday 8am–1pm at Veterans Park by the pier."
+    },
+    {
+      "slug": "manhattan-village-farmers-market-2026-10-01",
+      "title": "Manhattan Village Farmers Market",
+      "start": "2026-10-01T14:00:00-07:00",
+      "end": "2026-10-01T19:00:00-07:00",
+      "city": "Manhattan",
+      "venue": "next to Anthropologie",
+      "address": "3200 N Sepulveda Blvd, Manhattan Beach, CA 90266",
+      "category": "Market",
+      "cost": "Free",
+      "audience": "Anyone",
+      "url": "",
+      "blurb": "Thursday 2–7pm next to Anthropologie."
+    },
+    {
+      "slug": "el-segundo-farmers-market-2026-10-01",
+      "title": "El Segundo Certified Farmers Market",
+      "start": "2026-10-01T15:00:00-07:00",
+      "end": "2026-10-01T19:00:00-07:00",
+      "city": "El Segundo",
+      "venue": "Main St",
+      "address": "300 Main St, El Segundo, CA 90245",
+      "category": "Market",
+      "cost": "Free",
+      "audience": "Anyone",
+      "url": "",
+      "blurb": "Thursday 3–7pm, 300 block Main."
+    },
+    {
+      "slug": "dick-the-citizen-lighthouse-2026-10-01",
+      "title": "Dick The Citizen",
+      "start": "2026-10-01T20:30:00-07:00",
+      "end": null,
+      "city": "Hermosa",
+      "venue": "Lighthouse Cafe",
+      "address": "30 Pier Ave, Hermosa Beach, CA 90254",
+      "category": "Music",
+      "cost": "",
+      "audience": "Adults",
+      "url": "https://www.thelighthousecafe.net/",
+      "blurb": "Thursday 8:30pm at the Lighthouse. Cover unpublished. 21+."
+    },
+    {
+      "slug": "peninsula-center-book-sale-2026-10-02",
+      "title": "Peninsula Center Book Sale",
+      "start": "2026-10-02T10:00:00-07:00",
+      "end": "2026-10-04T16:30:00-07:00",
+      "city": "Palos Verdes",
+      "venue": "Peninsula Center Library — Parking Garage",
+      "address": "701 Silver Spur Road, Rolling Hills Estates, CA 90274",
+      "category": "Market",
+      "cost": "Free entry",
+      "audience": "Anyone",
+      "url": "https://pvld.libnet.info/event/15379229",
+      "blurb": "Friday–Sunday Oct 2–4, 10am–4:30pm Friends book sale in the Peninsula Center Library parking garage. Free entry; books priced. Also: https://plffoundation.org/book-sales/"
+    },
+    {
+      "slug": "hermosa-beach-farmers-market-2026-10-02",
+      "title": "Hermosa Beach Farmers Market",
+      "start": "2026-10-02T12:00:00-07:00",
+      "end": "2026-10-02T16:00:00-07:00",
+      "city": "Hermosa",
+      "venue": "Valley Dr at 11th",
+      "address": "1035 Valley Dr, Hermosa Beach, CA 90254",
+      "category": "Market",
+      "cost": "Free",
+      "audience": "Anyone",
+      "url": "https://hermosabeachfarmersmarket.org",
+      "blurb": "Friday noon–4."
+    },
+    {
+      "slug": "magic-jack-olanterns-2026-10-02",
+      "title": "Magic of the Jack O'Lanterns",
+      "start": "2026-10-02T19:00:00-07:00",
+      "end": "2026-10-04T21:00:00-07:00",
+      "city": "Palos Verdes",
+      "venue": "South Coast Botanic Garden",
+      "address": "26300 Crenshaw Blvd, Palos Verdes Peninsula, CA 90274",
+      "category": "Other",
+      "cost": "Adults ~$29.99 / kids ~$24.99",
+      "audience": "Anyone",
+      "url": "https://magicofthejackolanterns.com/la/",
+      "blurb": "Timed evenings Fri–Sun Oct 2–4 at South Coast Botanic Garden. Check the ticket calendar for each night’s entry window. Adults about $29.99 / kids about $24.99 select nights. Season select nights through Nov 1."
     },
     {
       "slug": "10-comics-show-cmc-2026-10-02",
@@ -2321,6 +2517,20 @@
       "blurb": "Friday 8pm. 21+."
     },
     {
+      "slug": "la-winter-mom-said-yes-2026-10-02",
+      "title": "LA Winter",
+      "start": "2026-10-02T20:30:00-07:00",
+      "end": "2026-10-02T23:30:00-07:00",
+      "city": "Torrance",
+      "venue": "Mom Said Yes Pizza",
+      "address": "4525 Calle Mayor, Torrance, CA 90505",
+      "category": "Music",
+      "cost": "Paid GA",
+      "audience": "Anyone",
+      "url": "https://momsaidyes.live/event_listing_category/live-music-torrance/",
+      "blurb": "Friday 8:30–11:30pm at Mom Said Yes. Paid GA."
+    },
+    {
       "slug": "mb-10k-2026-10-03",
       "title": "49th Annual MB 10K",
       "start": "2026-10-03T07:30:00-07:00",
@@ -2333,6 +2543,20 @@
       "audience": "Anyone",
       "url": "https://www.mb10k.com/event-details",
       "blurb": "Saturday ~7:30am. Scenic 10K; free for spectators. Live music and post-race expo at the finish."
+    },
+    {
+      "slug": "agua-amarga-volunteer-2026-10-03",
+      "title": "Outdoor Volunteer — Lunada Canyon / Agua Amarga",
+      "start": "2026-10-03T09:00:00-07:00",
+      "end": "2026-10-03T12:00:00-07:00",
+      "city": "Palos Verdes",
+      "venue": "Lunada Canyon / Agua Amarga Reserve",
+      "address": "Meet via VolunteerHub registration",
+      "category": "Other",
+      "cost": "Free (register)",
+      "audience": "Anyone",
+      "url": "https://pvplc.volunteerhub.com",
+      "blurb": "Saturday 9am–12pm habitat restoration at Lunada Canyon / Agua Amarga. Free; register on VolunteerHub. Meet via VolunteerHub registration — confirm pin when you sign up."
     },
     {
       "slug": "mb-hometown-fair-2026-10-03",
@@ -2377,6 +2601,20 @@
       "blurb": "Saturday 10:30am guided walk. Free; RSVP. Meet at Stein Hale trailhead."
     },
     {
+      "slug": "author-talk-letts-benjamin-2026-10-03",
+      "title": "Author Talk: Elizabeth Letts & Melanie Benjamin",
+      "start": "2026-10-03T15:00:00-07:00",
+      "end": "2026-10-03T16:30:00-07:00",
+      "city": "Palos Verdes",
+      "venue": "Peninsula Center Library — Community Room",
+      "address": "701 Silver Spur Road, Rolling Hills Estates, CA 90274",
+      "category": "Other",
+      "cost": "Free",
+      "audience": "Anyone",
+      "url": "https://pvld.libnet.info/event/16590211",
+      "blurb": "Saturday 3–4:30pm. NYT authors discuss Fallen for France and The Windsor Affair; books for sale/signing."
+    },
+    {
       "slug": "we-are-the-80s-lighthouse-2026-10-03",
       "title": "We Are The 80's",
       "start": "2026-10-03T16:00:00-07:00",
@@ -2419,6 +2657,20 @@
       "blurb": "Saturday 8pm. 21+."
     },
     {
+      "slug": "dick-the-citizen-lighthouse-2026-10-03",
+      "title": "Dick The Citizen",
+      "start": "2026-10-03T20:00:00-07:00",
+      "end": null,
+      "city": "Hermosa",
+      "venue": "Lighthouse Cafe",
+      "address": "30 Pier Ave, Hermosa Beach, CA 90254",
+      "category": "Music",
+      "cost": "",
+      "audience": "Adults",
+      "url": "https://www.thelighthousecafe.net/",
+      "blurb": "Saturday 8pm at the Lighthouse (after We Are The 80's 4pm). Cover unpublished. 21+."
+    },
+    {
       "slug": "petty-or-not-mom-said-yes-2026-10-03",
       "title": "Petty or Not",
       "start": "2026-10-03T20:30:00-07:00",
@@ -2431,6 +2683,48 @@
       "audience": "Anyone",
       "url": "https://momsaidyes.live/event_listing_category/live-music-torrance/",
       "blurb": "Saturday 8:30–11:30pm Tom Petty tribute. Paid GA."
+    },
+    {
+      "slug": "palos-verdes-farmers-market-2026-10-04",
+      "title": "Palos Verdes Farmers Market",
+      "start": "2026-10-04T08:00:00-07:00",
+      "end": "2026-10-04T13:00:00-07:00",
+      "city": "Palos Verdes",
+      "venue": "Peninsula High / Silver Spur",
+      "address": "27118 Silver Spur Rd, Rolling Hills Estates, CA 90274",
+      "category": "Market",
+      "cost": "Free",
+      "audience": "Anyone",
+      "url": "",
+      "blurb": "Sunday 8am–1pm standing farmers market at 27118 Silver Spur."
+    },
+    {
+      "slug": "riviera-village-farmers-market-2026-10-04",
+      "title": "Riviera Village Farmers Market",
+      "start": "2026-10-04T08:30:00-07:00",
+      "end": "2026-10-04T13:00:00-07:00",
+      "city": "Redondo",
+      "venue": "Triangle parking lot",
+      "address": "1801 S Elena Ave, Redondo Beach, CA 90277",
+      "category": "Market",
+      "cost": "Free",
+      "audience": "Anyone",
+      "url": "https://rivieravillage.net/eventer/farmers-market-2/",
+      "blurb": "Sunday market in Riviera Village. About 8:30am–1pm."
+    },
+    {
+      "slug": "cbva-manhattan-pier-2026-10-04",
+      "title": "CBVA Manhattan Pier",
+      "start": "2026-10-04T09:00:00-07:00",
+      "end": null,
+      "city": "Manhattan",
+      "venue": "Manhattan Pier / Strand courts",
+      "address": "Manhattan Beach Pier, Manhattan Beach, CA 90266",
+      "category": "Other",
+      "cost": "Free to watch",
+      "audience": "Anyone",
+      "url": "https://cbva.com/tournaments/4790",
+      "blurb": "Sunday multi-division beach volleyball at Manhattan Pier / Strand courts. Free for spectators; player registration via CBVA."
     },
     {
       "slug": "motley-inc-lighthouse-2026-10-04",
