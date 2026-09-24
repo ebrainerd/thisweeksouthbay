@@ -1783,10 +1783,10 @@
       "venue": "South Coast Botanic Garden",
       "address": "26300 Crenshaw Blvd, Palos Verdes Peninsula, CA 90274",
       "category": "Other",
-      "cost": "Adults ~$29.99 / kids ~$24.99",
+      "cost": "Adults ~$25.99 incl fees",
       "audience": "Anyone",
       "url": "https://magicofthejackolanterns.com/la/",
-      "blurb": "Select nights Fri–Sun Sep 25–27 at South Coast Botanic Garden (PV). Sunday Sep 27 is Low Sensory Night (reduced strobe/fog). Timed evenings — check ticket calendar for each night’s entry window. Adults about $29.99 / kids about $24.99 select nights. Season select nights through Nov 1."
+      "blurb": "Select nights Fri–Sun Sep 25–27 at South Coast Botanic Garden (PV). Sunday Sep 27 is Low Sensory Night (reduced strobe/fog). Timed evenings — check ticket calendar for each night’s entry window. Adults about $25.99 incl fees select nights (check ticket calendar). Season select nights through Nov 1."
     },
     {
       "slug": "mb-food-wine-opening-2026-09-25",
@@ -1857,6 +1857,20 @@
       "audience": "Anyone",
       "url": "https://www.rimovisiongroup.org/luckiest-woman-alive",
       "blurb": "Fri Sep 25 8pm; Sat Sep 26 2pm & 6pm; Sun Sep 27 2pm at Second Story Theatre (HB Community Center). About $25–$40 / PWYC. Continues Oct 2–4 — see next-week listing."
+    },
+    {
+      "slug": "torrance-comedy-underground-2026-09-25",
+      "title": "Torrance Comedy Underground",
+      "start": "2026-09-25T20:00:00-07:00",
+      "end": "2026-09-25T22:00:00-07:00",
+      "venue": "Hermosa Brewing Co. Torrance",
+      "address": "1855 Del Amo Blvd, Torrance, CA 90501",
+      "city": "Torrance",
+      "category": "Comedy",
+      "audience": "Adults",
+      "cost": "$10/$15",
+      "url": "https://www.standupcomedyunderground.com/event-details-registration/torrance-comedy-underground-2026-09-25-20-00",
+      "blurb": "Friday 8–10pm (doors 7:30). $10 presale / $15 door. 21+."
     },
     {
       "slug": "live-band-karaoke-mom-said-yes-2026-09-25",
@@ -2405,6 +2419,20 @@
       "blurb": "Thursday 3–7pm, 300 block Main."
     },
     {
+      "slug": "magic-jack-olanterns-2026-10-01",
+      "title": "Magic of the Jack O'Lanterns",
+      "start": "2026-10-01T19:00:00-07:00",
+      "end": "2026-10-01T21:00:00-07:00",
+      "venue": "South Coast Botanic Garden",
+      "address": "26300 Crenshaw Blvd, Palos Verdes Peninsula, CA 90274",
+      "city": "Palos Verdes",
+      "category": "Other",
+      "audience": "Anyone",
+      "cost": "Adults ~$25.99 incl fees",
+      "url": "https://magicofthejackolanterns.com/la/",
+      "blurb": "Timed evening Thu Oct 1 at South Coast Botanic Garden (Available nights Oct 1–4). Check the ticket calendar for entry windows — times vary by night. Adults about $25.99 incl fees. Season select nights through Nov 1."
+    },
+    {
       "slug": "dick-the-citizen-lighthouse-2026-10-01",
       "title": "Dick The Citizen",
       "start": "2026-10-01T20:30:00-07:00",
@@ -2455,10 +2483,10 @@
       "venue": "South Coast Botanic Garden",
       "address": "26300 Crenshaw Blvd, Palos Verdes Peninsula, CA 90274",
       "category": "Other",
-      "cost": "Adults ~$29.99 / kids ~$24.99",
+      "cost": "Adults ~$25.99 incl fees",
       "audience": "Anyone",
       "url": "https://magicofthejackolanterns.com/la/",
-      "blurb": "Timed evenings Fri–Sun Oct 2–4 at South Coast Botanic Garden. Check the ticket calendar for each night’s entry window. Adults about $29.99 / kids about $24.99 select nights. Season select nights through Nov 1."
+      "blurb": "Timed evenings Fri–Sun Oct 2–4 at South Coast Botanic Garden (Available nights also include Thu Oct 1 — see that listing). Check the ticket calendar for each night’s entry window — do not assume a fixed clock time. Adults about $25.99 incl fees / kids pricing on ticket site. Season select nights through Nov 1."
     },
     {
       "slug": "10-comics-show-cmc-2026-10-02",
@@ -2551,12 +2579,12 @@
       "end": "2026-10-03T12:00:00-07:00",
       "city": "Palos Verdes",
       "venue": "Lunada Canyon / Agua Amarga Reserve",
-      "address": "Meet via VolunteerHub registration",
+      "address": "6937 Kings Harbor Dr, Rancho Palos Verdes, CA 90275",
       "category": "Other",
-      "cost": "Free (register)",
-      "audience": "Anyone",
-      "url": "https://pvplc.volunteerhub.com",
-      "blurb": "Saturday 9am–12pm habitat restoration at Lunada Canyon / Agua Amarga. Free; register on VolunteerHub. Meet via VolunteerHub registration — confirm pin when you sign up."
+      "cost": "Free (register · 16+)",
+      "audience": "Adults",
+      "url": "https://pvplc.org/events/outdoor-volunteer-day-at-aguaamarga10-03/?occurrence=2026-10-03",
+      "blurb": "Saturday 9am–12pm habitat restoration at Lunada Canyon / Agua Amarga. Ages 16+. Free; register. Meet at the trailhead on Rock Park Dr; street parking on Rock Park Dr and Kings Harbor Rd (listed address 6937 Kings Harbor Dr, Rancho Palos Verdes)."
     },
     {
       "slug": "mb-hometown-fair-2026-10-03",
@@ -2601,6 +2629,20 @@
       "blurb": "Saturday 10:30am guided walk. Free; RSVP. Meet at Stein Hale trailhead."
     },
     {
+      "slug": "unleashed-armstrong-2026-10-03",
+      "title": "Unleashed: True Stories About the Animals We Love",
+      "start": "2026-10-03T12:00:00-07:00",
+      "end": null,
+      "venue": "Armstrong Theatre / Torrance Cultural Arts Center",
+      "address": "3330 Civic Center Dr, Torrance, CA 90503",
+      "city": "Torrance",
+      "category": "Other",
+      "audience": "Anyone",
+      "cost": "$25–$35",
+      "url": "https://www.torrancearts.org/shows/unleashed",
+      "blurb": "Saturday 12:00 PM (TOCA CMS). $25–$35. True animal stories with Tasty Words / Wendy Hammers at Armstrong Theatre."
+    },
+    {
       "slug": "author-talk-letts-benjamin-2026-10-03",
       "title": "Author Talk: Elizabeth Letts & Melanie Benjamin",
       "start": "2026-10-03T15:00:00-07:00",
@@ -2613,6 +2655,20 @@
       "audience": "Anyone",
       "url": "https://pvld.libnet.info/event/16590211",
       "blurb": "Saturday 3–4:30pm. NYT authors discuss Fallen for France and The Windsor Affair; books for sale/signing."
+    },
+    {
+      "slug": "halal-night-fest-2026-10-03",
+      "title": "Halal Night Fest",
+      "start": "2026-10-03T16:00:00-07:00",
+      "end": "2026-10-03T23:00:00-07:00",
+      "venue": "Torrance Cultural Arts Center",
+      "address": "3330 Civic Center Dr, Torrance, CA 90503",
+      "city": "Torrance",
+      "category": "Other",
+      "audience": "Anyone",
+      "cost": "Free",
+      "url": "https://www.halalnightfest.com/",
+      "blurb": "Saturday 4–11pm. Free admission. Food + bazaar at Torrance Cultural Arts Center. Also listed on Luma (luma.com/halalnightfest)."
     },
     {
       "slug": "we-are-the-80s-lighthouse-2026-10-03",
