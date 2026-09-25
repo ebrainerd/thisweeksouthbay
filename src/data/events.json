@@ -1775,6 +1775,34 @@
       "blurb": "Fri–Sun Sep 25–27. Free entry at Smog City Brewing. Check brewery for hours and bands each day."
     },
     {
+      "slug": "livingston-ensemble-malaga-cove-2026-09-25",
+      "title": "The Livingston Ensemble",
+      "start": "2026-09-25T14:00:00-07:00",
+      "end": "2026-09-25T17:00:00-07:00",
+      "city": "Palos Verdes",
+      "venue": "Malaga Cove Library — Community Room",
+      "address": "2400 Via Campesina, Palos Verdes Estates, CA 90274",
+      "category": "Music",
+      "cost": "Free",
+      "audience": "Anyone",
+      "url": "https://pvld.libnet.info/event/17467347",
+      "blurb": "Friday 2–5pm free open-to-the-public performance at Malaga Cove Library Community Room."
+    },
+    {
+      "slug": "coco-movie-malaga-cove-2026-09-25",
+      "title": "Friday Fun Family Movie: Coco",
+      "start": "2026-09-25T16:00:00-07:00",
+      "end": "2026-09-25T18:00:00-07:00",
+      "city": "Palos Verdes",
+      "venue": "Malaga Cove Library — Gallery & Garden",
+      "address": "2400 Via Campesina, Palos Verdes Estates, CA 90274",
+      "category": "Other",
+      "cost": "Free",
+      "audience": "Anyone",
+      "url": "https://pvld.libnet.info/event/17170937",
+      "blurb": "Friday 4–6pm free family movie (Coco) at Malaga Cove Library Gallery & Garden. Popcorn provided. All ages welcome."
+    },
+    {
       "slug": "magic-jack-olanterns-2026-09-25",
       "title": "Magic of the Jack O'Lanterns",
       "start": "2026-09-25T19:00:00-07:00",
@@ -1895,7 +1923,7 @@
       "venue": "Deep End Live",
       "address": "100 Fisherman's Wharf, Redondo Beach, CA 90277",
       "category": "Music",
-      "cost": "$30.15–$72.15",
+      "cost": "$18.15–$72.15",
       "audience": "Adults",
       "url": "https://deependlive.com/",
       "blurb": "Doors 8, show 9pm. 21+."
@@ -2685,6 +2713,20 @@
       "blurb": "Saturday 4pm daytime tribute at the Lighthouse. Ticketed. 21+."
     },
     {
+      "slug": "scaredown-downtown-torrance-2026-10-03",
+      "title": "ScareDown in Downtown Torrance",
+      "start": "2026-10-03T16:00:00-07:00",
+      "end": "2026-10-03T21:00:00-07:00",
+      "city": "Torrance",
+      "venue": "Old Torrance / Sartori Ave",
+      "address": "1313 Sartori Ave, Torrance, CA 90501",
+      "category": "Other",
+      "cost": "Free",
+      "audience": "Anyone",
+      "url": "https://discovertorrance.com/events/scaredown-in-downtown-torrance/",
+      "blurb": "Saturday 4–9pm in Old Torrance (Sartori Ave). Free. Games, contests, live bands, DJ, trunk-or-treat, marketplace. DTA volunteer-run."
+    },
+    {
       "slug": "10-comics-show-cmc-2026-10-03",
       "title": "10 Comics Show",
       "start": "2026-10-03T20:00:00-07:00",
@@ -2797,9 +2839,9 @@
       "blurb": "Sunday 3pm at the Lighthouse. Ticketed. 21+."
     },
     {
-      "slug": "jay-leno-cmc-2026-10-04",
+      "slug": "jay-leno-cmc-2026-10-11",
       "title": "Jay Leno",
-      "start": "2026-10-04T19:00:00-07:00",
+      "start": "2026-10-11T19:00:00-07:00",
       "end": null,
       "city": "Hermosa",
       "venue": "Comedy & Magic Club",
@@ -2807,8 +2849,8 @@
       "category": "Comedy",
       "cost": "$37",
       "audience": "Adults",
-      "url": "https://thecomedyandmagicclub.com/event/jay-leno-193/the-comedy-magic-club/hermosa-beach-california/",
-      "blurb": "Doors 5, show 7pm. $37. 18+."
+      "url": "https://thecomedyandmagicclub.com/events",
+      "blurb": "Sunday Oct 11. Doors 5, show 7pm. $37. 18+. (Primary CMC calendar — Oct 4 listing removed.)"
     }
   ],
   "lastIssue": {
