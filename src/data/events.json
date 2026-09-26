@@ -1923,7 +1923,7 @@
       "venue": "Deep End Live",
       "address": "100 Fisherman's Wharf, Redondo Beach, CA 90277",
       "category": "Music",
-      "cost": "$18.15–$72.15",
+      "cost": "$18.15–$78.15",
       "audience": "Adults",
       "url": "https://deependlive.com/",
       "blurb": "Doors 8, show 9pm. 21+."
@@ -1977,12 +1977,12 @@
       "end": "2026-09-27T19:00:00-07:00",
       "city": "Redondo",
       "venue": "King Harbor",
-      "address": "207 N Harbor Dr, Redondo Beach, CA 90277",
+      "address": "207–239 N Harbor Dr, Redondo Beach, CA 90277",
       "category": "Other",
       "cost": "Free",
       "audience": "Anyone",
       "url": "https://www.visitkingharbor.com/event-details/kha-oktoberfest-092626",
-      "blurb": "Saturday–Sunday 12–7pm. Free. Parking lot between Riviera Mexican Cantina & California Surf Club (207 N Harbor Dr)."
+      "blurb": "Saturday–Sunday 12–7pm both days. Free. Parking lot between Riviera Mexican Cantina & California Surf Club (207–239 N Harbor Dr, Redondo Beach)."
     },
     {
       "slug": "artist-talk-stephen-mirich-pvac-2026-09-26",
@@ -2119,7 +2119,7 @@
       "venue": "Deep End Live",
       "address": "100 Fisherman's Wharf, Redondo Beach, CA 90277",
       "category": "Music",
-      "cost": "$32.55–$60.15",
+      "cost": "$18.15–$60.15",
       "audience": "Adults",
       "url": "https://deependlive.com/",
       "blurb": "Doors 7, show 8pm. 21+."
@@ -2361,6 +2361,20 @@
       "audience": "Anyone",
       "url": "https://downtownmanhattanbeach.com/manhattan-beach-farmers-market",
       "blurb": "Tuesday 11am–3pm."
+    },
+    {
+      "slug": "aidan-sears-quartet-malaga-cove-2026-09-29",
+      "title": "Aidan Sears Quartet",
+      "start": "2026-09-29T15:00:00-07:00",
+      "end": "2026-09-29T18:00:00-07:00",
+      "city": "Palos Verdes",
+      "venue": "Malaga Cove Library — Gallery & Garden",
+      "address": "2400 Via Campesina, Palos Verdes Estates, CA 90274",
+      "category": "Music",
+      "cost": "Free",
+      "audience": "Anyone",
+      "url": "https://pvld.libnet.info/event/17416337",
+      "blurb": "Tuesday 3–6pm free album-release live set at Malaga Cove Library Gallery & Garden. Open to the public."
     },
     {
       "slug": "trivia-budds-brewport-2026-09-29",
@@ -2837,6 +2851,20 @@
       "audience": "Adults",
       "url": "https://motleyinchermosabeach.eventbrite.com",
       "blurb": "Sunday 3pm at the Lighthouse. Ticketed. 21+."
+    },
+    {
+      "slug": "howie-mandel-cmc-2026-10-04",
+      "title": "Howie Mandel",
+      "start": "2026-10-04T19:00:00-07:00",
+      "end": null,
+      "city": "Hermosa",
+      "venue": "Comedy & Magic Club",
+      "address": "1018 Hermosa Ave, Hermosa Beach, CA 90254",
+      "category": "Comedy",
+      "cost": "$37 (Sold Out)",
+      "audience": "Adults",
+      "url": "https://thecomedyandmagicclub.com/event/howie-mandel/the-comedy-magic-club/hermosa-beach-california/",
+      "blurb": "Sunday Oct 4. Doors 5, show 7pm. $37. Sold Out (awareness only). 18+."
     },
     {
       "slug": "jay-leno-cmc-2026-10-11",
