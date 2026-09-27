@@ -1881,10 +1881,10 @@
       "venue": "Second Story Theatre / HB Community Center",
       "address": "710 Pier Ave, Hermosa Beach, CA 90254",
       "category": "Other",
-      "cost": "~$25–$40 / PWYC",
+      "cost": "Fri 8pm; Sat 2&6pm; Sun 2pm · ~$25–$40 / PWYC",
       "audience": "Anyone",
       "url": "https://www.rimovisiongroup.org/luckiest-woman-alive",
-      "blurb": "Fri Sep 25 8pm; Sat Sep 26 2pm & 6pm; Sun Sep 27 2pm at Second Story Theatre (HB Community Center). About $25–$40 / PWYC. Continues Oct 2–4 — see next-week listing."
+      "blurb": "Fri Sep 25 8pm; Sat Sep 26 2pm & 6pm; Sun Sep 27 2pm at Second Story Theatre (HB Community Center). About $25–$40 / PWYC. Continues Oct 2–4. See next-week listing."
     },
     {
       "slug": "torrance-comedy-underground-2026-09-25",
@@ -2119,7 +2119,7 @@
       "venue": "Deep End Live",
       "address": "100 Fisherman's Wharf, Redondo Beach, CA 90277",
       "category": "Music",
-      "cost": "$18.15–$60.15",
+      "cost": "$18.15–$66.15",
       "audience": "Adults",
       "url": "https://deependlive.com/",
       "blurb": "Doors 7, show 8pm. 21+."
@@ -2567,7 +2567,7 @@
       "venue": "Second Story Theatre / HB Community Center",
       "address": "710 Pier Ave, Hermosa Beach, CA 90254",
       "category": "Other",
-      "cost": "~$25–$40 / PWYC",
+      "cost": "Fri 8pm; Sat 2&6pm; Sun 2pm · ~$25–$40 / PWYC",
       "audience": "Anyone",
       "url": "https://www.rimovisiongroup.org/luckiest-woman-alive",
       "blurb": "Fri Oct 2 8pm; Sat Oct 3 2pm & 6pm; Sun Oct 4 2pm at Second Story Theatre (HB Community Center). About $25–$40 / PWYC."
@@ -2620,13 +2620,27 @@
       "start": "2026-10-03T09:00:00-07:00",
       "end": "2026-10-03T12:00:00-07:00",
       "city": "Palos Verdes",
-      "venue": "Lunada Canyon / Agua Amarga Reserve",
+      "venue": "Rock Park Dr trailhead (park Rock Park Dr + Kings Harbor Rd)",
       "address": "6937 Kings Harbor Dr, Rancho Palos Verdes, CA 90275",
       "category": "Other",
       "cost": "Free (register · 16+)",
       "audience": "Adults",
       "url": "https://pvplc.org/events/outdoor-volunteer-day-at-aguaamarga10-03/?occurrence=2026-10-03",
       "blurb": "Saturday 9am–12pm habitat restoration at Lunada Canyon / Agua Amarga. Ages 16+. Free; register. Meet at the trailhead on Rock Park Dr; street parking on Rock Park Dr and Kings Harbor Rd (listed address 6937 Kings Harbor Dr, Rancho Palos Verdes)."
+    },
+    {
+      "slug": "barney-saltzberg-pages-2026-10-03",
+      "title": "Barney Saltzberg Story Time",
+      "start": "2026-10-03T09:30:00-07:00",
+      "end": "2026-10-03T10:30:00-07:00",
+      "city": "Manhattan",
+      "venue": "pages: a bookstore",
+      "address": "904 Manhattan Ave, Manhattan Beach, CA 90266",
+      "category": "Other",
+      "cost": "Free",
+      "audience": "Kids",
+      "url": "https://pagesabookstore.com/event/2026-10-03/special-story-time-barney-saltzberg",
+      "blurb": "Saturday 9:30–10:30am special Story Time with Barney Saltzberg (A Not-So-Scary Story!) at pages: a bookstore. Free."
     },
     {
       "slug": "mb-hometown-fair-2026-10-03",
@@ -2651,7 +2665,7 @@
       "venue": "PV Art Center",
       "address": "5504 Crestridge Road, Rancho Palos Verdes, CA 90275",
       "category": "Other",
-      "cost": "Free",
+      "cost": "Free · 10am–4pm both days",
       "audience": "Anyone",
       "url": "https://www.pvartcenter.org/",
       "blurb": "Saturday–Sunday Oct 3–4, 10am–4pm. Free open house at PV Art Center."
@@ -2739,6 +2753,20 @@
       "audience": "Anyone",
       "url": "https://discovertorrance.com/events/scaredown-in-downtown-torrance/",
       "blurb": "Saturday 4–9pm in Old Torrance (Sartori Ave). Free. Games, contests, live bands, DJ, trunk-or-treat, marketplace. DTA volunteer-run."
+    },
+    {
+      "slug": "carrie-talick-pages-2026-10-03",
+      "title": "Carrie Talick: The Alibi Club",
+      "start": "2026-10-03T17:00:00-07:00",
+      "end": "2026-10-03T18:00:00-07:00",
+      "city": "Manhattan",
+      "venue": "pages: a bookstore",
+      "address": "904 Manhattan Ave, Manhattan Beach, CA 90266",
+      "category": "Other",
+      "cost": "Free",
+      "audience": "Anyone",
+      "url": "https://pagesabookstore.com/event/2026-10-03/special-author-event-carrie-talick",
+      "blurb": "Saturday 5–6pm author event for The Alibi Club at pages: a bookstore (904 Manhattan Ave, Manhattan Beach). Free; book purchase encouraged."
     },
     {
       "slug": "10-comics-show-cmc-2026-10-03",
