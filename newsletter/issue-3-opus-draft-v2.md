@@ -1,0 +1,234 @@
+# This Week South Bay — Issue 3 (Monday, September 28, 2026)
+
+**Subject line:** Hometown Fair weekend, a 10K, and pumpkins that glow on purpose
+
+**Preview text:** Plus free '90s rock, a book sale in a parking garage, and your last week to see the butterflies.
+
+---
+
+Good morning, South Bay,
+
+Welcome to Issue 3, and welcome to October, or at least the week that ends in it. This is the stretch of the year when we keep wearing shorts out of principle and start eyeing the pumpkins at the grocery store like they owe us something. The week starts quietly and builds to a Saturday so packed that you may need to sit down with a calendar and a snack to plan it. The Manhattan Beach Hometown Fair is back, a whole lot of people will run a 10K through downtown MB on purpose, and Old Torrance is throwing a Halloween street party a full four weeks early, which I respect.
+
+Here's everything on the board for Monday, September 28 through Sunday, October 4.
+
+---
+
+THE BIG ONES
+
+Manhattan Beach Hometown Fair
+Saturday and Sunday, Oct 3–4, 10am–6pm
+Live Oak Park / Dorsey Field / Joslyn Center, Manhattan Beach
+Free admission
+This is the unofficial town reunion. You'll see your neighbors, your kid's old soccer coach, and at least one person you've been meaning to text back since spring. It runs both days, so you can go Saturday, get overwhelmed, and come back Sunday with a plan.
+https://www.mbfair.org/
+
+49th Annual MB 10K
+Saturday, Oct 3, around 7:30am
+Downtown Manhattan Beach
+Ticketed for runners, free to watch
+Forty-nine years of people choosing to run six-plus miles before breakfast. There's live music and a post-race expo at the finish, and spectating is free, which is the division I'll be competing in. Also worth knowing if you're driving through downtown MB that morning.
+https://www.mb10k.com/event-details
+
+ScareDown in Downtown Torrance
+Saturday, Oct 3, 4pm–9pm
+Old Torrance / Sartori Ave, Torrance
+Free
+Games, contests, live bands, a DJ, trunk-or-treat, and a marketplace, and the whole thing is volunteer-run. It's early for Halloween, but costumes you finish now can get worn twice this month.
+https://discovertorrance.com/events/scaredown-in-downtown-torrance/
+
+Halal Night Fest
+Saturday, Oct 3, 4pm–11pm
+Torrance Cultural Arts Center, Torrance
+Free admission
+Food plus a bazaar, running well into the night. ScareDown and Halal Night Fest are both in Torrance on Saturday evening, so that's an easy two-stop night if you've got the stamina and the appetite.
+https://www.halalnightfest.com/
+
+---
+
+MONDAY, SEP 28
+
+SOAR – Tropical Butterflies (all week, Mon–Sun)
+South Coast Botanic Garden, Palos Verdes
+Members $7 / non-members up to $27 (includes garden admission). Timed tickets required.
+Last call on this one: the exhibit is extended only through Sunday, Oct 4. Open daily 8am–5pm, with last entrance at 4:30pm. If you've been saying "we should go see the butterflies" since summer, this is your week to go do it.
+https://southcoastbotanicgarden.org/soar/
+
+---
+
+TUESDAY, SEP 29
+
+Downtown MB Farmers Market, 11am–3pm
+Civic Center plaza, Manhattan Beach. Free.
+
+Aidan Sears Quartet, 3pm–6pm
+Malaga Cove Library — Gallery & Garden, Palos Verdes. Free.
+A free album-release set in the library garden. A jazz quartet among the plants on a Tuesday afternoon sounds like a very good reason to leave work "for a meeting."
+https://pvld.libnet.info/event/17416337
+
+Trivia with BUDDS, 7pm–8pm
+Brewport Taphouse, El Segundo. Free to play.
+One tidy hour of trivia, so you'll still be home in time to lie awake thinking about the one you got wrong.
+
+---
+
+WEDNESDAY, SEP 30
+
+North Redondo Farmers Market, 2pm–7pm
+Green Lane (by North Branch Library), Redondo. Free.
+
+Boots on the Pier ft. Cobra Cowboy, 7:30pm
+Deep End Live, Redondo. $10.95–$12.15. 21+.
+Wednesday country night, and the band is called Cobra Cowboy, which already tells you most of what you need to know. Wear the boots you bought for Stagecoach and haven't worn since.
+
+---
+
+THURSDAY, OCT 1
+
+Redondo Beach Certified Farmers Market, 8am–1pm
+Veterans Park / Pier, Redondo. Free.
+
+Manhattan Village Farmers Market, 2pm–7pm
+Next to Anthropologie, Manhattan Beach. Free.
+
+El Segundo Certified Farmers Market, 3pm–7pm
+300 block of Main St, El Segundo. Free.
+
+Magic of the Jack O'Lanterns (opens Thursday; also Fri–Sun)
+South Coast Botanic Garden, Palos Verdes
+Adults about $25.99 incl. fees; kids' pricing on the ticket site.
+Timed evening entry, and the entry windows vary by night, so check the ticket calendar before you go. The season runs select nights through Nov 1. This is also the rare Halloween thing where nobody jumps out at you.
+https://magicofthejackolanterns.com/la/
+
+Dick The Citizen, 8:30pm
+Lighthouse Cafe, Hermosa. Cover unpublished. 21+.
+
+---
+
+FRIDAY, OCT 2
+
+Peninsula Center Book Sale (Fri–Sun, 10am–4:30pm)
+Peninsula Center Library — Parking Garage, Palos Verdes
+Free entry; books priced.
+The Friends of the Library book sale, held in a parking garage, which is where all the best treasure hunts happen. Bring a tote bag and some self-restraint, but mostly the tote bag.
+https://plffoundation.org/book-sales/
+
+Hermosa Beach Farmers Market, 12pm–4pm
+Valley Dr at 11th, Hermosa. Free.
+
+10 Comics Show, 8pm
+Comedy & Magic Club, Hermosa. $27. 18+. Doors typically 6:30. (Also Saturday.)
+
+90s Rock Show, 8pm
+Lighthouse Cafe, Hermosa. Limited free tickets via Eventbrite. 21+.
+Free tickets and '90s rock, so dig out the flannel. If you still have a JNCO situation, that's between you and your closet.
+https://90srockshowhermosa.eventbrite.com
+
+The Luckiest Woman Alive (Fri–Sun)
+Second Story Theatre / HB Community Center, Hermosa
+Fri 8pm; Sat 2pm & 6pm; Sun 2pm. About $25–$40 / pay what you can.
+https://www.rimovisiongroup.org/luckiest-woman-alive
+
+The Young Dubliners w/ Ockhams Razor, 8pm
+Deep End Live, Redondo. $21.75–$48.15. 21+.
+Irish rock by the pier. Someone near you will know every word, and it probably won't be you, which is fine.
+
+LA Winter, 8:30pm–11:30pm
+Mom Said Yes Pizza, Torrance. Paid GA.
+
+---
+
+SATURDAY, OCT 3
+
+Saturday is doing a lot this week. Along with the big ones above (the Hometown Fair, the MB 10K, ScareDown, and Halal Night Fest), here's the rest of the day:
+
+Outdoor Volunteer — Lunada Canyon / Agua Amarga, 9am–12pm
+Rock Park Dr trailhead, Palos Verdes. Free; register. Ages 16+.
+Habitat restoration with the PV Peninsula Land Conservancy. Street parking is on Rock Park Dr and Kings Harbor Rd.
+https://pvplc.org/events/outdoor-volunteer-day-at-aguaamarga10-03/?occurrence=2026-10-03
+
+Barney Saltzberg Story Time, 9:30am–10:30am
+pages: a bookstore, Manhattan Beach. Free.
+A special story time featuring "A Not-So-Scary Story!", which is the right amount of scary for the under-six crowd and, frankly, for me.
+https://pagesabookstore.com/event/2026-10-03/special-story-time-barney-saltzberg
+
+PVAC 95th Anniversary Open House (Sat–Sun, 10am–4pm)
+PV Art Center, Palos Verdes. Free.
+Ninety-five years of art on the Peninsula, and they're celebrating with the doors open both days.
+https://www.pvartcenter.org/
+
+PVPLC 1st Saturday Guided Nature Walk, 10:30am
+George F Canyon Nature Preserve, Palos Verdes. Free; RSVP. Meet at the Stein Hale trailhead.
+https://pvplc.org/events/1st-saturday-guided-nature-walk/
+
+Unleashed: True Stories About the Animals We Love, 12pm
+Armstrong Theatre / Torrance Cultural Arts Center, Torrance. $25–$35.
+True animal stories with Tasty Words and Wendy Hammers. Your dog would love to come, but your dog will have to settle for hearing about it later.
+https://www.torrancearts.org/shows/unleashed
+
+Author Talk: Elizabeth Letts & Melanie Benjamin, 3pm–4:30pm
+Peninsula Center Library — Community Room, Palos Verdes. Free.
+Two New York Times bestselling authors discussing "Fallen for France" and "The Windsor Affair," with books for sale and signing.
+https://pvld.libnet.info/event/16590211
+
+We Are The 80's, 4pm
+Lighthouse Cafe, Hermosa. Ticketed. 21+.
+A daytime '80s tribute, so you can do the big hair and still get home at a reasonable hour.
+https://wearethe80s.eventbrite.com
+
+Carrie Talick: The Alibi Club, 5pm–6pm
+pages: a bookstore, Manhattan Beach. Free; book purchase encouraged.
+https://pagesabookstore.com/event/2026-10-03/special-author-event-carrie-talick
+
+10 Comics Show, 8pm
+Comedy & Magic Club, Hermosa. $27. 18+.
+
+Cubensis performs American Beauty, 8pm
+Deep End Live, Redondo. $21.75–$48.15. 21+.
+The Grateful Dead album played straight through. Tie-dye is optional, but it will not be the only tie-dye in the room.
+
+Dick The Citizen, 8pm
+Lighthouse Cafe, Hermosa. Cover unpublished. 21+.
+
+Petty or Not, 8:30pm–11:30pm
+Mom Said Yes Pizza, Torrance. Paid GA.
+A Tom Petty tribute. You will sing "Free Fallin'" in the car on the way home, and that's just going to happen.
+
+---
+
+SUNDAY, OCT 4
+
+Palos Verdes Farmers Market, 8am–1pm
+Peninsula High / Silver Spur, Palos Verdes. Free.
+
+Riviera Village Farmers Market, 8:30am–1pm
+Triangle parking lot, Redondo. Free.
+
+CBVA Manhattan Pier, 9am
+Manhattan Pier / Strand courts, Manhattan Beach. Free to watch.
+Multi-division beach volleyball at the pier. It's a free, very South Bay way to spend a Sunday morning while nodding along like you know what a "cut shot" is.
+
+Motley Inc, 3pm
+Lighthouse Cafe, Hermosa. Ticketed. 21+.
+
+Howie Mandel, 7pm
+Comedy & Magic Club, Hermosa. $37. Sold out.
+Just so you know it's happening. If you already have tickets, congratulations. If not, the 10 Comics Show on Friday or Saturday is a fine consolation prize.
+
+Also on Sunday: the Hometown Fair (10am–6pm), the PVAC open house (10am–4pm), the book sale (10am–4:30pm), The Luckiest Woman Alive (2pm), Magic of the Jack O'Lanterns (evening), and your final chance to see the SOAR butterflies before they leave.
+
+---
+
+EVERY WEEK, IN CASE YOU NEED A STANDING PLAN
+
+Farmers markets: Tuesday in Downtown MB, Wednesday in North Redondo, Thursday at the Redondo Pier, Manhattan Village, and El Segundo, Friday in Hermosa, and Sunday in Palos Verdes and Riviera Village. That's a market almost every day of the week, which means you have no excuse for sad produce.
+
+---
+
+That's the week. The full board, including the city pages and whatever gets added between now and Saturday, lives at https://www.thisweeksouthbay.com, and the early look at the following week is at https://www.thisweeksouthbay.com/next-week.
+
+If you know about something happening in the South Bay that we missed, hit reply and tell us. And if a friend is always asking "what's going on this weekend?", forward this to them, so they can ask the newsletter instead of you.
+
+Have a great week, and hydrate if you're running the 10K. Or if you're just watching it. Cheering is surprisingly hard work.
+
+This Week South Bay
