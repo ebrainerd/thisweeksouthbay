@@ -2819,10 +2819,10 @@
       "venue": "Mom Said Yes Pizza",
       "address": "4525 Calle Mayor, Torrance, CA 90505",
       "category": "Music",
-      "cost": "Paid GA",
+      "cost": "$28 ($31.72 GA)",
       "audience": "Anyone",
       "url": "https://momsaidyes.live/event_listing_category/live-music-torrance/",
-      "blurb": "Saturday 8:30–11:30pm Tom Petty tribute. Paid GA."
+      "blurb": "Saturday 8:30–11:30pm Tom Petty tribute. $28 ($31.72 GA)."
     },
     {
       "slug": "palos-verdes-farmers-market-2026-10-04",
@@ -3299,6 +3299,49 @@
       "audience": "Anyone",
       "url": "https://pvplc.volunteerhub.com",
       "blurb": "Saturday 9–11:30am volunteer beautify day in Lunada Bay, PVE. Free; register via PVPLC VolunteerHub."
+    },
+    {
+      "slug": "absolution-oktoberfest-2026-10-03",
+      "title": "Absolution Brewing Oktoberfest",
+      "start": "2026-10-03T12:00:00-07:00",
+      "end": null,
+      "city": "Torrance",
+      "venue": "Absolution Brewing Co.",
+      "address": "2878 Columbia St, Torrance, CA 90503",
+      "category": "Other",
+      "cost": "Free",
+      "audience": "Anyone",
+      "url": "https://www.absolutionbrewingcompany.com/taproom",
+      "blurb": "Saturday Oktoberfest at the Absolution taproom, from about noon on, all day. Free.",
+      "timeLabel": "From noon"
+    },
+    {
+      "slug": "concerts-by-the-coast-great-fantasies-2026-10-03",
+      "title": "Concerts by the Coast: The Great Fantasies (Vladimir Khomyakov)",
+      "start": "2026-10-03T19:30:00-07:00",
+      "end": null,
+      "city": "Palos Verdes",
+      "venue": "31290 Palos Verdes Dr W",
+      "address": "31290 Palos Verdes Dr W, Rancho Palos Verdes, CA 90275",
+      "category": "Music",
+      "cost": "$60 / $30 students",
+      "audience": "Anyone",
+      "url": "https://www.zeffy.com/en-US/ticketing/concerts-by-the-coast-the-great-fantasies-vladimir-khomyakov",
+      "blurb": "Saturday chamber concert with pianist Vladimir Khomyakov. Salon 6:30pm, show 7:30pm. $60, $30 students."
+    },
+    {
+      "slug": "carrie-and-the-prom-hermosa-2026-10-09",
+      "title": "Carrie & The Prom",
+      "start": "2026-10-09T19:00:00-07:00",
+      "end": "2026-10-09T22:30:00-07:00",
+      "city": "Hermosa",
+      "venue": "Hermosa Beach Community Center",
+      "address": "710 Pier Ave, Hermosa Beach, CA 90254",
+      "category": "Other",
+      "cost": "",
+      "audience": "Anyone",
+      "url": "https://www.hermosabeach.gov/Home/Components/Calendar/Event/12163/20",
+      "blurb": "Friday 7–10:30pm at the Hermosa Beach Community Center. Price unpublished."
     }
   ],
   "lastIssue": {

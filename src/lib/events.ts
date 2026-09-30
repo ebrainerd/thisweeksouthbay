@@ -13,6 +13,8 @@ export type ListingEvent = {
   audience: string;
   url: string;
   blurb: string;
+  /** Optional board time override (e.g. "From noon") when the primary gives no clock range. */
+  timeLabel?: string;
 };
 
 export type Issue = {
@@ -115,6 +117,7 @@ export function formatClock(iso: string): string {
 }
 
 export function formatTimeRange(event: ListingEvent): string {
+  if (event.timeLabel) return event.timeLabel;
   if (isMultiDay(event) && event.end) {
     return `${weekdayShort.format(new Date(event.start))}–${weekdayShort.format(new Date(event.end))}`;
   }
@@ -125,6 +128,7 @@ export function formatTimeRange(event: ListingEvent): string {
 
 export function formatWhen(event: ListingEvent): string {
   const day = dateLong.format(new Date(event.start));
+  if (event.timeLabel) return `${day}, ${event.timeLabel}`;
   if (isMultiDay(event) && event.end) {
     return `${day}–${dateLong.format(new Date(event.end))}`;
   }
