@@ -1,0 +1,318 @@
+---
+const WAITLIST = 'https://this-week.app/waitlist?utm_source=thisweeksouthbay&utm_medium=site_banner';
+
+const screens = [
+  { name: 'event', alt: '' },
+  { name: 'map', alt: '' },
+  { name: 'week', alt: 'The This Week app showing a weekly board of local events.' },
+];
+---
+
+<aside id="app-promo" class="promo" aria-labelledby="app-promo-title">
+  <div class="promo-art">
+    {
+      screens.map((s) => (
+        <div class={`promo-phone promo-phone--${s.name}`} aria-hidden={s.alt ? undefined : 'true'}>
+          <picture>
+            <source type="image/avif" srcset={`/app/${s.name}-200.avif 200w, /app/${s.name}-360.avif 360w`} sizes="6.5rem" />
+            <source type="image/webp" srcset={`/app/${s.name}-200.webp 200w, /app/${s.name}-360.webp 360w`} sizes="6.5rem" />
+            <img src={`/app/${s.name}-200.webp`} alt={s.alt} width="200" height="435" decoding="async" />
+          </picture>
+        </div>
+      ))
+    }
+  </div>
+
+  <div class="promo-copy">
+    <p class="promo-kicker">New app</p>
+    <p class="promo-title" id="app-promo-title">This Week is coming to iPhone.</p>
+    <p class="promo-line">
+      A weekly board of things to do, a map, and event details with reminders.
+    </p>
+  </div>
+
+  <a class="promo-cta" href={WAITLIST}>Join the app waitlist<span aria-hidden="true"> →</span></a>
+
+  <button class="promo-close" type="button" aria-label="Dismiss the This Week app banner">
+    <span aria-hidden="true">×</span>
+  </button>
+</aside>
+
+<script is:inline>
+  (() => {
+    const key = 'tw-app-promo-dismissed';
+    const el = document.getElementById('app-promo');
+    if (!el) return;
+    try {
+      if (localStorage.getItem(key)) {
+        el.hidden = true;
+        return;
+      }
+    } catch {}
+    el.querySelector('.promo-close').addEventListener('click', () => {
+      el.hidden = true;
+      try {
+        localStorage.setItem(key, '1');
+      } catch {}
+    });
+  })();
+</script>
+
+<style>
+  .promo {
+    --promo-paper: #f1ece1;
+    --art: 7.1rem;
+    position: relative;
+    display: grid;
+    grid-template-columns: var(--art) minmax(0, 1fr);
+    grid-template-areas:
+      'art copy'
+      'art cta';
+    column-gap: 0.9rem;
+    margin: -0.6rem 0 2.4rem;
+    background: var(--promo-paper);
+    border-top: 1px solid var(--ink);
+    border-bottom: 1px solid var(--ink);
+    overflow: hidden;
+  }
+
+  .promo[hidden] {
+    display: none;
+  }
+
+  .promo-art {
+    grid-area: art;
+    position: relative;
+    min-height: 10.5rem;
+  }
+
+  .promo-phone {
+    position: absolute;
+    top: 0.9rem;
+    bottom: -1.75rem;
+    left: 1.25rem;
+    aspect-ratio: 200 / 435;
+    max-width: 6rem;
+    padding: 3px;
+    border-radius: 1.05rem;
+    background: var(--ink);
+    box-shadow: 0 6px 18px rgb(18 18 18 / 0.2);
+    transform-origin: 50% 25%;
+    transition: transform 220ms ease;
+  }
+
+  .promo-phone picture {
+    display: block;
+    height: 100%;
+    overflow: hidden;
+    border-radius: calc(1.05rem - 3px);
+    background: #f4efe4;
+  }
+
+  .promo-phone img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .promo-phone--week {
+    transform: rotate(4deg);
+    z-index: 2;
+  }
+
+  .promo-phone--map {
+    left: -0.6rem;
+    top: 1.6rem;
+    transform: rotate(-9deg);
+    z-index: 1;
+  }
+
+  .promo-phone--event {
+    display: none;
+  }
+
+  .promo-copy {
+    grid-area: copy;
+    min-width: 0;
+    padding: 1rem 0.9rem 0 0;
+  }
+
+  .promo-kicker {
+    margin: 0 0 0.4rem;
+    padding-right: 2rem;
+    font-size: 0.68rem;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+
+  .promo-title {
+    margin: 0;
+    padding-right: 1.25rem;
+    font-size: 1.15rem;
+    font-weight: 700;
+    line-height: 1.15;
+    letter-spacing: -0.01em;
+  }
+
+  .promo-line {
+    margin: 0.35rem 0 0;
+    font-size: 0.875rem;
+    line-height: 1.35;
+    color: var(--muted);
+  }
+
+  .promo-cta {
+    grid-area: cta;
+    justify-self: start;
+    align-self: start;
+    margin: 0.75rem 0 1rem;
+    padding: 0.5rem 0.8rem;
+    background: var(--ink);
+    color: var(--cream);
+    font-size: 0.9rem;
+    font-weight: 700;
+    text-decoration: none;
+    white-space: nowrap;
+  }
+
+  .promo-cta::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+  }
+
+  .promo-cta:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+  }
+
+  .promo-cta:focus-visible {
+    outline-offset: 2px;
+  }
+
+  .promo:hover .promo-phone--week {
+    transform: rotate(2deg) translateY(-5px);
+  }
+
+  .promo:hover .promo-phone--map {
+    transform: rotate(-11deg) translateY(-2px);
+  }
+
+  .promo-close {
+    position: absolute;
+    top: 0.4rem;
+    right: 0.3rem;
+    z-index: 3;
+    width: 2.25rem;
+    height: 2.25rem;
+    padding: 0;
+    border: 0;
+    border-radius: 50%;
+    background: transparent;
+    color: var(--muted);
+    font: inherit;
+    font-size: 1.35rem;
+    line-height: 1;
+    cursor: pointer;
+  }
+
+  .promo-close:hover {
+    color: var(--ink);
+    background: rgb(18 18 18 / 0.07);
+  }
+
+  @media (min-width: 960px) {
+    .promo {
+      --art: 15.5rem;
+      grid-template-columns: var(--art) minmax(0, 1fr) auto;
+      grid-template-areas: 'art copy cta';
+      align-items: center;
+      column-gap: 1.75rem;
+      margin-top: -1rem;
+      padding-right: 3.5rem;
+    }
+
+    .promo-art {
+      align-self: stretch;
+      min-height: 10.5rem;
+    }
+
+    .promo-copy {
+      padding: 1.5rem 0;
+    }
+
+    .promo-kicker,
+    .promo-title {
+      padding-right: 0;
+    }
+
+    .promo-title {
+      font-size: 1.35rem;
+    }
+
+    .promo-line {
+      max-width: 25rem;
+    }
+
+    .promo-phone {
+      top: 1.1rem;
+      left: 4.4rem;
+      width: 6.75rem;
+      max-width: none;
+      aspect-ratio: auto;
+      border-radius: 1.3rem;
+    }
+
+    .promo-phone picture {
+      border-radius: calc(1.3rem - 3px);
+    }
+
+    .promo-phone--week {
+      transform: rotate(-5deg);
+    }
+
+    .promo-phone--map {
+      left: 8.4rem;
+      top: 1.9rem;
+      transform: rotate(9deg);
+    }
+
+    .promo:hover .promo-phone--week {
+      transform: rotate(-2deg) translateY(-5px);
+    }
+
+    .promo:hover .promo-phone--map {
+      transform: rotate(12deg) translateY(-2px);
+    }
+
+    .promo-phone--event {
+      display: block;
+      left: 1rem;
+      top: 2.3rem;
+      transform: rotate(-13deg);
+      z-index: 0;
+    }
+
+    .promo:hover .promo-phone--event {
+      transform: rotate(-16deg) translateY(-2px);
+    }
+
+    .promo-cta {
+      align-self: center;
+      margin: 0;
+    }
+
+    .promo-close {
+      top: 50%;
+      right: 0.6rem;
+      transform: translateY(-50%);
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .promo-phone {
+      transition: none;
+    }
+  }
+</style>

@@ -1,6 +1,7 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import EventRow from '../components/EventRow.astro';
+import AppPromo from '../components/AppPromo.astro';
 import { catalog, groupByWeekday, weekEvents } from '../lib/events';
 
 const days = groupByWeekday(weekEvents());
@@ -44,6 +45,8 @@ const jsonLd = {
     </p>
     <p class="issue">{catalog.issue.label}</p>
   </header>
+
+  <AppPromo />
 
   {
     days.map((day) => (

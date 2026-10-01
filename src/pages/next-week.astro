@@ -1,6 +1,7 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import EventRow from '../components/EventRow.astro';
+import AppPromo from '../components/AppPromo.astro';
 import { catalog, groupByWeekday, weekEvents } from '../lib/events';
 
 const days = groupByWeekday(weekEvents(catalog.nextIssue));
@@ -21,6 +22,8 @@ const description =
     </p>
     <p class="issue">{catalog.nextIssue.label}</p>
   </header>
+
+  <AppPromo />
 
   {
     days.length === 0 ? (
