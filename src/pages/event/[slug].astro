@@ -1,6 +1,6 @@
 ---
 import Layout from '../../layouts/Layout.astro';
-import { allSlugs, eventMetaDescription, formatWhen, getEvent, mapsUrl } from '../../lib/events';
+import { allSlugs, eventMetaDescription, formatWhen, getEvent, mapsUrl, toDate } from '../../lib/events';
 
 export function getStaticPaths() {
   return allSlugs().map((slug) => ({ params: { slug } }));
@@ -23,7 +23,7 @@ const shortDate = new Intl.DateTimeFormat('en-US', {
   timeZone: 'America/Los_Angeles',
   month: 'short',
   day: 'numeric',
-}).format(new Date(event.start));
+}).format(toDate(event.start));
 
 const title = `${event.title} | ${shortDate} | South Bay`;
 const description = eventMetaDescription(event);

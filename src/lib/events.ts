@@ -68,7 +68,23 @@ const timeParts = new Intl.DateTimeFormat('en-US', {
   hour12: true,
 });
 
+const DATE_ONLY = /^\d{4}-\d{2}-\d{2}$/;
+
+/**
+ * Date-only events (start/end like "2026-10-09") have no confirmed clock time.
+ * They render and emit dates only: no clock on the row, event page, or JSON-LD.
+ */
+export function isDateOnly(iso: string): boolean {
+  return DATE_ONLY.test(iso);
+}
+
+/** Parse for display. Date-only values are pinned to noon UTC so the LA calendar day is unchanged. */
+export function toDate(iso: string): Date {
+  return isDateOnly(iso) ? new Date(`${iso}T12:00:00Z`) : new Date(iso);
+}
+
 export function laDateKey(iso: string): string {
+  if (isDateOnly(iso)) return iso;
   const parts = dateParts.formatToParts(new Date(iso));
   const year = parts.find((p) => p.type === 'year')?.value;
   const month = parts.find((p) => p.type === 'month')?.value;
@@ -102,10 +118,11 @@ export function getEvent(slug: string): ListingEvent | undefined {
 }
 
 export function weekdayLabel(iso: string): string {
-  return weekdayLong.format(new Date(iso)).toUpperCase();
+  return weekdayLong.format(toDate(iso)).toUpperCase();
 }
 
 export function formatClock(iso: string): string {
+  if (isDateOnly(iso)) return '';
   const parts = timeParts.formatToParts(new Date(iso));
   const hour = parts.find((p) => p.type === 'hour')?.value ?? '';
   const minute = parts.find((p) => p.type === 'minute')?.value ?? '';
@@ -119,19 +136,21 @@ export function formatClock(iso: string): string {
 export function formatTimeRange(event: ListingEvent): string {
   if (event.timeLabel) return event.timeLabel;
   if (isMultiDay(event) && event.end) {
-    return `${weekdayShort.format(new Date(event.start))}–${weekdayShort.format(new Date(event.end))}`;
+    return `${weekdayShort.format(toDate(event.start))}–${weekdayShort.format(toDate(event.end))}`;
   }
+  if (isDateOnly(event.start)) return '';
   const start = formatClock(event.start);
   if (!event.end) return start;
   return `${start}–${formatClock(event.end)}`;
 }
 
 export function formatWhen(event: ListingEvent): string {
-  const day = dateLong.format(new Date(event.start));
-  if (event.timeLabel) return `${day}, ${event.timeLabel}`;
+  const day = dateLong.format(toDate(event.start));
   if (isMultiDay(event) && event.end) {
-    return `${day}–${dateLong.format(new Date(event.end))}`;
+    return `${day}–${dateLong.format(toDate(event.end))}`;
   }
+  if (event.timeLabel) return `${day}, ${event.timeLabel}`;
+  if (isDateOnly(event.start)) return day;
   if (event.end) return `${day}, ${formatClock(event.start)}–${formatClock(event.end)}`;
   return `${day}, ${formatClock(event.start)}`;
 }
@@ -174,7 +193,7 @@ export function eventMetaDescription(event: ListingEvent): string {
     weekday: 'long',
     month: 'short',
     day: 'numeric',
-  }).formatToParts(new Date(event.start));
+  }).formatToParts(toDate(event.start));
   const weekday = parts.find((p) => p.type === 'weekday')?.value ?? '';
   const month = parts.find((p) => p.type === 'month')?.value ?? '';
   const day = parts.find((p) => p.type === 'day')?.value ?? '';
