@@ -3,8 +3,8 @@ const WAITLIST = 'https://this-week.app/waitlist?utm_source=thisweeksouthbay&utm
 
 const screens = [
   { name: 'event', alt: '' },
-  { name: 'map', alt: '' },
-  { name: 'week', alt: 'The This Week app showing a weekly board of local events.' },
+  { name: 'week', alt: '' },
+  { name: 'map', alt: 'The This Week app showing local events pinned on a map.' },
 ];
 ---
 
@@ -115,12 +115,12 @@ const screens = [
     height: auto;
   }
 
-  .promo-phone--week {
+  .promo-phone--map {
     transform: rotate(4deg);
     z-index: 2;
   }
 
-  .promo-phone--map {
+  .promo-phone--week {
     left: -0.6rem;
     top: 1.6rem;
     transform: rotate(-9deg);
@@ -191,11 +191,11 @@ const screens = [
     outline-offset: 2px;
   }
 
-  .promo:hover .promo-phone--week {
+  .promo:hover .promo-phone--map {
     transform: rotate(2deg) translateY(-5px);
   }
 
-  .promo:hover .promo-phone--map {
+  .promo:hover .promo-phone--week {
     transform: rotate(-11deg) translateY(-2px);
   }
 
@@ -268,21 +268,24 @@ const screens = [
       border-radius: calc(1.3rem - 3px);
     }
 
-    .promo-phone--week {
-      transform: rotate(-5deg);
+    .promo-phone--map {
+      left: 4.1rem;
+      top: 0.8rem;
+      width: 7.4rem;
+      transform: rotate(-4deg);
     }
 
-    .promo-phone--map {
+    .promo-phone--week {
       left: 8.4rem;
       top: 1.9rem;
       transform: rotate(9deg);
     }
 
-    .promo:hover .promo-phone--week {
+    .promo:hover .promo-phone--map {
       transform: rotate(-2deg) translateY(-5px);
     }
 
-    .promo:hover .promo-phone--map {
+    .promo:hover .promo-phone--week {
       transform: rotate(12deg) translateY(-2px);
     }
 
