@@ -200,7 +200,7 @@ export function eventMetaDescription(event: ListingEvent): string {
   const dateLabel = `${weekday} ${month} ${day}`;
   const blurb = (event.blurb || '').trim();
   const blurbPart = blurb ? `${blurb} ` : '';
-  return `${event.title} — ${dateLabel} in ${event.city} at ${event.venue}. ${blurbPart}Times and details from This Week South Bay.`;
+  return `${event.title}, ${dateLabel} in ${event.city} at ${event.venue}. ${blurbPart}Times and details from This Week South Bay.`;
 }
 
 export function cityWeekEvents(city: string, issue: Issue = catalog.issue): ListingEvent[] {
