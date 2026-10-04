@@ -85,7 +85,7 @@ const nextCity = weekEvents(catalog.nextIssue).filter((e) => e.city === hub.city
     days.length === 0 ? (
       <article class="spare">
         <p>
-          Nothing listed yet — see <a href="/">full South Bay board</a>
+          Nothing listed yet. See the <a href="/">full South Bay board</a>.
         </p>
       </article>
     ) : (
@@ -106,7 +106,7 @@ const nextCity = weekEvents(catalog.nextIssue).filter((e) => e.city === hub.city
 <section class="spare">
   <h2 class="day-label">Looking ahead</h2>
   <p>
-    Early looks as the board fills — <a href="/next-week">Next week</a>.
+    Early looks as the board fills. <a href="/next-week">Next week</a>.
     {
       nextCity.length > 0 ? (
         <span> {nextCity.length} {hub.label} listing{nextCity.length === 1 ? '' : 's'} already posted.</span>
@@ -133,7 +133,7 @@ const nextCity = weekEvents(catalog.nextIssue).filter((e) => e.city === hub.city
 
 <section class="spare">
   <p>
-    About This Week South Bay — <a href="/about">who we are</a>.
+    About This Week South Bay (<a href="/about">who we are</a>).
   </p>
 </section>
 
