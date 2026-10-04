@@ -2945,10 +2945,10 @@
       "venue": "Comedy & Magic Club",
       "address": "1018 Hermosa Ave, Hermosa Beach, CA 90254",
       "category": "Comedy",
-      "cost": "$27",
+      "cost": "$27 (Sold Out)",
       "audience": "Adults",
       "url": "https://thecomedyandmagicclub.com/event/ian-bagg-15/the-comedy-magic-club/hermosa-beach-california/",
-      "blurb": "Thursday Oct 8. Doors 6:30, show 8pm. $27. 18+."
+      "blurb": "Thursday Oct 8. Doors 6:30, show 8pm. $27. Sold Out (awareness only). 18+."
     },
     {
       "slug": "dick-the-citizen-lighthouse-2026-10-08",
@@ -3441,6 +3441,20 @@
       "audience": "Anyone",
       "url": "https://magicofthejackolanterns.com/la/",
       "blurb": "Open nights Thu Oct 8 and Fri–Sun Oct 9–11 at South Coast Botanic Garden. Entry times vary by night; check the ticket calendar. Season select nights through Nov 1."
+    },
+    {
+      "slug": "el-camino-vintage-motorcycle-show-2026-10-10",
+      "title": "El Camino Vintage Motorcycle & Bicycle Show & Swap Meet",
+      "start": "2026-10-10T08:00:00-07:00",
+      "end": "2026-10-10T14:00:00-07:00",
+      "city": "Torrance",
+      "venue": "El Camino College (upper parking structure)",
+      "address": "16007 Crenshaw Blvd, Torrance, CA 90506",
+      "category": "Other",
+      "cost": "$20, kids under 12 free",
+      "audience": "Anyone",
+      "url": "https://www.elcaminoshow.com/general-event-info",
+      "blurb": "Saturday 8am to 2pm vintage motorcycle show and swap meet on the upper level of the El Camino College parking structure. New this year: antique and vintage bicycles 1960 and older. Rain or shine. $20; kids under 12 free. Free general parking off Redondo Beach Blvd."
     }
   ],
   "lastIssue": {
