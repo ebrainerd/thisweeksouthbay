@@ -3756,6 +3756,20 @@
       "blurb": "Friday noon to 4pm on Valley Dr at 11th."
     },
     {
+      "slug": "turtle-and-tortoise-day-madrona-marsh-2026-10-10",
+      "title": "Turtle and Tortoise Day",
+      "start": "2026-10-10T10:00:00-07:00",
+      "end": "2026-10-10T16:00:00-07:00",
+      "city": "Torrance",
+      "venue": "Madrona Marsh Nature Center",
+      "address": "3201 Plaza del Amo, Torrance, CA 90503",
+      "category": "Other",
+      "cost": "",
+      "audience": "Anyone",
+      "url": "https://www.friendsofmadronamarsh.com/",
+      "blurb": "Saturday 10am to 4pm, live turtles and tortoises at the Madrona Marsh Nature Center. A hands-on day that's fun for all ages."
+    },
+    {
       "slug": "palos-verdes-farmers-market-2026-10-11",
       "title": "Palos Verdes Farmers Market",
       "start": "2026-10-11T08:00:00-07:00",
@@ -3988,10 +4002,10 @@
       "venue": "Comedy & Magic Club",
       "address": "1018 Hermosa Ave, Hermosa Beach, CA 90254",
       "category": "Comedy",
-      "cost": "$27 (Sold Out)",
+      "cost": "$27",
       "audience": "Adults",
       "url": "https://thecomedyandmagicclub.com/events/",
-      "blurb": "Thursday Oct 15. Doors 6:30, show 8pm. $27. Sold Out. Try Friday or Saturday instead. 18+."
+      "blurb": "Thursday Oct 15. Doors 6:30, show 8pm. $27. 18+."
     },
     {
       "slug": "10-comics-show-cmc-2026-10-16",
@@ -4359,6 +4373,20 @@
       "blurb": "Saturday 10am to 4:30pm, day two of the monthly book sale at Malaga Cove Library."
     },
     {
+      "slug": "south-bay-witches-paddle-king-harbor-2026-10-17",
+      "title": "7th Annual South Bay Witches Paddle",
+      "start": "2026-10-17T10:00:00-07:00",
+      "end": "2026-10-17T12:00:00-07:00",
+      "city": "Redondo",
+      "venue": "King Harbor, behind Seaside Lagoon",
+      "address": "245 N Harbor Dr, Redondo Beach, CA 90277",
+      "category": "Other",
+      "cost": "Free to paddle; SUP rental $46.64",
+      "audience": "Anyone",
+      "url": "https://www.visitkingharbor.com/event-details/7th-annual-south-bay-witches-paddle",
+      "blurb": "Saturday 10am to noon, a Halloween paddle around King Harbor. Launch from the hand launch behind Seaside Lagoon. Free to paddle; valet SUP rentals are $46.64 per board. Park in the Ruby's, Seaside Lagoon and Captain Kidd's lot. After party at Riviera Mexican Cantina."
+    },
+    {
       "slug": "ican-inclusive-halloween-festival-2026-10-17",
       "title": "ICAN Inclusive Halloween Festival",
       "start": "2026-10-17T11:00:00-07:00",
@@ -4385,6 +4413,34 @@
       "audience": "Anyone",
       "url": "https://wmof.com/upcoming-celebrity-lecture/",
       "blurb": "Saturday 11am talk at the Western Museum of Flight at Torrance Airport: \"B-2 Radar Modernization Program; Bumps in the Road.\" The program slipped a major milestone in 2006; hear what went wrong and how the team got the first phase done in 2008."
+    },
+    {
+      "slug": "villains-and-volumes-enclave-2026-10-17",
+      "title": "Villains & Volumes",
+      "start": "2026-10-17T11:00:00-07:00",
+      "end": "2026-10-17T16:00:00-07:00",
+      "city": "Torrance",
+      "venue": "The Enclave",
+      "address": "970-990 W 190th St, Torrance, CA 90502",
+      "category": "Market",
+      "cost": "Free with RSVP",
+      "audience": "Anyone",
+      "url": "https://www.eventbrite.com/e/villains-volumes-tickets-2000250833087",
+      "blurb": "Saturday 11am to 4pm, a book lover market at The Enclave with indie authors, makers, treats, themed photo ops and live music. Free with RSVP."
+    },
+    {
+      "slug": "meet-the-artist-stephen-mirich-pvac-2026-10-17",
+      "title": "Meet & Greet the Artist: Stephen Mirich",
+      "start": "2026-10-17T13:00:00-07:00",
+      "end": "2026-10-17T15:00:00-07:00",
+      "city": "Palos Verdes",
+      "venue": "Palos Verdes Art Center",
+      "address": "5504 Crestridge Rd, Rancho Palos Verdes, CA 90275",
+      "category": "Other",
+      "cost": "Galleries free",
+      "audience": "Anyone",
+      "url": "https://www.pvartcenter.org/",
+      "blurb": "Saturday 1 to 3pm, meet Stephen Mirich at the Palos Verdes Art Center, where his show Stand by Me is on view through Nov 14. Gallery admission is free."
     },
     {
       "slug": "nosferatu-otmh-2026-10-17-230pm",
