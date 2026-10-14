@@ -5189,6 +5189,35 @@
       "audience": "Anyone",
       "url": "https://momsaidyes.live/page/events",
       "blurb": ""
+    },
+    {
+      "slug": "dia-de-los-muertos-family-fest-pacific-unitarian-2026-10-24",
+      "title": "Dia de los Muertos Family Fest",
+      "start": "2026-10-24T13:00:00-07:00",
+      "end": "2026-10-24T16:00:00-07:00",
+      "city": "Palos Verdes",
+      "venue": "Pacific Unitarian Church",
+      "address": "5621 Montemalaga Dr, Rancho Palos Verdes, CA 90275",
+      "category": "Other",
+      "cost": "Free",
+      "audience": "Anyone",
+      "url": "https://www.eventbrite.com/e/dia-de-los-muertos-family-fest-tickets-1999730827737",
+      "blurb": ""
+    },
+    {
+      "slug": "halloween-full-moon-hike-pve-coastal-trail-2026-10-25",
+      "title": "Halloween Full Moon Hike",
+      "start": "2026-10-25T18:00:00-07:00",
+      "end": "2026-10-25T20:00:00-07:00",
+      "city": "Palos Verdes",
+      "venue": "PVE Coastal Trail",
+      "address": "Paseo Del Mar, Palos Verdes Estates, CA 90274",
+      "category": "Other",
+      "cost": "$14.64",
+      "audience": "Anyone",
+      "url": "https://www.eventbrite.com/e/halloween-full-moon-hike-tickets-2001034381702",
+      "timeLabel": "6pm to 8pm (check-in 5:30pm)",
+      "blurb": ""
     }
   ],
   "lastIssue": {
