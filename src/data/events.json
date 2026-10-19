@@ -5494,7 +5494,7 @@
     {
       "slug": "halloween-bash-silent-disco-vista-2026-10-24",
       "title": "Halloween Bash: Sunset Vibes Silent Disco",
-      "start": "2026-10-24T19:00:00-07:00",
+      "start": "2026-10-24T17:00:00-07:00",
       "end": "2026-10-24T21:00:00-07:00",
       "city": "Hermosa",
       "venue": "Vista Restaurant outdoor patio",
@@ -5503,7 +5503,8 @@
       "cost": "From $10",
       "audience": "Anyone",
       "url": "https://www.eventbrite.com/e/halloween-bash-sunset-vibes-silent-disco-vista-hermosa-beach-tickets-2002753436441",
-      "blurb": ""
+      "blurb": "",
+      "timeLabel": "5pm to 9pm (family rave 5 to 7)"
     },
     {
       "slug": "es-firefighters-rock-and-run-5k-2026-10-24",
@@ -5546,6 +5547,65 @@
       "audience": "Adults",
       "url": "https://thelighthousecafe.net",
       "blurb": ""
+    },
+    {
+      "slug": "uncorked-15th-anniversary-party-2026-10-25",
+      "title": "Uncorked 15th Anniversary Party",
+      "start": "2026-10-25T15:00:00-07:00",
+      "end": "2026-10-25T18:00:00-07:00",
+      "city": "Hermosa",
+      "venue": "Uncorked",
+      "address": "302 Pier Ave, Hermosa Beach, CA 90254",
+      "category": "Other",
+      "cost": "$95 to $145 plus fees",
+      "audience": "Adults",
+      "url": "https://uncorkedwineshops.com/event/anniversary-party/",
+      "blurb": "",
+      "timeLabel": "3pm to 6pm (VIP from 2pm)"
+    },
+    {
+      "slug": "mb-soccer-golf-classic-community-celebration-westdrift-2026-10-25",
+      "title": "Manhattan Beach Soccer Golf Classic: Community Soccer Celebration",
+      "start": "2026-10-25T19:00:00-07:00",
+      "end": "2026-10-25T21:30:00-07:00",
+      "city": "Manhattan",
+      "venue": "westdrift Manhattan Beach",
+      "address": "1400 Parkview Ave, Manhattan Beach, CA",
+      "category": "Other",
+      "cost": "Free",
+      "audience": "Anyone",
+      "url": "https://www.manhattanbeachchamber.com/soccer",
+      "blurb": ""
+    },
+    {
+      "slug": "poetry-of-emotions-reception-mbac-2026-10-23",
+      "title": "Poetry of Emotions: Ben Jackel and Nellie King Solomon (opening reception)",
+      "start": "2026-10-23T18:00:00-07:00",
+      "end": "2026-10-23T20:00:00-07:00",
+      "city": "Manhattan",
+      "venue": "Manhattan Beach Art Center",
+      "address": "1560 Manhattan Beach Blvd, Manhattan Beach, CA 90266",
+      "category": "Other",
+      "cost": "Free",
+      "audience": "Anyone",
+      "url": "https://www.time4art.us/time4art/poetry-of-emotions",
+      "blurb": "",
+      "timeLabel": "6pm to 8pm (program 7pm)"
+    },
+    {
+      "slug": "operation-90s-hermosa-saloon-2026-10-23",
+      "title": "Operation 90s",
+      "start": "2026-10-23T21:00:00-07:00",
+      "end": null,
+      "city": "Hermosa",
+      "venue": "Hermosa Saloon",
+      "address": "211 Pacific Coast Hwy, Hermosa Beach, CA 90254",
+      "category": "Music",
+      "cost": "",
+      "audience": "Adults",
+      "url": "https://hermosasaloon.com/",
+      "blurb": "",
+      "timeLabel": "9pm to 1am"
     }
   ],
   "lastIssue": {
