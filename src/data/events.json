@@ -4906,7 +4906,7 @@
       "venue": "Deep End Live",
       "address": "100 Fisherman's Wharf, Redondo Beach, CA 90277",
       "category": "Music",
-      "cost": "$24.15 to $42.15",
+      "cost": "$23.91 to $42.15",
       "audience": "Anyone",
       "url": "https://deependlive.com/event/grenade-tribute-to-bruno-mars/deep-end-live/redondo-beach-california/",
       "blurb": ""
@@ -6308,7 +6308,7 @@
       "address": "701 Silver Spur Road, Rolling Hills Estates, CA 90274",
       "category": "Other",
       "cost": "Free",
-      "audience": "Anyone",
+      "audience": "Teens",
       "url": "https://pvld.libnet.info/event/17441102",
       "blurb": ""
     },
@@ -6338,6 +6338,34 @@
       "cost": "Registration at esrec.org",
       "audience": "Kids",
       "url": "https://content.govdelivery.com/accounts/CAELSEGUNDO/bulletins/42c5c17",
+      "blurb": ""
+    },
+    {
+      "slug": "socal-live-steamers-public-run-day-wilson-park-2026-11-01",
+      "title": "Southern California Live Steamers Public Run Day",
+      "start": "2026-11-01T11:00:00-08:00",
+      "end": "2026-11-01T15:00:00-08:00",
+      "city": "Torrance",
+      "venue": "Southern California Live Steamers track, Wilson Park",
+      "address": "2200 Crenshaw Blvd, Torrance, CA 90501",
+      "category": "Other",
+      "cost": "Free",
+      "audience": "Anyone",
+      "url": "https://www.southerncalifornialivesteamers.org/node/7",
+      "blurb": ""
+    },
+    {
+      "slug": "dance-masters-contest-california-prelims-torrance-cultural-arts-2026-10-24",
+      "title": "Dance Masters Contest, California Prelims 2026",
+      "start": "2026-10-24T18:00:00-07:00",
+      "end": "2026-10-24T23:00:00-07:00",
+      "city": "Torrance",
+      "venue": "Toyota Meeting Hall, Torrance Cultural Arts Center",
+      "address": "3330 Civic Center Dr, Torrance, CA 90503",
+      "category": "Other",
+      "cost": "$39.19 to $49.87",
+      "audience": "Anyone",
+      "url": "https://www.eventbrite.com/e/dance-masters-contest-california-prelims-2026-tickets-1997432108205",
       "blurb": ""
     }
   ],
