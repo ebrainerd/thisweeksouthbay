@@ -6304,7 +6304,7 @@
       "start": "2026-10-29T16:00:00-07:00",
       "end": "2026-10-29T18:00:00-07:00",
       "city": "Palos Verdes",
-      "venue": "Peninsula Center Library",
+      "venue": "Peninsula Center Library (also Miraleste Library and the Annex)",
       "address": "701 Silver Spur Road, Rolling Hills Estates, CA 90274",
       "category": "Other",
       "cost": "Free",
@@ -6366,6 +6366,20 @@
       "cost": "$39.19 to $49.87",
       "audience": "Anyone",
       "url": "https://www.eventbrite.com/e/dance-masters-contest-california-prelims-2026-tickets-1997432108205",
+      "blurb": ""
+    },
+    {
+      "slug": "baroque-meets-romantic-classics-redondo-union-high-2026-11-01",
+      "title": "Beach Cities Symphony: Baroque Meets Romantic Classics",
+      "start": "2026-11-01T17:00:00-08:00",
+      "end": "2026-11-01T18:30:00-08:00",
+      "city": "Redondo",
+      "venue": "Redondo Union High School Auditorium",
+      "address": "222 N Pacific Coast Hwy, Redondo Beach, CA 90277",
+      "category": "Music",
+      "cost": "Free (free tickets)",
+      "audience": "Anyone",
+      "url": "https://www.beachcitiessymphony.org/",
       "blurb": ""
     }
   ],
