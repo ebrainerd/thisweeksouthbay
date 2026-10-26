@@ -1,13 +1,13 @@
 {
   "issue": {
-    "weekStart": "2026-10-19",
-    "weekEnd": "2026-10-25",
-    "label": "Week of October 19, 2026"
-  },
-  "nextIssue": {
     "weekStart": "2026-10-26",
     "weekEnd": "2026-11-01",
     "label": "Week of October 26, 2026"
+  },
+  "nextIssue": {
+    "weekStart": "2026-11-02",
+    "weekEnd": "2026-11-08",
+    "label": "Week of November 2, 2026"
   },
   "events": [
     {
@@ -6384,8 +6384,8 @@
     }
   ],
   "lastIssue": {
-    "weekStart": "2026-10-12",
-    "weekEnd": "2026-10-18",
-    "label": "Week of October 12, 2026"
+    "weekStart": "2026-10-19",
+    "weekEnd": "2026-10-25",
+    "label": "Week of October 19, 2026"
   }
 }
