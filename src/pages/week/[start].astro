@@ -1,0 +1,87 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import EventRow from '../../components/EventRow.astro';
+import AppPromo from '../../components/AppPromo.astro';
+import { catalog, groupByWeekday, weekEvents, type Issue } from '../../lib/events';
+
+export function getStaticPaths() {
+  return [catalog.lastIssue, catalog.issue, catalog.nextIssue].map((issue) => ({
+    params: { start: issue.weekStart },
+  }));
+}
+
+const start = Astro.params.start ?? '';
+const issues: Issue[] = [catalog.lastIssue, catalog.issue, catalog.nextIssue];
+const issue = issues.find((item) => item.weekStart === start);
+
+if (!issue) {
+  throw new Error(`Unknown week: ${start}`);
+}
+
+const days = groupByWeekday(weekEvents(issue));
+const role =
+  issue.weekStart === catalog.nextIssue.weekStart
+    ? 'next'
+    : issue.weekStart === catalog.lastIssue.weekStart
+      ? 'last'
+      : 'week';
+
+const description =
+  role === 'next'
+    ? 'Plan ahead: upcoming nights out next week across Hermosa Beach, Manhattan Beach, Redondo, El Segundo, and Torrance. Board fills daily. Monday email at 7am.'
+    : role === 'last'
+      ? 'Archive of last week’s Hermosa, Manhattan Beach, Redondo, El Segundo, and Torrance listings. For what’s on now, see This Week.'
+      : 'Tonight and this weekend in Hermosa Beach, Manhattan Beach, Redondo, El Segundo, and Torrance. Free weekly board + Monday 7am email. Nights out, not news.';
+
+const title =
+  role === 'next'
+    ? 'South Bay Events Next Week | Early Look'
+    : role === 'last'
+      ? 'Last Week’s South Bay Events | Archive'
+      : 'South Bay LA Events This Week | Hermosa, MB, Redondo';
+
+const kicker =
+  role === 'next'
+    ? 'South Bay events next week'
+    : role === 'last'
+      ? 'Last week’s South Bay events'
+      : 'South Bay events this week';
+
+const empty = role === 'last' ? 'No listings archived for that week.' : 'Board is filling.';
+---
+
+<Layout
+  title={title}
+  description={description}
+  current={role}
+  canonicalPath={`/week/${issue.weekStart}`}
+>
+  <header class="masthead">
+    <h1 class="kicker">{kicker}</h1>
+    <p class="cities">
+      Hermosa · Manhattan Beach · Redondo · El Segundo · Torrance
+    </p>
+    <p class="issue">{issue.label}</p>
+  </header>
+
+  {role === 'last' ? null : <AppPromo />}
+
+  {
+    days.length === 0 ? (
+      <article class="spare">
+        <p>{empty}</p>
+      </article>
+    ) : (
+      days.map((day) => (
+        <section class="day">
+          <h2 class="day-label">{day.label}</h2>
+          <ol class="list">
+            {day.events.map((event) => (
+              <EventRow event={event} />
+            ))}
+          </ol>
+        </section>
+      ))
+    )
+  }
+</Layout>
