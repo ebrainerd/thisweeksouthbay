@@ -5,13 +5,20 @@ import AppPromo from '../../components/AppPromo.astro';
 import { catalog, groupByWeekday, weekEvents, type Issue } from '../../lib/events';
 
 export function getStaticPaths() {
-  return [catalog.lastIssue, catalog.issue, catalog.nextIssue].map((issue) => ({
-    params: { start: issue.weekStart },
-  }));
+  return [catalog.lastIssue, catalog.issue, catalog.nextIssue, catalog.followingIssue].map(
+    (issue) => ({
+      params: { start: issue.weekStart },
+    }),
+  );
 }
 
 const start = Astro.params.start ?? '';
-const issues: Issue[] = [catalog.lastIssue, catalog.issue, catalog.nextIssue];
+const issues: Issue[] = [
+  catalog.lastIssue,
+  catalog.issue,
+  catalog.nextIssue,
+  catalog.followingIssue,
+];
 const issue = issues.find((item) => item.weekStart === start);
 
 if (!issue) {
@@ -24,28 +31,36 @@ const role =
     ? 'next'
     : issue.weekStart === catalog.lastIssue.weekStart
       ? 'last'
-      : 'week';
+      : issue.weekStart === catalog.followingIssue.weekStart
+        ? 'ahead'
+        : 'week';
 
 const description =
   role === 'next'
     ? 'Plan ahead: upcoming nights out next week across Hermosa Beach, Manhattan Beach, Redondo, El Segundo, and Torrance. Board fills daily. Monday email at 7am.'
     : role === 'last'
       ? 'Archive of last week’s Hermosa, Manhattan Beach, Redondo, El Segundo, and Torrance listings. For what’s on now, see This Week.'
-      : 'Tonight and this weekend in Hermosa Beach, Manhattan Beach, Redondo, El Segundo, and Torrance. Free weekly board + Monday 7am email. Nights out, not news.';
+      : role === 'ahead'
+        ? `Early look at ${issue.label} in Hermosa Beach, Manhattan Beach, Redondo, El Segundo, and Torrance. Board fills daily. Monday email at 7am.`
+        : 'Tonight and this weekend in Hermosa Beach, Manhattan Beach, Redondo, El Segundo, and Torrance. Free weekly board + Monday 7am email. Nights out, not news.';
 
 const title =
   role === 'next'
     ? 'South Bay Events Next Week | Early Look'
     : role === 'last'
       ? 'Last Week’s South Bay Events | Archive'
-      : 'South Bay LA Events This Week | Hermosa, MB, Redondo';
+      : role === 'ahead'
+        ? `${issue.label} | South Bay Events`
+        : 'South Bay LA Events This Week | Hermosa, MB, Redondo';
 
 const kicker =
   role === 'next'
     ? 'South Bay events next week'
     : role === 'last'
       ? 'Last week’s South Bay events'
-      : 'South Bay events this week';
+      : role === 'ahead'
+        ? 'South Bay events ahead'
+        : 'South Bay events this week';
 
 const empty = role === 'last' ? 'No listings archived for that week.' : 'Board is filling.';
 ---
