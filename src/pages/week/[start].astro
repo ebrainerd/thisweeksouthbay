@@ -5,11 +5,15 @@ import AppPromo from '../../components/AppPromo.astro';
 import { catalog, groupByWeekday, weekEvents, type Issue } from '../../lib/events';
 
 export function getStaticPaths() {
-  return [catalog.lastIssue, catalog.issue, catalog.nextIssue, catalog.followingIssue].map(
-    (issue) => ({
-      params: { start: issue.weekStart },
-    }),
-  );
+  return [
+    catalog.lastIssue,
+    catalog.issue,
+    catalog.nextIssue,
+    catalog.followingIssue,
+    catalog.laterIssue,
+  ].map((issue) => ({
+    params: { start: issue.weekStart },
+  }));
 }
 
 const start = Astro.params.start ?? '';
@@ -18,6 +22,7 @@ const issues: Issue[] = [
   catalog.issue,
   catalog.nextIssue,
   catalog.followingIssue,
+  catalog.laterIssue,
 ];
 const issue = issues.find((item) => item.weekStart === start);
 
@@ -31,7 +36,8 @@ const role =
     ? 'next'
     : issue.weekStart === catalog.lastIssue.weekStart
       ? 'last'
-      : issue.weekStart === catalog.followingIssue.weekStart
+      : issue.weekStart === catalog.followingIssue.weekStart ||
+          issue.weekStart === catalog.laterIssue.weekStart
         ? 'ahead'
         : 'week';
 
