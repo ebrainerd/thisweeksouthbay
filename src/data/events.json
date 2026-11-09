@@ -1,18 +1,18 @@
 {
   "issue": {
-    "weekStart": "2026-11-02",
-    "weekEnd": "2026-11-08",
-    "label": "Week of November 2, 2026"
-  },
-  "nextIssue": {
     "weekStart": "2026-11-09",
     "weekEnd": "2026-11-15",
     "label": "Week of November 9, 2026"
   },
-  "followingIssue": {
+  "nextIssue": {
     "weekStart": "2026-11-16",
     "weekEnd": "2026-11-22",
     "label": "Week of November 16, 2026"
+  },
+  "followingIssue": {
+    "weekStart": "2026-11-23",
+    "weekEnd": "2026-11-29",
+    "label": "Week of November 23, 2026"
   },
   "events": [
     {
@@ -8659,13 +8659,13 @@
     }
   ],
   "lastIssue": {
-    "weekStart": "2026-10-26",
-    "weekEnd": "2026-11-01",
-    "label": "Week of October 26, 2026"
+    "weekStart": "2026-11-02",
+    "weekEnd": "2026-11-08",
+    "label": "Week of November 2, 2026"
   },
   "laterIssue": {
-    "weekStart": "2026-11-23",
-    "weekEnd": "2026-11-29",
-    "label": "Week of November 23, 2026"
+    "weekStart": "2026-11-30",
+    "weekEnd": "2026-12-06",
+    "label": "Week of November 30, 2026"
   }
 }
