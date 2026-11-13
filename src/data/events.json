@@ -7908,7 +7908,7 @@
     },
     {
       "slug": "10-comics-show-cmc-2026-11-20",
-      "title": "10 Comics Show",
+      "title": "Five Comics Show",
       "start": "2026-11-20T20:00:00-08:00",
       "end": null,
       "city": "Hermosa",
@@ -8434,7 +8434,7 @@
     },
     {
       "slug": "10-comics-show-cmc-2026-11-27",
-      "title": "10 Comics Show",
+      "title": "Five Comics Show",
       "start": "2026-11-27T20:00:00-08:00",
       "end": null,
       "city": "Hermosa",
@@ -8837,7 +8837,7 @@
       "venue": "Comedy & Magic Club, Up Close Room",
       "address": "1018 Hermosa Ave, Hermosa Beach, CA 90254",
       "category": "Comedy",
-      "cost": "$37",
+      "cost": "$37, sold out",
       "audience": "Adults",
       "url": "https://thecomedyandmagicclub.com",
       "blurb": ""
