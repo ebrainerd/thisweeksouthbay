@@ -33,6 +33,8 @@ export type EventsFile = {
   laterIssue: Issue;
   /** Week after laterIssue. Powers /week/YYYY-MM-DD three Mondays out. */
   furtherIssue: Issue;
+  /** Week after furtherIssue. Powers /week/YYYY-MM-DD four Mondays out. */
+  beyondIssue: Issue;
   events: ListingEvent[];
 };
 
