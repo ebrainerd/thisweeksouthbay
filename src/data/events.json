@@ -1,18 +1,18 @@
 {
   "issue": {
-    "weekStart": "2026-11-09",
-    "weekEnd": "2026-11-15",
-    "label": "Week of November 9, 2026"
-  },
-  "nextIssue": {
     "weekStart": "2026-11-16",
     "weekEnd": "2026-11-22",
     "label": "Week of November 16, 2026"
   },
-  "followingIssue": {
+  "nextIssue": {
     "weekStart": "2026-11-23",
     "weekEnd": "2026-11-29",
     "label": "Week of November 23, 2026"
+  },
+  "followingIssue": {
+    "weekStart": "2026-11-30",
+    "weekEnd": "2026-12-06",
+    "label": "Week of November 30, 2026"
   },
   "events": [
     {
@@ -9583,23 +9583,23 @@
     }
   ],
   "lastIssue": {
-    "weekStart": "2026-11-02",
-    "weekEnd": "2026-11-08",
-    "label": "Week of November 2, 2026"
+    "weekStart": "2026-11-09",
+    "weekEnd": "2026-11-15",
+    "label": "Week of November 9, 2026"
   },
   "laterIssue": {
-    "weekStart": "2026-11-30",
-    "weekEnd": "2026-12-06",
-    "label": "Week of November 30, 2026"
-  },
-  "furtherIssue": {
     "weekStart": "2026-12-07",
     "weekEnd": "2026-12-13",
     "label": "Week of December 7, 2026"
   },
-  "beyondIssue": {
+  "furtherIssue": {
     "weekStart": "2026-12-14",
     "weekEnd": "2026-12-20",
     "label": "Week of December 14, 2026"
+  },
+  "beyondIssue": {
+    "weekStart": "2026-12-21",
+    "weekEnd": "2026-12-27",
+    "label": "Week of December 21, 2026"
   }
 }
