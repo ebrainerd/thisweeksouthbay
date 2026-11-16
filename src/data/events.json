@@ -9580,6 +9580,62 @@
       "audience": "Adults",
       "url": "https://cubensisholidayparty.eventbrite.com",
       "blurb": ""
+    },
+    {
+      "slug": "joes-band-lighthouse-2026-12-26",
+      "title": "Joe's Band",
+      "start": "2026-12-26T16:00:00-08:00",
+      "end": null,
+      "city": "Hermosa",
+      "venue": "Lighthouse Cafe",
+      "address": "30 Pier Ave, Hermosa Beach, CA 90254",
+      "category": "Music",
+      "cost": "Free (limited tickets)",
+      "audience": "Adults",
+      "url": "https://joesbandhb.eventbrite.com",
+      "blurb": ""
+    },
+    {
+      "slug": "10-comics-show-cmc-2026-12-26",
+      "title": "10 Comics Show",
+      "start": "2026-12-26T19:00:00-08:00",
+      "end": null,
+      "city": "Hermosa",
+      "venue": "Comedy & Magic Club",
+      "address": "1018 Hermosa Ave, Hermosa Beach, CA 90254",
+      "category": "Comedy",
+      "cost": "$27",
+      "audience": "Adults",
+      "url": "https://thecomedyandmagicclub.com/events/",
+      "blurb": ""
+    },
+    {
+      "slug": "wall-of-sound-deep-end-2026-12-26",
+      "title": "Wall of Sound",
+      "start": "2026-12-26T20:00:00-08:00",
+      "end": null,
+      "city": "Redondo",
+      "venue": "Deep End Live",
+      "address": "100 Fisherman's Wharf, Redondo Beach, CA 90277",
+      "category": "Music",
+      "cost": "$16.35 to $43.35",
+      "audience": "Adults",
+      "url": "https://deependlive.com/",
+      "blurb": ""
+    },
+    {
+      "slug": "rockstallion-lighthouse-2026-12-27",
+      "title": "Rockstallion",
+      "start": "2026-12-27T14:00:00-08:00",
+      "end": null,
+      "city": "Hermosa",
+      "venue": "Lighthouse Cafe",
+      "address": "30 Pier Ave, Hermosa Beach, CA 90254",
+      "category": "Music",
+      "cost": "Free (limited tickets)",
+      "audience": "Adults",
+      "url": "https://rockstallionhermosa.eventbrite.com",
+      "blurb": ""
     }
   ],
   "lastIssue": {
