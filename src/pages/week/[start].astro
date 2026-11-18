@@ -13,6 +13,7 @@ export function getStaticPaths() {
     catalog.laterIssue,
     catalog.furtherIssue,
     catalog.beyondIssue,
+    catalog.onwardIssue,
   ].map((issue) => ({
     params: { start: issue.weekStart },
   }));
@@ -27,6 +28,7 @@ const issues: Issue[] = [
   catalog.laterIssue,
   catalog.furtherIssue,
   catalog.beyondIssue,
+  catalog.onwardIssue,
 ];
 const issue = issues.find((item) => item.weekStart === start);
 
@@ -43,7 +45,8 @@ const role =
       : issue.weekStart === catalog.followingIssue.weekStart ||
           issue.weekStart === catalog.laterIssue.weekStart ||
           issue.weekStart === catalog.furtherIssue.weekStart ||
-          issue.weekStart === catalog.beyondIssue.weekStart
+          issue.weekStart === catalog.beyondIssue.weekStart ||
+          issue.weekStart === catalog.onwardIssue.weekStart
         ? 'ahead'
         : 'week';
 
