@@ -7932,7 +7932,7 @@
       "cost": "Free",
       "audience": "Anyone",
       "url": "https://www.hbchamber.net/holidays/",
-      "blurb": "Live music 11am to 3:30pm. Ferris wheel noon to 9pm. Rock the Plaza concert 2pm to 7pm."
+      "blurb": "Free entry. Ride tickets are $2 each. Ferris wheel is 4 tickets ($8) per person, noon to 9pm. Carnival games noon to 9pm. Live music 11am to 3:30pm. Rock the Plaza concert 2pm to 7pm."
     },
     {
       "slug": "sunrise-otmh-2026-11-21",
@@ -8088,7 +8088,7 @@
       "cost": "Free",
       "audience": "Anyone",
       "url": "https://www.hbchamber.net/holidays/",
-      "blurb": "Live music 11am to 3:30pm. Ferris wheel noon to 9pm. Santa arrives on the fire truck, with the tree lighting and the Rock for Tots Concert 2pm to 8pm."
+      "blurb": "Free entry. Ride tickets are $2 each. Ferris wheel is 4 tickets ($8) per person, noon to 9pm. Live music 11am to 3:30pm. Santa arrives on the fire truck, with the tree lighting and the Rock for Tots Concert 2pm to 8pm."
     },
     {
       "slug": "the-good-fairy-otmh-2026-11-22",
@@ -9654,7 +9654,7 @@
     {
       "slug": "10-comics-show-cmc-2026-12-30",
       "title": "10 Comics Show",
-      "start": "2026-12-30",
+      "start": "2026-12-30T17:30:00-08:00",
       "end": null,
       "city": "Hermosa",
       "venue": "Comedy & Magic Club",
@@ -9663,7 +9663,8 @@
       "cost": "$27",
       "audience": "Adults",
       "url": "https://thecomedyandmagicclub.com/events/",
-      "blurb": ""
+      "blurb": "",
+      "timeLabel": "Doors 5:30pm, show 7pm"
     },
     {
       "slug": "deep-end-nye-saved-by-the-90s-2026-12-31",
@@ -9677,6 +9678,49 @@
       "cost": "$42.15 to $72.15",
       "audience": "Adults",
       "url": "https://deependlive.com/",
+      "blurb": ""
+    },
+    {
+      "slug": "shabingus-free-show-deep-end-2026-11-23",
+      "title": "Shabingus Free Show",
+      "start": "2026-11-23T13:00:00-08:00",
+      "end": null,
+      "city": "Redondo",
+      "venue": "Deep End Live",
+      "address": "100 Fisherman's Wharf, Redondo Beach, CA 90277",
+      "category": "Music",
+      "cost": "Free",
+      "audience": "Adults",
+      "url": "https://deependlive.com/event/shabingus/",
+      "blurb": "21+.",
+      "timeLabel": "Doors 1pm, show 2pm"
+    },
+    {
+      "slug": "joes-band-lighthouse-2027-01-02",
+      "title": "Joe's Band",
+      "start": "2027-01-02T16:00:00-08:00",
+      "end": null,
+      "city": "Hermosa",
+      "venue": "Lighthouse Cafe",
+      "address": "30 Pier Ave, Hermosa Beach, CA 90254",
+      "category": "Music",
+      "cost": "Free (limited tickets)",
+      "audience": "Adults",
+      "url": "https://joesbandsaturday.eventbrite.com",
+      "blurb": ""
+    },
+    {
+      "slug": "m-80s-lighthouse-2027-01-03",
+      "title": "M-80s",
+      "start": "2027-01-03T15:00:00-08:00",
+      "end": null,
+      "city": "Hermosa",
+      "venue": "Lighthouse Cafe",
+      "address": "30 Pier Ave, Hermosa Beach, CA 90254",
+      "category": "Music",
+      "cost": "Free (limited tickets)",
+      "audience": "Adults",
+      "url": "https://m80sfreeshow.eventbrite.com",
       "blurb": ""
     }
   ],
