@@ -7829,7 +7829,7 @@
       "venue": "Comedy & Magic Club",
       "address": "1018 Hermosa Ave, Hermosa Beach, CA 90254",
       "category": "Comedy",
-      "cost": "$32",
+      "cost": "$32, sold out",
       "audience": "Adults",
       "url": "https://thecomedyandmagicclub.com",
       "blurb": ""
@@ -9722,6 +9722,64 @@
       "audience": "Adults",
       "url": "https://m80sfreeshow.eventbrite.com",
       "blurb": ""
+    },
+    {
+      "slug": "night-hike-open-space-trails-alta-vicente-2026-12-12",
+      "title": "Night Hike with Open Space and Trails",
+      "start": "2026-12-12T15:45:00-08:00",
+      "end": "2026-12-12T17:45:00-08:00",
+      "city": "Palos Verdes",
+      "venue": "Alta Vicente Reserve (meet at Ken Dyda Civic Center)",
+      "address": "30940 Hawthorne Blvd, Rancho Palos Verdes, CA 90275",
+      "category": "Outdoors",
+      "cost": "$10 per hiker (ages 7+, registration open)",
+      "audience": "Anyone",
+      "url": "https://rpvca.gov/DocumentCenter/View/25377/Night-Hikes-Dec-12-",
+      "blurb": ""
+    },
+    {
+      "slug": "10-comics-show-cmc-2027-01-07",
+      "title": "10 Comics Show",
+      "start": "2027-01-07T18:30:00-08:00",
+      "end": null,
+      "city": "Hermosa",
+      "venue": "Comedy & Magic Club",
+      "address": "1018 Hermosa Ave, Hermosa Beach, CA 90254",
+      "category": "Comedy",
+      "cost": "$27 (18+)",
+      "audience": "Adults",
+      "url": "https://thecomedyandmagicclub.com/events/",
+      "blurb": "",
+      "timeLabel": "Doors 6:30pm, show 8pm"
+    },
+    {
+      "slug": "halloween-jack-spinouts-deep-end-2027-01-09",
+      "title": "The Halloween Jack w/ The Spinouts",
+      "start": "2027-01-09T19:00:00-08:00",
+      "end": null,
+      "city": "Redondo",
+      "venue": "Deep End Live",
+      "address": "100 Fisherman's Wharf, Redondo Beach, CA 90277",
+      "category": "Music",
+      "cost": "$21.75 to $45.75 (21+)",
+      "audience": "Adults",
+      "url": "https://deependlive.com/",
+      "blurb": "",
+      "timeLabel": "Doors 7pm, show 8pm"
+    },
+    {
+      "slug": "better-daze-lighthouse-2027-01-10",
+      "title": "Better Daze",
+      "start": "2027-01-10T14:00:00-08:00",
+      "end": null,
+      "city": "Hermosa",
+      "venue": "Lighthouse Cafe",
+      "address": "30 Pier Ave, Hermosa Beach, CA 90254",
+      "category": "Music",
+      "cost": "Free (limited tickets)",
+      "audience": "Adults",
+      "url": "https://betterdazehermosa.eventbrite.com",
+      "blurb": ""
     }
   ],
   "lastIssue": {
@@ -9748,5 +9806,10 @@
     "weekStart": "2026-12-28",
     "weekEnd": "2027-01-03",
     "label": "Week of December 28, 2026"
+  },
+  "afterwardIssue": {
+    "weekStart": "2027-01-04",
+    "weekEnd": "2027-01-10",
+    "label": "Week of January 4, 2027"
   }
 }
